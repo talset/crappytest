@@ -1,7 +1,5 @@
 FROM registry.access.redhat.com/jboss-webserver-3/webserver30-tomcat8-openshift:latest
 
-MAINTAINER Talset <bla@blabla>
-
 ENV INSTALL_DIRECTORY=/tmp/tomcat8harden
 #COPY containerfiles/ /
 
@@ -10,5 +8,5 @@ ENV INSTALL_DIRECTORY=/tmp/tomcat8harden
 
 #RUN rm -f /tmp/assemble
 
-#RUN echo "hallo"
+RUN echo "hallo"
 #CMD ${INSTALL_DIRECTORY}/bin/sleep.sh
