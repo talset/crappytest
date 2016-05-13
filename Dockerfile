@@ -1,12 +1,12 @@
 FROM registry.access.redhat.com/jboss-webserver-3/webserver30-tomcat8-openshift:latest
 
-MAINTAINER Karin Krause <karin.krause@axa-tech.com>
+MAINTAINER Talset <bla@blabla>
 
 ENV INSTALL_DIRECTORY=/tmp/tomcat8harden
-COPY containerfiles/ /
+#COPY containerfiles/ /
 
-RUN set -x \
- && sh ${INSTALL_DIRECTORY}/bin/harden-image.sh
+#RUN set -x \
+# && sh ${INSTALL_DIRECTORY}/bin/harden-image.sh
 
 #RUN rm -f /tmp/assemble
 
