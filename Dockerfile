@@ -2,7 +2,7 @@ FROM registry.access.redhat.com/jboss-webserver-3/webserver30-tomcat8-openshift:
 
 ENV INSTALL_DIRECTORY=/tmp/tomcat8harden
 RUN ls -l /
-COPY containerfiles/ /
+COPY containerfiles/tmp/ /tmp/
 RUN ls -l /
 
 #RUN set -x \
