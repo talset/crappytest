@@ -49,7 +49,6 @@ config_git_private_key: ((ssh_config.ssh_key))
 #+ Git branch containing the config of the stack.
 config_git_branch: config
 
-
 #
 # Default variables that shouldn't be changed except if needed
 #
@@ -70,10 +69,6 @@ project: ($ project $)
 #+ Name of the Cycloid Organization, used as customer variable name.
 customer: ($ organization_canonical $)
 organization: ($ organization_canonical $)
-
-#. config_terraform_path (required): ($ project $)/terraform/($ environment $)
-#+ Path of Terraform files in the config git repository
-config_terraform_path: ($ project $)/terraform/($ environment $)
 
 #. terraform_version (required): '1.0.2'
 #+ terraform version used to execute your code.

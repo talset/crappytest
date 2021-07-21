@@ -1,9 +1,8 @@
 # YAML anchors
 shared:
-  # Task : connect on vault API with approle and generate a token from it.
-  # Also provide some extra vars like external_worker_image for terraform
-  - &extract-vars
-    task: extract-vars
+  # Task : sync and merge with rsync 2 rep. Used to merge stack and config
+  - &task-merge-stack-and-config
+    task: merge-stack-and-config
     config:
       platform: linux
       image_resource:
@@ -12,31 +11,20 @@ shared:
           repository: cycloid/cycloid-toolkit
           tag: latest
       run:
-        path: /usr/bin/vault-approle-login
+        path: /usr/bin/merge-stack-and-config
+      inputs:
+        - name: git_config-terraform
+          path: "config"
+        - name: git_stack-terraform
+          path: "stack"
       outputs:
-      - name: extracted-vars
-        path: extracted-vars
+        - name: merged-stack
+          path: "merged-stack"
     params:
-      VAULT_ROLEID: ((vault.role_id))
-      VAULT_SECRETID: ((vault.secret_id))
-      VARS_TF_PATH: extracted-vars/terraform.tfvars
-
-  # Task : sync and merge with rsync 2 rep. Used to merge stack and config
-  - &merge-stack-and-config
-    platform: linux
-    image_resource:
-      type: docker-image
-      source:
-        repository: cycloid/cycloid-toolkit
-        tag: latest
-    run:
-      path: /usr/bin/merge-stack-and-config
-    outputs:
-    - name: merged-stack
-      path: "merged-stack"
+      CONFIG_PATH: ((project))/terraform/((env))
+      STACK_PATH: ((sc_path))/terraform
 
 groups:
-
 - name: overview
   jobs:
   - terraform-plan
@@ -47,7 +35,6 @@ groups:
   - terraform-destroy
 
 resource_types:
-
 - name: terraform
   type: docker-image
   source:
@@ -55,7 +42,6 @@ resource_types:
     tag: ((terraform_version))
 
 resources:
-
 - name: tfstate
   type: terraform
   icon: terraform
@@ -98,10 +84,9 @@ resources:
     branch: ((config_git_branch))
     private_key: ((config_git_private_key))
     paths:
-      - ((config_terraform_path))/*
+      - ((project))/terraform/((env))/*
 
 jobs:
-
 # Merge and trigger a plan whenever there is a commit in Terraform stack or config
 - name: terraform-plan
   serial: True
@@ -110,26 +95,10 @@ jobs:
   plan:
     - do:
       - get: git_stack-terraform
-        params: {depth: 1}
         trigger: true
       - get: git_config-terraform
-        params: {depth: 1}
         trigger: true
-
-      - task: merge-stack-and-config
-        config:
-          <<: *merge-stack-and-config
-          inputs:
-          - name: git_config-terraform
-            path: "config"
-          - name: git_stack-terraform
-            path: "stack"
-        params:
-          CONFIG_PATH: ((config_terraform_path))
-          STACK_PATH: ((sc_path))/terraform
-
-      - *extract-vars
-
+      - *task-merge-stack-and-config
       - put: tfstate
         params:
           plan_only: true
@@ -156,28 +125,13 @@ jobs:
         trigger: false
         passed:
           - terraform-plan
-
-      - task: merge-stack-and-config
-        config:
-          <<: *merge-stack-and-config
-          inputs:
-          - name: git_config-terraform
-            path: "config"
-          - name: git_stack-terraform
-            path: "stack"
-        params:
-          CONFIG_PATH: ((config_terraform_path))
-          STACK_PATH: ((sc_path))/terraform
-
-      - *extract-vars
-
+      - *task-merge-stack-and-config
       - put: tfstate
         params:
           plan_run: true
           terraform_source: merged-stack/
           var_files:
-              - extracted-vars/terraform.tfvars
-
+            - extracted-vars/terraform.tfvars
 
 # Merge and trigger a destroy of the stack (no autostart of this job)
 - name: terraform-destroy
@@ -186,25 +140,10 @@ jobs:
   plan:
     - do:
         - get: git_stack-terraform
-          params: {depth: 1}
           trigger: false
         - get: git_config-terraform
-          params: {depth: 1}
           trigger: false
-        - task: merge-stack-and-config
-          config:
-            <<: *merge-stack-and-config
-            inputs:
-            - name: git_config-terraform
-              path: "config"
-            - name: git_stack-terraform
-              path: "stack"
-          params:
-            CONFIG_PATH: ((config_terraform_path))
-            STACK_PATH: ((sc_path))/terraform
-
-        - *extract-vars
-
+        - *task-merge-stack-and-config
         - put: tfstate
           params:
             action: destroy
