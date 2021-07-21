@@ -103,8 +103,6 @@ jobs:
         params:
           plan_only: true
           terraform_source: merged-stack/
-          var_files:
-              - extracted-vars/terraform.tfvars
 
 # Merge and trigger an apply manually (no autostart of this job)
 - name: terraform-apply
@@ -130,8 +128,6 @@ jobs:
         params:
           plan_run: true
           terraform_source: merged-stack/
-          var_files:
-            - extracted-vars/terraform.tfvars
 
 # Merge and trigger a destroy of the stack (no autostart of this job)
 - name: terraform-destroy
@@ -148,7 +144,5 @@ jobs:
           params:
             action: destroy
             terraform_source: merged-stack/
-            var_files:
-                - extracted-vars/terraform.tfvars
           get_params:
             action: destroy
