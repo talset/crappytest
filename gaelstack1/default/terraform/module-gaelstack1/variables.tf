@@ -1,12 +1,12 @@
-variable "aws_instance_AIAcj_instance_type" {
+variable "aws_instance_fqbSp_instance_type" {
   default = "t3.small"
 }
 
-variable "aws_instance_tQQWP_instance_type" {
+variable "aws_instance_kknmb_instance_type" {
   default = "t3.small"
 }
 
-variable "aws_instance_uGiAX_instance_type" {
+variable "aws_instance_qXpEp_instance_type" {
   default = "t3.small"
 }
 
