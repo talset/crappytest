@@ -1,0 +1,21 @@
+version: "2"
+name: Reuse Stack
+canonical: reuse_stack
+author: admin
+status: private
+description: Test
+image: ""
+keywords:
+- Test
+technologies: []
+dependencies: []
+config:
+  default:
+    description: ""
+    name: default
+    pipeline:
+      pipeline:
+        path: default/pipeline/terraform-pipeline.yaml
+      variables:
+        destination: ($ project $)/pipeline/variables-($ environment $).yml
+        path: default/pipeline/variables.sample.yaml
