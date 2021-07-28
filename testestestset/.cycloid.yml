@@ -1,0 +1,21 @@
+version: "2"
+name: testestestset
+canonical: testestestset
+author: admin
+status: private
+description: testestestset
+image: ""
+keywords:
+- testestestset
+technologies: []
+dependencies: []
+config:
+  default:
+    description: ""
+    name: default
+    pipeline:
+      pipeline:
+        path: default/pipeline/terraform-pipeline.yaml
+      variables:
+        destination: ($ project $)/pipeline/variables-($ environment $).yml
+        path: default/pipeline/variables.sample.yaml
