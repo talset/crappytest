@@ -1,0 +1,20 @@
+module "reuse_stack" {
+  # aws_instance_AGRKi_instance_type = "t3.medium"
+  # aws_instance_AhBVg_instance_type = "t2.small"
+  # aws_instance_BNqqP_instance_type = "t3.small"
+  # aws_instance_FjbDz_instance_type = "t3.small"
+  # aws_instance_KprFV_instance_type = "t3.small"
+  # aws_instance_MjAHr_instance_type = "c5.2xlarge"
+  # aws_instance_SiBCk_instance_type = "t3.small"
+  # aws_instance_Urnge_instance_type = "t2.small"
+  # aws_instance_WarSv_instance_type = "c5.2xlarge"
+  # aws_instance_dHKub_instance_type = "t3.small"
+  # aws_instance_dcPDg_instance_type = "t2.micro"
+  # aws_instance_eRtRd_instance_type = "c5.2xlarge"
+  # aws_instance_pInRw_instance_type = "c5.2xlarge"
+  # aws_instance_tuVzC_instance_type = "t2.medium"
+  # aws_instance_wHueH_instance_type = "m3.medium"
+  # aws_instance_wsAyU_instance_type = "t3.small"
+  source = "module-reuse_stack"
+}
+

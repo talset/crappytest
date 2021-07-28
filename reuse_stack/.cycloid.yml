@@ -19,3 +19,7 @@ config:
       variables:
         destination: ($ project $)/pipeline/variables-($ environment $).yml
         path: default/pipeline/variables.sample.yaml
+    terraform:
+      reuse_stack:
+        destination: ($ project $)/default/terraform/($ environment $)/reuse_stack.tf
+        path: default/terraform/reuse_stack.tf.sample
