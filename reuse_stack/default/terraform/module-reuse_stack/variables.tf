@@ -1,56 +1,56 @@
-variable "aws_instance_OPdTn_instance_type" {
+variable "aws_instance_DfvHK_instance_type" {
+  default = "t2.small"
+}
+
+variable "aws_instance_DidrC_instance_type" {
+  default = "t3.small"
+}
+
+variable "aws_instance_GKTRz_instance_type" {
+  default = "t3.small"
+}
+
+variable "aws_instance_HlLCS_instance_type" {
+  default = "t3.medium"
+}
+
+variable "aws_instance_JTMyB_instance_type" {
   default = "t2.micro"
 }
 
-variable "aws_instance_XnHRN_instance_type" {
+variable "aws_instance_MUAkh_instance_type" {
   default = "t3.small"
 }
 
-variable "aws_instance_aAmDs_instance_type" {
-  default = "c5.2xlarge"
-}
-
-variable "aws_instance_eLmvY_instance_type" {
-  default = "c5.2xlarge"
-}
-
-variable "aws_instance_jSonF_instance_type" {
-  default = "m3.medium"
-}
-
-variable "aws_instance_ndJMH_instance_type" {
-  default = "t2.small"
-}
-
-variable "aws_instance_oQbye_instance_type" {
-  default = "c5.2xlarge"
-}
-
-variable "aws_instance_oYWsQ_instance_type" {
+variable "aws_instance_PEesd_instance_type" {
   default = "t3.small"
 }
 
-variable "aws_instance_qyFid_instance_type" {
+variable "aws_instance_ckgyZ_instance_type" {
   default = "c5.2xlarge"
 }
 
-variable "aws_instance_rtgxS_instance_type" {
+variable "aws_instance_fmsie_instance_type" {
+  default = "c5.2xlarge"
+}
+
+variable "aws_instance_hJEuM_instance_type" {
+  default = "c5.2xlarge"
+}
+
+variable "aws_instance_jnibj_instance_type" {
   default = "t2.medium"
 }
 
-variable "aws_instance_wtPPT_instance_type" {
-  default = "t3.small"
+variable "aws_instance_uxyUQ_instance_type" {
+  default = "c5.2xlarge"
 }
 
-variable "aws_instance_zDCtb_instance_type" {
+variable "aws_instance_vRQnM_instance_type" {
   default = "t2.small"
 }
 
-variable "aws_instance_zXiXM_instance_type" {
-  default = "t3.small"
-}
-
-variable "aws_instance_zaHlh_instance_type" {
-  default = "t3.medium"
+variable "aws_instance_wibWq_instance_type" {
+  default = "m3.medium"
 }
 
