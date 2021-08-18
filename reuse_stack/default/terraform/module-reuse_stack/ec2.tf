@@ -1,338 +1,38 @@
-resource "aws_instance" "AwrrP" {
+resource "aws_instance" "AjfPK" {
   tags = {
-    Name         = "cycloidio-website-front-prod"
-    client       = "cycloid"
+    Name         = "cycloid-sandbox-cham-test-stack-front-test"
+    customer     = "cycloid-sandbox"
     "cycloid.io" = "true"
-    env          = "prod"
-    project      = "cycloidio-website"
-    role         = "front"
+    env          = "test"
+    project      = "cham-test-stack"
   }
 
-  volume_tags = {
-    Name = "cycloidio-website-front-prod"
-    role = "front"
-  }
-
-  ami                  = "ami-0c176d5060677e162"
-  availability_zone    = "eu-west-1b"
-  cpu_core_count       = 1
-  cpu_threads_per_core = 2
-  credit_specification {
-    cpu_credits = "unlimited"
-  }
-
-  iam_instance_profile = "cycloid_profile-front-cycloidio-website-prod"
-  instance_type        = var.aws_instance_AwrrP_instance_type
-  key_name             = "cycloid"
-  metadata_options {
-    http_endpoint               = "enabled"
-    http_put_response_hop_limit = 1
-    http_tokens                 = "optional"
-  }
-
-  private_ip = "10.3.3.222"
-  root_block_device {
-    delete_on_termination = true
-    iops                  = 180
-    volume_size           = 60
-    volume_type           = "gp2"
-  }
-
-  source_dest_check      = true
-  subnet_id              = "subnet-263f3250"
-  tc_category            = "ec2"
-  tenancy                = "default"
-  user_data              = "7b6d7e6d517b04ce167392029c5ed7d31347044a"
-  vpc_security_group_ids = ["sg-034d9700f338d7fcd", "sg-0bb4344fa762e8fda", "sg-ddeee6bb"]
-}
-
-resource "aws_instance" "KHPzb" {
-  tags = {
-    Name                 = "onprem-florian-cy_instances-0-infra-import"
-    client               = "cycloid-sandbox"
-    "cycloid.io"         = "true"
-    env                  = "infra-import"
-    monitoring_discovery = "false"
-    project              = "onprem-florian"
-    role                 = "cy_instances"
-  }
-
-  volume_tags = {
-    Name                 = "onprem-florian-cy_instances-0-infra-import"
-    client               = "cycloid-sandbox"
-    "cycloid.io"         = "true"
-    env                  = "infra-import"
-    monitoring_discovery = "false"
-    project              = "onprem-florian"
-    role                 = "cy_instances"
-  }
-
-  ami                         = "ami-04e1d2f88740af5e1"
-  associate_public_ip_address = true
-  availability_zone           = "eu-west-1a"
-  cpu_core_count              = 1
-  cpu_threads_per_core        = 2
-  credit_specification {
-    cpu_credits = "unlimited"
-  }
-
-  iam_instance_profile = "profile-cy_instances-onprem-florian-infra-import"
-  instance_type        = var.aws_instance_KHPzb_instance_type
-  key_name             = "cycloid"
-  metadata_options {
-    http_endpoint               = "enabled"
-    http_put_response_hop_limit = 1
-    http_tokens                 = "optional"
-  }
-
-  private_ip = "10.1.0.210"
-  root_block_device {
-    delete_on_termination = true
-    iops                  = 150
-    volume_size           = 50
-    volume_type           = "gp2"
-  }
-
-  source_dest_check      = true
-  subnet_id              = "subnet-69131c0d"
-  tc_category            = "ec2"
-  tenancy                = "default"
-  vpc_security_group_ids = ["sg-12eee674", "sg-083b7376ab4da68da"]
-}
-
-resource "aws_instance" "MKDyv" {
-  tags = {
-    Name         = "external-worker-worker-eu-we1-prod"
-    client       = "cycloid"
+  tags_all = {
+    Name         = "cycloid-sandbox-cham-test-stack-front-test"
+    customer     = "cycloid-sandbox"
     "cycloid.io" = "true"
-    env          = "prod"
-    project      = "external-worker"
-    role         = "worker"
+    env          = "test"
+    project      = "cham-test-stack"
   }
 
-  volume_tags = {
-    Name         = "external-worker-worker-prod"
-    client       = "cycloid"
-    "cycloid.io" = "true"
-    env          = "prod"
-    project      = "external-worker"
-    role         = "worker"
-  }
-
-  ami                         = "ami-0c58738a674b21440"
-  associate_public_ip_address = true
-  availability_zone           = "eu-west-1a"
-  cpu_core_count              = 4
-  cpu_threads_per_core        = 2
-  ebs_block_device {
-    delete_on_termination = true
-    device_name           = "/dev/xvdf"
-    iops                  = 600
-    volume_size           = 200
-    volume_type           = "gp2"
-  }
-
-  ebs_optimized        = true
-  iam_instance_profile = "profile-worker-external-worker-prod"
-  instance_type        = var.aws_instance_MKDyv_instance_type
-  key_name             = "cycloid"
-  metadata_options {
-    http_endpoint               = "enabled"
-    http_put_response_hop_limit = 1
-    http_tokens                 = "optional"
-  }
-
-  private_ip = "10.3.0.8"
-  root_block_device {
-    delete_on_termination = true
-    iops                  = 100
-    volume_size           = 30
-    volume_type           = "gp2"
-  }
-
-  source_dest_check      = true
-  subnet_id              = "subnet-85111ee1"
-  tc_category            = "ec2"
-  tenancy                = "default"
-  user_data              = "319b6e238ca3502c21721a3a640ff4ddfeaa2cc9"
-  vpc_security_group_ids = ["sg-034d9700f338d7fcd", "sg-ddeee6bb", "sg-4bdc2137"]
-}
-
-resource "aws_instance" "NbNEl" {
-  tags = {
-    Name                 = "ReinventingOrganizationsWiki"
-    client               = "ReinventingOrganizationsWiki"
-    env                  = "customer_prod"
-    monitoring_discovery = "false"
-    project              = "ReinventingOrganizationsWiki"
-  }
-
-  volume_tags = {
-    Name    = "Reinventing Organizations Wiki"
-    client  = "ReinventingOrganizationsWiki"
-    env     = "prod"
-    project = "ReinventingOrganizationsWiki"
-  }
-
-  ami                         = "ami-402f1a33"
-  associate_public_ip_address = true
-  availability_zone           = "eu-west-1b"
-  cpu_core_count              = 1
-  cpu_threads_per_core        = 1
-  disable_api_termination     = true
-  instance_type               = var.aws_instance_NbNEl_instance_type
-  key_name                    = "cycloid"
-  metadata_options {
-    http_endpoint               = "enabled"
-    http_put_response_hop_limit = 1
-    http_tokens                 = "optional"
-  }
-
-  private_ip = "172.31.21.205"
-  root_block_device {
-    delete_on_termination = true
-    iops                  = 100
-    volume_size           = 20
-    volume_type           = "gp2"
-  }
-
-  security_groups        = ["ReinventingOrganizationsWiki"]
-  source_dest_check      = true
-  subnet_id              = "subnet-afe469d8"
-  tc_category            = "ec2"
-  tenancy                = "default"
-  vpc_security_group_ids = ["sg-6ccd7716"]
-}
-
-resource "aws_instance" "PuZVx" {
-  tags = {
-    Name         = "magento-front0-eu-we1-demo"
-    "cycloid.io" = "true"
-    env          = "demo"
-    project      = "magento"
-    role         = "front"
-  }
-
-  ami                  = "ami-402f1a33"
-  availability_zone    = "eu-west-1a"
-  cpu_core_count       = 1
-  cpu_threads_per_core = 1
-  credit_specification {
-    cpu_credits = "standard"
-  }
-
-  iam_instance_profile = "cycloid_profile-front-magento-demo"
-  instance_type        = var.aws_instance_PuZVx_instance_type
-  key_name             = "demo"
-  metadata_options {
-    http_endpoint               = "enabled"
-    http_put_response_hop_limit = 1
-    http_tokens                 = "optional"
-  }
-
-  private_ip = "10.1.1.87"
-  root_block_device {
-    delete_on_termination = true
-    iops                  = 180
-    volume_size           = 60
-    volume_type           = "gp2"
-  }
-
-  source_dest_check      = true
-  subnet_id              = "subnet-6e131c0a"
-  tc_category            = "ec2"
-  tenancy                = "default"
-  vpc_security_group_ids = ["sg-816260fb", "sg-12eee674"]
-}
-
-resource "aws_instance" "aGYaO" {
-  tags = {
-    Name         = "external-worker-worker-eu-we1-prod"
-    client       = "cycloid"
-    "cycloid.io" = "true"
-    env          = "prod"
-    project      = "external-worker"
-    role         = "worker"
-  }
-
-  volume_tags = {
-    Name         = "external-worker-worker-prod"
-    client       = "cycloid"
-    "cycloid.io" = "true"
-    env          = "prod"
-    project      = "external-worker"
-    role         = "worker"
-  }
-
-  ami                         = "ami-0c58738a674b21440"
+  ami                         = "ami-0c69d1c3c45eba2c6"
   associate_public_ip_address = true
   availability_zone           = "eu-west-1c"
-  cpu_core_count              = 4
-  cpu_threads_per_core        = 2
-  ebs_block_device {
-    delete_on_termination = true
-    device_name           = "/dev/xvdf"
-    iops                  = 600
-    volume_size           = 200
-    volume_type           = "gp2"
-  }
-
-  ebs_optimized        = true
-  iam_instance_profile = "profile-worker-external-worker-prod"
-  instance_type        = var.aws_instance_aGYaO_instance_type
-  key_name             = "cycloid"
-  metadata_options {
-    http_endpoint               = "enabled"
-    http_put_response_hop_limit = 1
-    http_tokens                 = "optional"
-  }
-
-  private_ip = "10.3.4.71"
-  root_block_device {
-    delete_on_termination = true
-    iops                  = 100
-    volume_size           = 30
-    volume_type           = "gp2"
-  }
-
-  source_dest_check      = true
-  subnet_id              = "subnet-c4d49c9c"
-  tc_category            = "ec2"
-  tenancy                = "default"
-  user_data              = "319b6e238ca3502c21721a3a640ff4ddfeaa2cc9"
-  vpc_security_group_ids = ["sg-034d9700f338d7fcd", "sg-ddeee6bb", "sg-4bdc2137"]
-}
-
-resource "aws_instance" "bFTUy" {
-  tags = {
-    Name                 = "cycloid-monitoring0-eu-we1-infra"
-    client               = "cycloid"
-    env                  = "infra"
-    monitoring_discovery = "false"
-    project              = "infra"
-    role                 = "monitoring"
-  }
-
-  ami                         = "ami-e079f893"
-  associate_public_ip_address = true
-  availability_zone           = "eu-west-1a"
   cpu_core_count              = 1
-  cpu_threads_per_core        = 1
+  cpu_threads_per_core        = 2
   credit_specification {
-    cpu_credits = "standard"
+    cpu_credits = "unlimited"
   }
 
-  disable_api_termination = true
-  iam_instance_profile    = "infra_profile"
-  instance_type           = var.aws_instance_bFTUy_instance_type
-  key_name                = "cycloid"
+  instance_initiated_shutdown_behavior = "stop"
+  instance_type                        = var.aws_instance_AjfPK_instance_type
   metadata_options {
     http_endpoint               = "enabled"
     http_put_response_hop_limit = 1
     http_tokens                 = "optional"
   }
 
-  private_ip = "10.42.0.79"
+  private_ip = "172.31.32.62"
   root_block_device {
     delete_on_termination = true
     iops                  = 100
@@ -340,73 +40,25 @@ resource "aws_instance" "bFTUy" {
     volume_type           = "gp2"
   }
 
+  security_groups        = ["cycloid-sandbox-cham-test-stack-front-test"]
   source_dest_check      = true
-  subnet_id              = "subnet-550fac31"
-  tc_category            = "ec2"
+  subnet_id              = "subnet-b8389fe1"
   tenancy                = "default"
-  vpc_security_group_ids = ["sg-c0db70a7", "sg-c1db70a6", "sg-023dc68f6ce068ff7"]
+  user_data              = "5ceea1e22974adc6067bd355250b0c76b3c912bf"
+  vpc_security_group_ids = ["sg-03768e301abfa2450"]
 }
 
-resource "aws_instance" "csasu" {
+resource "aws_instance" "CxAfs" {
   tags = {
-    Name         = "external-worker-worker-eu-we1-prod"
+    Name         = "cycloid-bastion0-eu-we1-infra"
     client       = "cycloid"
     "cycloid.io" = "true"
-    env          = "prod"
-    project      = "external-worker"
-    role         = "worker"
+    env          = "infra"
+    project      = "infra"
+    role         = "bastion"
   }
 
-  volume_tags = {
-    Name         = "external-worker-worker-prod"
-    client       = "cycloid"
-    "cycloid.io" = "true"
-    env          = "prod"
-    project      = "external-worker"
-    role         = "worker"
-  }
-
-  ami                         = "ami-0c58738a674b21440"
-  associate_public_ip_address = true
-  availability_zone           = "eu-west-1c"
-  cpu_core_count              = 4
-  cpu_threads_per_core        = 2
-  ebs_block_device {
-    delete_on_termination = true
-    device_name           = "/dev/xvdf"
-    iops                  = 600
-    volume_size           = 200
-    volume_type           = "gp2"
-  }
-
-  ebs_optimized        = true
-  iam_instance_profile = "profile-worker-external-worker-prod"
-  instance_type        = var.aws_instance_csasu_instance_type
-  key_name             = "cycloid"
-  metadata_options {
-    http_endpoint               = "enabled"
-    http_put_response_hop_limit = 1
-    http_tokens                 = "optional"
-  }
-
-  private_ip = "10.3.4.149"
-  root_block_device {
-    delete_on_termination = true
-    iops                  = 100
-    volume_size           = 30
-    volume_type           = "gp2"
-  }
-
-  source_dest_check      = true
-  subnet_id              = "subnet-c4d49c9c"
-  tc_category            = "ec2"
-  tenancy                = "default"
-  user_data              = "319b6e238ca3502c21721a3a640ff4ddfeaa2cc9"
-  vpc_security_group_ids = ["sg-034d9700f338d7fcd", "sg-ddeee6bb", "sg-4bdc2137"]
-}
-
-resource "aws_instance" "jkLUz" {
-  tags = {
+  tags_all = {
     Name         = "cycloid-bastion0-eu-we1-infra"
     client       = "cycloid"
     "cycloid.io" = "true"
@@ -424,10 +76,11 @@ resource "aws_instance" "jkLUz" {
     cpu_credits = "standard"
   }
 
-  disable_api_termination = true
-  iam_instance_profile    = "infra_profile"
-  instance_type           = var.aws_instance_jkLUz_instance_type
-  key_name                = "cycloid"
+  disable_api_termination              = true
+  iam_instance_profile                 = "infra_profile"
+  instance_initiated_shutdown_behavior = "stop"
+  instance_type                        = var.aws_instance_CxAfs_instance_type
+  key_name                             = "cycloid"
   metadata_options {
     http_endpoint               = "enabled"
     http_put_response_hop_limit = 1
@@ -443,12 +96,11 @@ resource "aws_instance" "jkLUz" {
 
   source_dest_check      = true
   subnet_id              = "subnet-550fac31"
-  tc_category            = "ec2"
   tenancy                = "default"
   vpc_security_group_ids = ["sg-f9db709e", "sg-023dc68f6ce068ff7"]
 }
 
-resource "aws_instance" "kkdTU" {
+resource "aws_instance" "DZhhO" {
   tags = {
     Name         = "cycloidio-website-front-prod"
     client       = "cycloid"
@@ -458,9 +110,70 @@ resource "aws_instance" "kkdTU" {
     role         = "front"
   }
 
-  volume_tags = {
-    Name = "cycloidio-website-front-prod"
-    role = "front"
+  tags_all = {
+    Name         = "cycloidio-website-front-prod"
+    client       = "cycloid"
+    "cycloid.io" = "true"
+    env          = "prod"
+    project      = "cycloidio-website"
+    role         = "front"
+  }
+
+  ami                  = "ami-0c176d5060677e162"
+  availability_zone    = "eu-west-1b"
+  cpu_core_count       = 1
+  cpu_threads_per_core = 2
+  credit_specification {
+    cpu_credits = "unlimited"
+  }
+
+  iam_instance_profile                 = "cycloid_profile-front-cycloidio-website-prod"
+  instance_initiated_shutdown_behavior = "stop"
+  instance_type                        = var.aws_instance_DZhhO_instance_type
+  key_name                             = "cycloid"
+  metadata_options {
+    http_endpoint               = "enabled"
+    http_put_response_hop_limit = 1
+    http_tokens                 = "optional"
+  }
+
+  private_ip = "10.3.3.222"
+  root_block_device {
+    tags = {
+      Name = "cycloidio-website-front-prod"
+      role = "front"
+    }
+
+    delete_on_termination = true
+    iops                  = 180
+    volume_size           = 60
+    volume_type           = "gp2"
+  }
+
+  source_dest_check      = true
+  subnet_id              = "subnet-263f3250"
+  tenancy                = "default"
+  user_data              = "7b6d7e6d517b04ce167392029c5ed7d31347044a"
+  vpc_security_group_ids = ["sg-034d9700f338d7fcd", "sg-0bb4344fa762e8fda", "sg-ddeee6bb"]
+}
+
+resource "aws_instance" "EEken" {
+  tags = {
+    Name         = "cycloidio-website-front-prod"
+    client       = "cycloid"
+    "cycloid.io" = "true"
+    env          = "prod"
+    project      = "cycloidio-website"
+    role         = "front"
+  }
+
+  tags_all = {
+    Name         = "cycloidio-website-front-prod"
+    client       = "cycloid"
+    "cycloid.io" = "true"
+    env          = "prod"
+    project      = "cycloidio-website"
+    role         = "front"
   }
 
   ami                  = "ami-0c176d5060677e162"
@@ -471,9 +184,10 @@ resource "aws_instance" "kkdTU" {
     cpu_credits = "unlimited"
   }
 
-  iam_instance_profile = "cycloid_profile-front-cycloidio-website-prod"
-  instance_type        = var.aws_instance_kkdTU_instance_type
-  key_name             = "cycloid"
+  iam_instance_profile                 = "cycloid_profile-front-cycloidio-website-prod"
+  instance_initiated_shutdown_behavior = "stop"
+  instance_type                        = var.aws_instance_EEken_instance_type
+  key_name                             = "cycloid"
   metadata_options {
     http_endpoint               = "enabled"
     http_put_response_hop_limit = 1
@@ -482,6 +196,11 @@ resource "aws_instance" "kkdTU" {
 
   private_ip = "10.3.1.41"
   root_block_device {
+    tags = {
+      Name = "cycloidio-website-front-prod"
+      role = "front"
+    }
+
     delete_on_termination = true
     iops                  = 180
     volume_size           = 60
@@ -490,14 +209,541 @@ resource "aws_instance" "kkdTU" {
 
   source_dest_check      = true
   subnet_id              = "subnet-7e131c1a"
-  tc_category            = "ec2"
   tenancy                = "default"
   user_data              = "7b6d7e6d517b04ce167392029c5ed7d31347044a"
   vpc_security_group_ids = ["sg-034d9700f338d7fcd", "sg-0bb4344fa762e8fda", "sg-ddeee6bb"]
 }
 
-resource "aws_instance" "mYzXJ" {
+resource "aws_instance" "HXuyz" {
   tags = {
+    Name         = "magento-front0-eu-we1-demo"
+    "cycloid.io" = "true"
+    env          = "demo"
+    project      = "magento"
+    role         = "front"
+  }
+
+  tags_all = {
+    Name         = "magento-front0-eu-we1-demo"
+    "cycloid.io" = "true"
+    env          = "demo"
+    project      = "magento"
+    role         = "front"
+  }
+
+  ami                  = "ami-402f1a33"
+  availability_zone    = "eu-west-1a"
+  cpu_core_count       = 1
+  cpu_threads_per_core = 1
+  credit_specification {
+    cpu_credits = "standard"
+  }
+
+  iam_instance_profile                 = "cycloid_profile-front-magento-demo"
+  instance_initiated_shutdown_behavior = "stop"
+  instance_type                        = var.aws_instance_HXuyz_instance_type
+  key_name                             = "demo"
+  metadata_options {
+    http_endpoint               = "enabled"
+    http_put_response_hop_limit = 1
+    http_tokens                 = "optional"
+  }
+
+  private_ip = "10.1.1.87"
+  root_block_device {
+    delete_on_termination = true
+    iops                  = 180
+    volume_size           = 60
+    volume_type           = "gp2"
+  }
+
+  source_dest_check      = true
+  subnet_id              = "subnet-6e131c0a"
+  tenancy                = "default"
+  vpc_security_group_ids = ["sg-816260fb", "sg-12eee674"]
+}
+
+resource "aws_instance" "IGmsZ" {
+  tags = {
+    Name         = "external-worker-worker-eu-we1-prod"
+    client       = "cycloid"
+    "cycloid.io" = "true"
+    env          = "prod"
+    project      = "external-worker"
+    role         = "worker"
+  }
+
+  tags_all = {
+    Name         = "external-worker-worker-eu-we1-prod"
+    client       = "cycloid"
+    "cycloid.io" = "true"
+    env          = "prod"
+    project      = "external-worker"
+    role         = "worker"
+  }
+
+  ami                         = "ami-0c58738a674b21440"
+  associate_public_ip_address = true
+  availability_zone           = "eu-west-1c"
+  cpu_core_count              = 4
+  cpu_threads_per_core        = 2
+  ebs_block_device {
+    delete_on_termination = true
+    device_name           = "/dev/xvdf"
+    iops                  = 600
+    tags {
+      Name         = "external-worker-worker-prod"
+      client       = "cycloid"
+      "cycloid.io" = "true"
+      env          = "prod"
+      project      = "external-worker"
+      role         = "worker"
+    }
+
+    volume_size = 200
+    volume_type = "gp2"
+  }
+
+  ebs_optimized                        = true
+  iam_instance_profile                 = "profile-worker-external-worker-prod"
+  instance_initiated_shutdown_behavior = "terminate"
+  instance_type                        = var.aws_instance_IGmsZ_instance_type
+  key_name                             = "cycloid"
+  metadata_options {
+    http_endpoint               = "enabled"
+    http_put_response_hop_limit = 1
+    http_tokens                 = "optional"
+  }
+
+  private_ip = "10.3.4.173"
+  root_block_device {
+    tags = {
+      Name         = "external-worker-worker-prod"
+      client       = "cycloid"
+      "cycloid.io" = "true"
+      env          = "prod"
+      project      = "external-worker"
+      role         = "worker"
+    }
+
+    delete_on_termination = true
+    iops                  = 100
+    volume_size           = 30
+    volume_type           = "gp2"
+  }
+
+  source_dest_check      = true
+  subnet_id              = "subnet-c4d49c9c"
+  tenancy                = "default"
+  user_data              = "319b6e238ca3502c21721a3a640ff4ddfeaa2cc9"
+  vpc_security_group_ids = ["sg-034d9700f338d7fcd", "sg-ddeee6bb", "sg-4bdc2137"]
+}
+
+resource "aws_instance" "LONJJ" {
+  tags = {
+    Name                 = "cycloid-monitoring0-eu-we1-infra"
+    client               = "cycloid"
+    env                  = "infra"
+    monitoring_discovery = "false"
+    project              = "infra"
+    role                 = "monitoring"
+  }
+
+  tags_all = {
+    Name                 = "cycloid-monitoring0-eu-we1-infra"
+    client               = "cycloid"
+    env                  = "infra"
+    monitoring_discovery = "false"
+    project              = "infra"
+    role                 = "monitoring"
+  }
+
+  ami                         = "ami-e079f893"
+  associate_public_ip_address = true
+  availability_zone           = "eu-west-1a"
+  cpu_core_count              = 1
+  cpu_threads_per_core        = 1
+  credit_specification {
+    cpu_credits = "standard"
+  }
+
+  disable_api_termination              = true
+  iam_instance_profile                 = "infra_profile"
+  instance_initiated_shutdown_behavior = "stop"
+  instance_type                        = var.aws_instance_LONJJ_instance_type
+  key_name                             = "cycloid"
+  metadata_options {
+    http_endpoint               = "enabled"
+    http_put_response_hop_limit = 1
+    http_tokens                 = "optional"
+  }
+
+  private_ip = "10.42.0.79"
+  root_block_device {
+    delete_on_termination = true
+    iops                  = 100
+    volume_size           = 8
+    volume_type           = "gp2"
+  }
+
+  source_dest_check      = true
+  subnet_id              = "subnet-550fac31"
+  tenancy                = "default"
+  vpc_security_group_ids = ["sg-c0db70a7", "sg-c1db70a6", "sg-023dc68f6ce068ff7"]
+}
+
+resource "aws_instance" "NHYai" {
+  tags = {
+    Name         = "external-worker-worker-eu-we1-prod"
+    client       = "cycloid"
+    "cycloid.io" = "true"
+    env          = "prod"
+    project      = "external-worker"
+    role         = "worker"
+  }
+
+  tags_all = {
+    Name         = "external-worker-worker-eu-we1-prod"
+    client       = "cycloid"
+    "cycloid.io" = "true"
+    env          = "prod"
+    project      = "external-worker"
+    role         = "worker"
+  }
+
+  ami                         = "ami-0c58738a674b21440"
+  associate_public_ip_address = true
+  availability_zone           = "eu-west-1b"
+  cpu_core_count              = 4
+  cpu_threads_per_core        = 2
+  ebs_block_device {
+    delete_on_termination = true
+    device_name           = "/dev/xvdf"
+    iops                  = 600
+    tags {
+      Name         = "external-worker-worker-prod"
+      client       = "cycloid"
+      "cycloid.io" = "true"
+      env          = "prod"
+      project      = "external-worker"
+      role         = "worker"
+    }
+
+    volume_size = 200
+    volume_type = "gp2"
+  }
+
+  ebs_optimized                        = true
+  iam_instance_profile                 = "profile-worker-external-worker-prod"
+  instance_initiated_shutdown_behavior = "terminate"
+  instance_type                        = var.aws_instance_NHYai_instance_type
+  key_name                             = "cycloid"
+  metadata_options {
+    http_endpoint               = "enabled"
+    http_put_response_hop_limit = 1
+    http_tokens                 = "optional"
+  }
+
+  private_ip = "10.3.2.214"
+  root_block_device {
+    tags = {
+      Name         = "external-worker-worker-prod"
+      client       = "cycloid"
+      "cycloid.io" = "true"
+      env          = "prod"
+      project      = "external-worker"
+      role         = "worker"
+    }
+
+    delete_on_termination = true
+    iops                  = 100
+    volume_size           = 30
+    volume_type           = "gp2"
+  }
+
+  source_dest_check      = true
+  subnet_id              = "subnet-12383564"
+  tenancy                = "default"
+  user_data              = "319b6e238ca3502c21721a3a640ff4ddfeaa2cc9"
+  vpc_security_group_ids = ["sg-034d9700f338d7fcd", "sg-ddeee6bb", "sg-4bdc2137"]
+}
+
+resource "aws_instance" "WCkTJ" {
+  tags = {
+    Name         = "external-worker-worker-eu-we1-prod"
+    client       = "cycloid"
+    "cycloid.io" = "true"
+    env          = "prod"
+    project      = "external-worker"
+    role         = "worker"
+  }
+
+  tags_all = {
+    Name         = "external-worker-worker-eu-we1-prod"
+    client       = "cycloid"
+    "cycloid.io" = "true"
+    env          = "prod"
+    project      = "external-worker"
+    role         = "worker"
+  }
+
+  ami                         = "ami-0c58738a674b21440"
+  associate_public_ip_address = true
+  availability_zone           = "eu-west-1a"
+  cpu_core_count              = 4
+  cpu_threads_per_core        = 2
+  ebs_block_device {
+    delete_on_termination = true
+    device_name           = "/dev/xvdf"
+    iops                  = 600
+    tags {
+      Name         = "external-worker-worker-prod"
+      client       = "cycloid"
+      "cycloid.io" = "true"
+      env          = "prod"
+      project      = "external-worker"
+      role         = "worker"
+    }
+
+    volume_size = 200
+    volume_type = "gp2"
+  }
+
+  ebs_optimized                        = true
+  iam_instance_profile                 = "profile-worker-external-worker-prod"
+  instance_initiated_shutdown_behavior = "terminate"
+  instance_type                        = var.aws_instance_WCkTJ_instance_type
+  key_name                             = "cycloid"
+  metadata_options {
+    http_endpoint               = "enabled"
+    http_put_response_hop_limit = 1
+    http_tokens                 = "optional"
+  }
+
+  private_ip = "10.3.0.193"
+  root_block_device {
+    tags = {
+      Name         = "external-worker-worker-prod"
+      client       = "cycloid"
+      "cycloid.io" = "true"
+      env          = "prod"
+      project      = "external-worker"
+      role         = "worker"
+    }
+
+    delete_on_termination = true
+    iops                  = 100
+    volume_size           = 30
+    volume_type           = "gp2"
+  }
+
+  source_dest_check      = true
+  subnet_id              = "subnet-85111ee1"
+  tenancy                = "default"
+  user_data              = "319b6e238ca3502c21721a3a640ff4ddfeaa2cc9"
+  vpc_security_group_ids = ["sg-034d9700f338d7fcd", "sg-ddeee6bb", "sg-4bdc2137"]
+}
+
+resource "aws_instance" "XTusW" {
+  tags = {
+    Name                 = "discourseReinventingOrganizations"
+    client               = "ReinventingOrganizationsWiki"
+    env                  = "customer_prod"
+    monitoring_discovery = "false"
+    project              = "ReinventingOrganizationsWiki"
+  }
+
+  tags_all = {
+    Name                 = "discourseReinventingOrganizations"
+    client               = "ReinventingOrganizationsWiki"
+    env                  = "customer_prod"
+    monitoring_discovery = "false"
+    project              = "ReinventingOrganizationsWiki"
+  }
+
+  ami                         = "ami-5718412e"
+  associate_public_ip_address = true
+  availability_zone           = "eu-west-1b"
+  cpu_core_count              = 2
+  cpu_threads_per_core        = 1
+  credit_specification {
+    cpu_credits = "standard"
+  }
+
+  disable_api_termination              = true
+  instance_initiated_shutdown_behavior = "stop"
+  instance_type                        = var.aws_instance_XTusW_instance_type
+  key_name                             = "cycloid"
+  metadata_options {
+    http_endpoint               = "enabled"
+    http_put_response_hop_limit = 1
+    http_tokens                 = "optional"
+  }
+
+  private_ip = "172.31.16.182"
+  root_block_device {
+    tags = {
+      Name    = "ReinventingOrganizationsWiki"
+      client  = "ReinventingOrganizationsWiki"
+      env     = "customer_prod"
+      project = "ReinventingOrganizationsWiki"
+    }
+
+    delete_on_termination = true
+    iops                  = 150
+    volume_size           = 50
+    volume_type           = "gp2"
+  }
+
+  security_groups        = ["ReinventingOrganizationsWiki"]
+  source_dest_check      = true
+  subnet_id              = "subnet-afe469d8"
+  tenancy                = "default"
+  vpc_security_group_ids = ["sg-6ccd7716"]
+}
+
+resource "aws_instance" "XnAxU" {
+  tags = {
+    Name         = "external-worker-worker-eu-we1-prod"
+    client       = "cycloid"
+    "cycloid.io" = "true"
+    env          = "prod"
+    project      = "external-worker"
+    role         = "worker"
+  }
+
+  tags_all = {
+    Name         = "external-worker-worker-eu-we1-prod"
+    client       = "cycloid"
+    "cycloid.io" = "true"
+    env          = "prod"
+    project      = "external-worker"
+    role         = "worker"
+  }
+
+  ami                         = "ami-0c58738a674b21440"
+  associate_public_ip_address = true
+  availability_zone           = "eu-west-1b"
+  cpu_core_count              = 4
+  cpu_threads_per_core        = 2
+  ebs_block_device {
+    delete_on_termination = true
+    device_name           = "/dev/xvdf"
+    iops                  = 600
+    tags {
+      Name         = "external-worker-worker-prod"
+      client       = "cycloid"
+      "cycloid.io" = "true"
+      env          = "prod"
+      project      = "external-worker"
+      role         = "worker"
+    }
+
+    volume_size = 200
+    volume_type = "gp2"
+  }
+
+  ebs_optimized                        = true
+  iam_instance_profile                 = "profile-worker-external-worker-prod"
+  instance_initiated_shutdown_behavior = "terminate"
+  instance_type                        = var.aws_instance_XnAxU_instance_type
+  key_name                             = "cycloid"
+  metadata_options {
+    http_endpoint               = "enabled"
+    http_put_response_hop_limit = 1
+    http_tokens                 = "optional"
+  }
+
+  private_ip = "10.3.2.154"
+  root_block_device {
+    tags = {
+      Name         = "external-worker-worker-prod"
+      client       = "cycloid"
+      "cycloid.io" = "true"
+      env          = "prod"
+      project      = "external-worker"
+      role         = "worker"
+    }
+
+    delete_on_termination = true
+    iops                  = 100
+    volume_size           = 30
+    volume_type           = "gp2"
+  }
+
+  source_dest_check      = true
+  subnet_id              = "subnet-12383564"
+  tenancy                = "default"
+  user_data              = "319b6e238ca3502c21721a3a640ff4ddfeaa2cc9"
+  vpc_security_group_ids = ["sg-034d9700f338d7fcd", "sg-ddeee6bb", "sg-4bdc2137"]
+}
+
+resource "aws_instance" "nWXcG" {
+  tags = {
+    Name                 = "ReinventingOrganizationsWiki"
+    client               = "ReinventingOrganizationsWiki"
+    env                  = "customer_prod"
+    monitoring_discovery = "false"
+    project              = "ReinventingOrganizationsWiki"
+  }
+
+  tags_all = {
+    Name                 = "ReinventingOrganizationsWiki"
+    client               = "ReinventingOrganizationsWiki"
+    env                  = "customer_prod"
+    monitoring_discovery = "false"
+    project              = "ReinventingOrganizationsWiki"
+  }
+
+  ami                                  = "ami-402f1a33"
+  associate_public_ip_address          = true
+  availability_zone                    = "eu-west-1b"
+  cpu_core_count                       = 1
+  cpu_threads_per_core                 = 1
+  disable_api_termination              = true
+  instance_initiated_shutdown_behavior = "stop"
+  instance_type                        = var.aws_instance_nWXcG_instance_type
+  key_name                             = "cycloid"
+  metadata_options {
+    http_endpoint               = "enabled"
+    http_put_response_hop_limit = 1
+    http_tokens                 = "optional"
+  }
+
+  private_ip = "172.31.21.205"
+  root_block_device {
+    tags = {
+      Name    = "Reinventing Organizations Wiki"
+      client  = "ReinventingOrganizationsWiki"
+      env     = "prod"
+      project = "ReinventingOrganizationsWiki"
+    }
+
+    delete_on_termination = true
+    iops                  = 100
+    volume_size           = 20
+    volume_type           = "gp2"
+  }
+
+  security_groups        = ["ReinventingOrganizationsWiki"]
+  source_dest_check      = true
+  subnet_id              = "subnet-afe469d8"
+  tenancy                = "default"
+  vpc_security_group_ids = ["sg-6ccd7716"]
+}
+
+resource "aws_instance" "qCAgL" {
+  tags = {
+    Name                 = "cycloid-demo-workers-prod"
+    customer             = "cycloid-demo"
+    "cycloid.io"         = "true"
+    env                  = "prod"
+    monitoring_discovery = "false"
+    project              = "cycloid-demo-workers"
+    role                 = "workers"
+  }
+
+  tags_all = {
     Name                 = "cycloid-demo-workers-prod"
     customer             = "cycloid-demo"
     "cycloid.io"         = "true"
@@ -524,9 +770,10 @@ resource "aws_instance" "mYzXJ" {
     volume_type           = "gp2"
   }
 
-  iam_instance_profile = "cycloid-demo-workers-prod-instance-profile"
-  instance_type        = var.aws_instance_mYzXJ_instance_type
-  key_name             = "cycloid"
+  iam_instance_profile                 = "cycloid-demo-workers-prod-instance-profile"
+  instance_initiated_shutdown_behavior = "stop"
+  instance_type                        = var.aws_instance_qCAgL_instance_type
+  key_name                             = "cycloid"
   metadata_options {
     http_endpoint               = "enabled"
     http_put_response_hop_limit = 1
@@ -534,7 +781,7 @@ resource "aws_instance" "mYzXJ" {
   }
 
   monitoring = true
-  private_ip = "10.3.2.183"
+  private_ip = "10.3.2.186"
   root_block_device {
     delete_on_termination = true
     iops                  = 100
@@ -544,71 +791,76 @@ resource "aws_instance" "mYzXJ" {
 
   source_dest_check      = true
   subnet_id              = "subnet-12383564"
-  tc_category            = "ec2"
   tenancy                = "default"
   user_data              = "4695bb76c86fb41b09a6beeaa21a45a26296f77b"
   vpc_security_group_ids = ["sg-0c9b02372e7d35e30", "sg-0172e1c511694f4c4"]
 }
 
-resource "aws_instance" "nMPHl" {
+resource "aws_instance" "vyAVl" {
   tags = {
-    Name         = "external-worker-worker-eu-we1-prod"
-    client       = "cycloid"
-    "cycloid.io" = "true"
-    env          = "prod"
-    project      = "external-worker"
-    role         = "worker"
+    Name                 = "onprem-florian-cy_instances-0-infra-import"
+    client               = "cycloid-sandbox"
+    "cycloid.io"         = "true"
+    env                  = "infra-import"
+    monitoring_discovery = "false"
+    project              = "onprem-florian"
+    role                 = "cy_instances"
   }
 
-  volume_tags = {
-    Name         = "external-worker-worker-prod"
-    client       = "cycloid"
-    "cycloid.io" = "true"
-    env          = "prod"
-    project      = "external-worker"
-    role         = "worker"
+  tags_all = {
+    Name                 = "onprem-florian-cy_instances-0-infra-import"
+    client               = "cycloid-sandbox"
+    "cycloid.io"         = "true"
+    env                  = "infra-import"
+    monitoring_discovery = "false"
+    project              = "onprem-florian"
+    role                 = "cy_instances"
   }
 
-  ami                         = "ami-0c58738a674b21440"
+  ami                         = "ami-04e1d2f88740af5e1"
   associate_public_ip_address = true
-  availability_zone           = "eu-west-1b"
-  cpu_core_count              = 4
+  availability_zone           = "eu-west-1a"
+  cpu_core_count              = 1
   cpu_threads_per_core        = 2
-  ebs_block_device {
-    delete_on_termination = true
-    device_name           = "/dev/xvdf"
-    iops                  = 600
-    volume_size           = 200
-    volume_type           = "gp2"
+  credit_specification {
+    cpu_credits = "unlimited"
   }
 
-  ebs_optimized        = true
-  iam_instance_profile = "profile-worker-external-worker-prod"
-  instance_type        = var.aws_instance_nMPHl_instance_type
-  key_name             = "cycloid"
+  iam_instance_profile                 = "profile-cy_instances-onprem-florian-infra-import"
+  instance_initiated_shutdown_behavior = "stop"
+  instance_type                        = var.aws_instance_vyAVl_instance_type
+  key_name                             = "cycloid"
   metadata_options {
     http_endpoint               = "enabled"
     http_put_response_hop_limit = 1
     http_tokens                 = "optional"
   }
 
-  private_ip = "10.3.2.156"
+  private_ip = "10.1.0.210"
   root_block_device {
+    tags = {
+      Name                 = "onprem-florian-cy_instances-0-infra-import"
+      client               = "cycloid-sandbox"
+      "cycloid.io"         = "true"
+      env                  = "infra-import"
+      monitoring_discovery = "false"
+      project              = "onprem-florian"
+      role                 = "cy_instances"
+    }
+
     delete_on_termination = true
-    iops                  = 100
-    volume_size           = 30
+    iops                  = 150
+    volume_size           = 50
     volume_type           = "gp2"
   }
 
   source_dest_check      = true
-  subnet_id              = "subnet-12383564"
-  tc_category            = "ec2"
+  subnet_id              = "subnet-69131c0d"
   tenancy                = "default"
-  user_data              = "319b6e238ca3502c21721a3a640ff4ddfeaa2cc9"
-  vpc_security_group_ids = ["sg-034d9700f338d7fcd", "sg-ddeee6bb", "sg-4bdc2137"]
+  vpc_security_group_ids = ["sg-12eee674", "sg-083b7376ab4da68da"]
 }
 
-resource "aws_instance" "vXpGj" {
+resource "aws_instance" "wtoLW" {
   tags = {
     Name         = "monitoring-prometheus-eu-we1-infra"
     customer     = "cycloid"
@@ -618,7 +870,7 @@ resource "aws_instance" "vXpGj" {
     role         = "prometheus"
   }
 
-  volume_tags = {
+  tags_all = {
     Name         = "monitoring-prometheus-eu-we1-infra"
     customer     = "cycloid"
     "cycloid.io" = "true"
@@ -636,10 +888,11 @@ resource "aws_instance" "vXpGj" {
     cpu_credits = "unlimited"
   }
 
-  ebs_optimized        = true
-  iam_instance_profile = "engine-cycloid-prometheus-monitoring-infra"
-  instance_type        = var.aws_instance_vXpGj_instance_type
-  key_name             = "cycloid"
+  ebs_optimized                        = true
+  iam_instance_profile                 = "engine-cycloid-prometheus-monitoring-infra"
+  instance_initiated_shutdown_behavior = "stop"
+  instance_type                        = var.aws_instance_wtoLW_instance_type
+  key_name                             = "cycloid"
   metadata_options {
     http_endpoint               = "enabled"
     http_put_response_hop_limit = 1
@@ -648,6 +901,15 @@ resource "aws_instance" "vXpGj" {
 
   private_ip = "10.42.0.62"
   root_block_device {
+    tags = {
+      Name         = "monitoring-prometheus-eu-we1-infra"
+      customer     = "cycloid"
+      "cycloid.io" = "true"
+      env          = "infra"
+      project      = "monitoring"
+      role         = "prometheus"
+    }
+
     delete_on_termination = true
     iops                  = 180
     volume_size           = 60
@@ -656,58 +918,7 @@ resource "aws_instance" "vXpGj" {
 
   source_dest_check      = true
   subnet_id              = "subnet-550fac31"
-  tc_category            = "ec2"
   tenancy                = "default"
   vpc_security_group_ids = ["sg-0850e3981ee19c3a9", "sg-c1db70a6"]
-}
-
-resource "aws_instance" "xtwqk" {
-  tags = {
-    Name                 = "discourseReinventingOrganizations"
-    client               = "ReinventingOrganizationsWiki"
-    env                  = "customer_prod"
-    monitoring_discovery = "false"
-    project              = "ReinventingOrganizationsWiki"
-  }
-
-  volume_tags = {
-    Name    = "ReinventingOrganizationsWiki"
-    client  = "ReinventingOrganizationsWiki"
-    env     = "customer_prod"
-    project = "ReinventingOrganizationsWiki"
-  }
-
-  ami                         = "ami-5718412e"
-  associate_public_ip_address = true
-  availability_zone           = "eu-west-1b"
-  cpu_core_count              = 2
-  cpu_threads_per_core        = 1
-  credit_specification {
-    cpu_credits = "standard"
-  }
-
-  disable_api_termination = true
-  instance_type           = var.aws_instance_xtwqk_instance_type
-  key_name                = "cycloid"
-  metadata_options {
-    http_endpoint               = "enabled"
-    http_put_response_hop_limit = 1
-    http_tokens                 = "optional"
-  }
-
-  private_ip = "172.31.16.182"
-  root_block_device {
-    delete_on_termination = true
-    iops                  = 150
-    volume_size           = 50
-    volume_type           = "gp2"
-  }
-
-  security_groups        = ["ReinventingOrganizationsWiki"]
-  source_dest_check      = true
-  subnet_id              = "subnet-afe469d8"
-  tc_category            = "ec2"
-  tenancy                = "default"
-  vpc_security_group_ids = ["sg-6ccd7716"]
 }
 
