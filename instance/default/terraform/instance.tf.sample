@@ -1,0 +1,19 @@
+module "instance" {
+  # aws_instance_AfouJ_instance_type = "c5.2xlarge"
+  # aws_instance_ByvQZ_instance_type = "t3.small"
+  # aws_instance_Ieqkh_instance_type = "c5.2xlarge"
+  # aws_instance_SagoX_instance_type = "m3.medium"
+  # aws_instance_StiZW_instance_type = "t3.small"
+  # aws_instance_WgXOj_instance_type = "t3.medium"
+  # aws_instance_bdfhn_instance_type = "t3.small"
+  # aws_instance_cMnXd_instance_type = "t2.small"
+  # aws_instance_ejEtz_instance_type = "c5.2xlarge"
+  # aws_instance_fuJau_instance_type = "t3.small"
+  # aws_instance_gegGr_instance_type = "c5.2xlarge"
+  # aws_instance_goJDV_instance_type = "t3.small"
+  # aws_instance_igvSq_instance_type = "t2.small"
+  # aws_instance_sGheK_instance_type = "t2.micro"
+  # aws_instance_tsAsd_instance_type = "t2.medium"
+  source = "module-instance"
+}
+
