@@ -1,0 +1,4 @@
+module "stacktest" {
+  source = "module-stacktest"
+}
+
