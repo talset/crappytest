@@ -1,0 +1,4 @@
+module "email2" {
+  source = "module-email2"
+}
+
