@@ -1,4 +1,4 @@
-resource "aws_instance" "AMwqL" {
+resource "aws_instance" "LgqsP" {
   tags = {
     Name                 = "cycloid-monitoring0-eu-we1-infra"
     client               = "cycloid"
@@ -51,7 +51,7 @@ resource "aws_instance" "AMwqL" {
   vpc_security_group_ids = ["sg-c0db70a7", "sg-c1db70a6", "sg-023dc68f6ce068ff7"]
 }
 
-resource "aws_instance" "gIkjs" {
+resource "aws_instance" "RgVhf" {
   tags = {
     Name         = "monitoring-prometheus-eu-we1-infra"
     customer     = "cycloid"
@@ -113,7 +113,7 @@ resource "aws_instance" "gIkjs" {
   vpc_security_group_ids = ["sg-0850e3981ee19c3a9", "sg-c1db70a6"]
 }
 
-resource "aws_instance" "iOqcg" {
+resource "aws_instance" "tUbND" {
   tags = {
     Name         = "cycloid-bastion0-eu-we1-infra"
     client       = "cycloid"
