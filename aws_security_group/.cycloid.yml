@@ -19,3 +19,7 @@ config:
       variables:
         destination: ($ project $)/pipeline/variables-($ environment $).yml
         path: pipeline/default/variables.sample.yaml
+    terraform:
+      aws_security_group:
+        destination: ($ project $)/default/terraform/($ environment $)/aws_security_group.tf
+        path: terraform/default/aws_security_group.tf.sample

@@ -1,0 +1,26 @@
+module "aws_security_group" {
+  # aws_security_group_cycloid_demo_workers_prod_instance_sg_description = "Enable SSH access and HTTP from the load balancer only"
+  # aws_security_group_cycloid_demo_workers_prod_metrics_sg_description  = "Allow metrics server to collect metrics"
+  source = "./module-aws_security_group"
+}
+
+provider "aws" {
+  region = var.region
+}
+
+
+terraform {
+  required_providers {
+    aws = {
+      source = "hashicorp/aws"
+    }
+
+  }
+
+  required_version = ">= 1.0"
+}
+
+variable "region" {
+  default = "eu-west-1"
+}
+
