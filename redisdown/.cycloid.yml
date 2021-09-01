@@ -19,3 +19,7 @@ config:
       variables:
         destination: ($ project $)/pipeline/variables-($ environment $).yml
         path: default/pipeline/variables.sample.yaml
+    terraform:
+      redisdown:
+        destination: ($ project $)/default/terraform/($ environment $)/redisdown.tf
+        path: terraform/default/redisdown.tf.sample

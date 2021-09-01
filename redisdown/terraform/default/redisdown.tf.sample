@@ -1,0 +1,30 @@
+module "redisdown" {
+  # aws_instance_cycloid_bastion0_eu_we1_infra_ami                = "ami-e079f893"
+  # aws_instance_cycloid_bastion0_eu_we1_infra_instance_type      = "t2.micro"
+  # aws_instance_cycloid_monitoring0_eu_we1_infra_ami             = "ami-e079f893"
+  # aws_instance_cycloid_monitoring0_eu_we1_infra_instance_type   = "t2.small"
+  # aws_instance_monitoring_prometheus_eu_we1_infra_ami           = "ami-0a889af68c555f069"
+  # aws_instance_monitoring_prometheus_eu_we1_infra_instance_type = "t3.small"
+  source = "./module-redisdown"
+}
+
+provider "aws" {
+  region = var.region
+}
+
+
+terraform {
+  required_providers {
+    aws = {
+      source = "hashicorp/aws"
+    }
+
+  }
+
+  required_version = ">= 1.0"
+}
+
+variable "region" {
+  default = "eu-west-1"
+}
+
