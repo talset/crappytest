@@ -1,0 +1,34 @@
+module "projectstack" {
+  # aws_launch_configuration_cycloid_demo_workers_launchconfig_8soqmzigmw9y_image_id                = "ami-0028c9055f981f26e"
+  # aws_launch_configuration_cycloid_demo_workers_launchconfig_8soqmzigmw9y_instance_type           = "t3.medium"
+  # aws_launch_configuration_cycloid_lab_workers_launchconfig_xh1t9sd3tmv7_image_id                 = "ami-035c67e6a9ef8f024"
+  # aws_launch_configuration_cycloid_lab_workers_launchconfig_xh1t9sd3tmv7_instance_type            = "t3.medium"
+  # aws_launch_configuration_cycloid_workers_saas_launchconfigspotprice_1mnebt63njw6k_image_id      = "ami-0028c9055f981f26e"
+  # aws_launch_configuration_cycloid_workers_saas_launchconfigspotprice_1mnebt63njw6k_instance_type = "c5d.2xlarge"
+  # aws_launch_configuration_demo_demo_preprod_lc_version20171027103536517600000001_image_id        = "ami-34995b4d"
+  # aws_launch_configuration_demo_demo_preprod_lc_version20171027103536517600000001_instance_type   = "t2.micro"
+  # aws_launch_configuration_testflo_image_id                                                       = "ami-34995b4d"
+  # aws_launch_configuration_testflo_instance_type                                                  = "t2.micro"
+  source = "./module-projectstack"
+}
+
+provider "aws" {
+  region = var.region
+}
+
+
+terraform {
+  required_providers {
+    aws = {
+      source = "hashicorp/aws"
+    }
+
+  }
+
+  required_version = ">= 1.0"
+}
+
+variable "region" {
+  default = "eu-west-1"
+}
+
