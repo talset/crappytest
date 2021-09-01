@@ -1,0 +1,21 @@
+version: "2"
+name: projectstack
+canonical: projectstack
+author: flo_test
+status: private
+description: projectstack
+image: ""
+keywords:
+- projectstack
+technologies: []
+dependencies: []
+config:
+  default:
+    description: ""
+    name: default
+    pipeline:
+      pipeline:
+        path: pipeline/default/terraform-pipeline.yaml
+      variables:
+        destination: ($ project $)/pipeline/variables-($ environment $).yml
+        path: pipeline/default/variables.sample.yaml
