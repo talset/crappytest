@@ -1,0 +1,24 @@
+module "testgoto" {
+  source = "./module-testgoto"
+}
+
+provider "aws" {
+  region = var.region
+}
+
+
+terraform {
+  required_providers {
+    aws = {
+      source = "hashicorp/aws"
+    }
+
+  }
+
+  required_version = ">= 1.0"
+}
+
+variable "region" {
+  default = "eu-west-1"
+}
+
