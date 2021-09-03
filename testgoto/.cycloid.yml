@@ -1,0 +1,21 @@
+version: "2"
+name: testgoto
+canonical: testgoto
+author: flo_test
+status: private
+description: testgoto
+image: ""
+keywords:
+- testgoto
+technologies: []
+dependencies: []
+config:
+  default:
+    description: ""
+    name: default
+    pipeline:
+      pipeline:
+        path: pipeline/default/terraform-pipeline.yaml
+      variables:
+        destination: ($ project $)/pipeline/variables-($ environment $).yml
+        path: pipeline/default/variables.sample.yaml
