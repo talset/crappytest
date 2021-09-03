@@ -1,0 +1,21 @@
+version: "2"
+name: 0309cloudfront
+canonical: 0309cloudfront
+author: flo_test
+status: private
+description: descr
+image: ""
+keywords:
+- 0309cloudfront
+technologies: []
+dependencies: []
+config:
+  default:
+    description: ""
+    name: default
+    pipeline:
+      pipeline:
+        path: pipeline/default/terraform-pipeline.yaml
+      variables:
+        destination: ($ project $)/pipeline/variables-($ environment $).yml
+        path: pipeline/default/variables.sample.yaml
