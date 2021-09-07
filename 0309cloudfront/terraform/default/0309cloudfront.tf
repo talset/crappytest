@@ -1,4 +1,4 @@
-module "0309cloudfront" {
+module "_0309cloudfront" {
   source = "./module-0309cloudfront"
 }
 
