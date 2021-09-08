@@ -1,0 +1,27 @@
+module "stackonly5" {
+  # aws_autoscaling_group_cycloid_demo_workers_workersgroup_7y8gii4fwrr4_desired_capacity               = 1
+  # aws_autoscaling_group_cycloidio_website_front_prod_frontsprod_1jpc2znehafpf_desired_capacity        = 2
+  # aws_autoscaling_group_external_worker_worker_prod_externalworkersprod_d6v1hqadkm9r_desired_capacity = 4
+  source = "./module-stackonly5"
+}
+
+provider "aws" {
+  region = var.region
+}
+
+
+terraform {
+  required_providers {
+    aws = {
+      source = "hashicorp/aws"
+    }
+
+  }
+
+  required_version = ">= 1.0"
+}
+
+variable "region" {
+  default = "eu-west-1"
+}
+
