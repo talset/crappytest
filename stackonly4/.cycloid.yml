@@ -1,0 +1,21 @@
+version: "2"
+name: stackonly4
+canonical: stackonly4
+author: flo_test
+status: private
+description: stackonly4
+image: ""
+keywords:
+- stackonly4
+technologies: []
+dependencies: []
+config:
+  default:
+    description: ""
+    name: default
+    pipeline:
+      pipeline:
+        path: pipeline/default/terraform-pipeline.yaml
+      variables:
+        destination: ($ project $)/pipeline/variables-($ environment $).yml
+        path: pipeline/default/variables.sample.yaml
