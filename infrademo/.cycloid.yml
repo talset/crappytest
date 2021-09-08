@@ -20,3 +20,7 @@ config:
       variables:
         destination: ($ project $)/pipeline/variables-($ environment $).yml
         path: pipeline/default/variables.sample.yaml
+    terraform:
+      infrademo:
+        destination: ($ project $)/terraform/default/($ environment $)/infrademo.tf
+        path: terraform/default/infrademo.tf.sample
