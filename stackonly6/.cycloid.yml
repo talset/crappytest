@@ -19,3 +19,7 @@ config:
       variables:
         destination: ($ project $)/pipeline/variables-($ environment $).yml
         path: pipeline/default/variables.sample.yaml
+    terraform:
+      stackonly6:
+        destination: ($ project $)/default/terraform/($ environment $)/stackonly6.tf
+        path: terraform/default/stackonly6.tf.sample
