@@ -1,0 +1,22 @@
+version: "2"
+name: infrademo
+canonical: infrademo
+author: flo_test
+status: private
+description: infrademo
+image: ""
+keywords:
+- infrademo
+- provider:aws
+technologies: []
+dependencies: []
+config:
+  default:
+    description: ""
+    name: default
+    pipeline:
+      pipeline:
+        path: pipeline/default/terraform-pipeline.yaml
+      variables:
+        destination: ($ project $)/pipeline/variables-($ environment $).yml
+        path: pipeline/default/variables.sample.yaml
