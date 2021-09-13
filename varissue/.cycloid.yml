@@ -1,0 +1,22 @@
+version: "2"
+name: varissue
+canonical: varissue
+author: admin
+status: private
+description: varissue
+image: ""
+keywords:
+- varissue
+- provider:aws
+technologies: []
+dependencies: []
+config:
+  default:
+    description: ""
+    name: default
+    pipeline:
+      pipeline:
+        path: pipeline/default/terraform-pipeline.yaml
+      variables:
+        destination: ($ project $)/pipeline/variables-($ environment $).yml
+        path: pipeline/default/variables.sample.yaml
