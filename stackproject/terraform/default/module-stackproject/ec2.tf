@@ -42,7 +42,7 @@ resource "aws_instance" "GxwBa" {
   ebs_optimized                        = true
   iam_instance_profile                 = "profile-worker-external-worker-prod"
   instance_initiated_shutdown_behavior = "terminate"
-  instance_type                        = t3.small
+  instance_type                        = "t3.small"
   key_name                             = "cycloid"
   metadata_options {
     http_endpoint               = "enabled"
@@ -118,7 +118,7 @@ resource "aws_instance" "LbkPw" {
   ebs_optimized                        = true
   iam_instance_profile                 = "profile-worker-external-worker-prod"
   instance_initiated_shutdown_behavior = "terminate"
-  instance_type                        = t3.small
+  instance_type                        = "t3.small"
   key_name                             = "cycloid"
   metadata_options {
     http_endpoint               = "enabled"
@@ -194,7 +194,7 @@ resource "aws_instance" "Oidph" {
   ebs_optimized                        = true
   iam_instance_profile                 = "profile-worker-external-worker-prod"
   instance_initiated_shutdown_behavior = "terminate"
-  instance_type                        = t3.small
+  instance_type                        = "t3.small"
   key_name                             = "cycloid"
   metadata_options {
     http_endpoint               = "enabled"
@@ -257,7 +257,7 @@ resource "aws_instance" "cycloid_bastion0_eu_we1_infra" {
   disable_api_termination              = true
   iam_instance_profile                 = "infra_profile"
   instance_initiated_shutdown_behavior = "stop"
-  instance_type                        = t3.small
+  instance_type                        = "t3.small"
   key_name                             = "cycloid"
   metadata_options {
     http_endpoint               = "enabled"
@@ -318,7 +318,7 @@ resource "aws_instance" "cycloid_demo_workers_prod" {
 
   iam_instance_profile                 = "cycloid-demo-workers-prod-instance-profile"
   instance_initiated_shutdown_behavior = "stop"
-  instance_type                        = t3.small
+  instance_type                        = "t3.small"
   key_name                             = "cycloid"
   metadata_options {
     http_endpoint               = "enabled"
@@ -373,7 +373,7 @@ resource "aws_instance" "cycloid_monitoring0_eu_we1_infra" {
   disable_api_termination              = true
   iam_instance_profile                 = "infra_profile"
   instance_initiated_shutdown_behavior = "stop"
-  instance_type                        = t3.small
+  instance_type                        = "t3.small"
   key_name                             = "cycloid"
   metadata_options {
     http_endpoint               = "enabled"
@@ -424,7 +424,7 @@ resource "aws_instance" "cycloidio_website_front_prod" {
 
   iam_instance_profile                 = "cycloid_profile-front-cycloidio-website-prod"
   instance_initiated_shutdown_behavior = "stop"
-  instance_type                        = t3.small
+  instance_type                        = "t3.small"
   key_name                             = "cycloid"
   metadata_options {
     http_endpoint               = "enabled"
@@ -483,7 +483,7 @@ resource "aws_instance" "cycloidio_website_front_staging" {
 
   iam_instance_profile                 = "cycloid_profile-front-cycloidio-website-staging"
   instance_initiated_shutdown_behavior = "stop"
-  instance_type                        = t3.small
+  instance_type                        = "t3.small"
   key_name                             = "cycloid"
   metadata_options {
     http_endpoint               = "enabled"
@@ -544,7 +544,7 @@ resource "aws_instance" "dedicated_env_cy_instances_0_gl_cc_7" {
 
   iam_instance_profile                 = "profile-cy_instances-dedicated-env-gl_cc_7"
   instance_initiated_shutdown_behavior = "stop"
-  instance_type                        = t3.small
+  instance_type                        = "t3.small"
   key_name                             = "cycloid"
   metadata_options {
     http_endpoint               = "enabled"
@@ -604,7 +604,7 @@ resource "aws_instance" "discoursereinventingorganizations" {
 
   disable_api_termination              = true
   instance_initiated_shutdown_behavior = "stop"
-  instance_type                        = t3.small
+  instance_type                        = "t3.small"
   key_name                             = "cycloid"
   metadata_options {
     http_endpoint               = "enabled"
@@ -678,7 +678,7 @@ resource "aws_instance" "external_worker_worker_eu_we1_prod" {
   ebs_optimized                        = true
   iam_instance_profile                 = "profile-worker-external-worker-prod"
   instance_initiated_shutdown_behavior = "terminate"
-  instance_type                        = t3.small
+  instance_type                        = "t3.small"
   key_name                             = "cycloid"
   metadata_options {
     http_endpoint               = "enabled"
@@ -737,7 +737,7 @@ resource "aws_instance" "magento_front0_eu_we1_demo" {
 
   iam_instance_profile                 = "cycloid_profile-front-magento-demo"
   instance_initiated_shutdown_behavior = "stop"
-  instance_type                        = t3.small
+  instance_type                        = "t3.small"
   key_name                             = "demo"
   metadata_options {
     http_endpoint               = "enabled"
@@ -790,7 +790,7 @@ resource "aws_instance" "monitoring_prometheus_eu_we1_infra" {
   ebs_optimized                        = true
   iam_instance_profile                 = "engine-cycloid-prometheus-monitoring-infra"
   instance_initiated_shutdown_behavior = "stop"
-  instance_type                        = t3.small
+  instance_type                        = "t3.small"
   key_name                             = "cycloid"
   metadata_options {
     http_endpoint               = "enabled"
@@ -853,7 +853,7 @@ resource "aws_instance" "onprem2_olivier_cy_instances_0_onprem" {
 
   iam_instance_profile                 = "profile-cy_instances-onprem2-olivier-onprem"
   instance_initiated_shutdown_behavior = "stop"
-  instance_type                        = t3.small
+  instance_type                        = "t3.small"
   key_name                             = "cycloid"
   metadata_options {
     http_endpoint               = "enabled"
@@ -917,7 +917,7 @@ resource "aws_instance" "onprem_florian_cy_instances_0_infra_import" {
 
   iam_instance_profile                 = "profile-cy_instances-onprem-florian-infra-import"
   instance_initiated_shutdown_behavior = "stop"
-  instance_type                        = t3.small
+  instance_type                        = "t3.small"
   key_name                             = "cycloid"
   metadata_options {
     http_endpoint               = "enabled"
@@ -981,7 +981,7 @@ resource "aws_instance" "onprem_florian_cy_instances_1_infra_import" {
 
   iam_instance_profile                 = "profile-cy_instances-onprem-florian-infra-import"
   instance_initiated_shutdown_behavior = "stop"
-  instance_type                        = t3.small
+  instance_type                        = "t3.small"
   key_name                             = "cycloid"
   metadata_options {
     http_endpoint               = "enabled"
@@ -1045,7 +1045,7 @@ resource "aws_instance" "onprem_olivier_cy_instances_0_infraimport" {
 
   iam_instance_profile                 = "profile-cy_instances-onprem-olivier-infraimport"
   instance_initiated_shutdown_behavior = "stop"
-  instance_type                        = t3.small
+  instance_type                        = "t3.small"
   key_name                             = "cycloid"
   metadata_options {
     http_endpoint               = "enabled"
@@ -1101,7 +1101,7 @@ resource "aws_instance" "reinventingorganizationswiki" {
   cpu_threads_per_core                 = 1
   disable_api_termination              = true
   instance_initiated_shutdown_behavior = "stop"
-  instance_type                        = t3.small
+  instance_type                        = "t3.small"
   key_name                             = "cycloid"
   metadata_options {
     http_endpoint               = "enabled"
@@ -1160,7 +1160,7 @@ resource "aws_instance" "yYuVx" {
 
   iam_instance_profile                 = "cycloid_profile-front-cycloidio-website-prod"
   instance_initiated_shutdown_behavior = "stop"
-  instance_type                        = t3.small
+  instance_type                        = "t3.small"
   key_name                             = "cycloid"
   metadata_options {
     http_endpoint               = "enabled"
