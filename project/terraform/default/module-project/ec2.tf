@@ -83,7 +83,7 @@ resource "aws_instance" "IVAia" {
     delete_on_termination = true
     device_name           = "/dev/xvdf"
     iops                  = 600
-    tags {
+    tags = {
       Name         = "external-worker-worker-prod"
       client       = "cycloid"
       "cycloid.io" = "true"
@@ -567,7 +567,7 @@ resource "aws_instance" "external_worker_worker_eu_we1_prod" {
     delete_on_termination = true
     device_name           = "/dev/xvdf"
     iops                  = 600
-    tags {
+    tags = {
       Name         = "external-worker-worker-prod"
       client       = "cycloid"
       "cycloid.io" = "true"
@@ -643,7 +643,7 @@ resource "aws_instance" "kQmlD" {
     delete_on_termination = true
     device_name           = "/dev/xvdf"
     iops                  = 600
-    tags {
+    tags = {
       Name         = "external-worker-worker-prod"
       client       = "cycloid"
       "cycloid.io" = "true"
@@ -1086,7 +1086,7 @@ resource "aws_instance" "otZRf" {
     delete_on_termination = true
     device_name           = "/dev/xvdf"
     iops                  = 600
-    tags {
+    tags = {
       Name         = "external-worker-worker-prod"
       client       = "cycloid"
       "cycloid.io" = "true"
