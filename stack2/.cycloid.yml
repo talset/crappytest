@@ -1,0 +1,22 @@
+version: "2"
+name: stack2
+canonical: stack2
+author: admin
+status: private
+description: stack2
+image: ""
+keywords:
+- stack2
+- provider:aws
+technologies: []
+dependencies: []
+config:
+  default:
+    description: ""
+    name: default
+    pipeline:
+      pipeline:
+        path: pipeline/default/terraform-pipeline.yaml
+      variables:
+        destination: ($ project $)/pipeline/variables-($ environment $).yml
+        path: pipeline/default/variables.sample.yaml
