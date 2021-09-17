@@ -46,7 +46,7 @@ resources:
   type: terraform
   icon: terraform
   source:
-    env_name: ((env))
+    env_name: ((project))-((env))
     backend_type: azurerm
     backend_config:
       container_name: ((terraform_storage_container_name))
