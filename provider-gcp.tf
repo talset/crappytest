@@ -6,9 +6,9 @@ variable "env" {}
 
 # Google provider
 terraform {
-  required_version = ">= 1.0.0"
+  required_version = ">= 1.0"
   required_providers {
-    aws = {
+    google = {
       source = "hashicorp/google"
     }
   }
