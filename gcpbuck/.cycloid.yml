@@ -20,3 +20,7 @@ config:
       variables:
         destination: ($ project $)/pipeline/variables-($ environment $).yml
         path: pipeline/default/variables.sample.yaml
+    terraform:
+      gcpbuck:
+        destination: ($ project $)/terraform/($ environment $)/gcpbuck.tf
+        path: terraform/default/gcpbuck.tf.sample
