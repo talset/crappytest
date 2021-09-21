@@ -20,3 +20,7 @@ config:
       variables:
         destination: ($ project $)/pipeline/variables-($ environment $).yml
         path: pipeline/default/variables.sample.yaml
+    terraform:
+      azurestackandproject2:
+        destination: ($ project $)/terraform/($ environment $)/azurestackandproject2.tf
+        path: terraform/default/azurestackandproject2.tf.sample
