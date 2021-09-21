@@ -1,0 +1,22 @@
+version: "2"
+name: azurestackandproject2
+canonical: azurestackandproject2
+author: admin
+status: private
+description: azurestackandproject2
+image: ""
+keywords:
+- azurestackandproject2
+- provider:azure
+technologies: []
+dependencies: []
+config:
+  default:
+    description: ""
+    name: default
+    pipeline:
+      pipeline:
+        path: pipeline/default/terraform-pipeline.yaml
+      variables:
+        destination: ($ project $)/pipeline/variables-($ environment $).yml
+        path: pipeline/default/variables.sample.yaml
