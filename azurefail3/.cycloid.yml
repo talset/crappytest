@@ -20,3 +20,7 @@ config:
       variables:
         destination: ($ project $)/pipeline/variables-($ environment $).yml
         path: pipeline/default/variables.sample.yaml
+    terraform:
+      azurefail3:
+        destination: ($ project $)/terraform/($ environment $)/azurefail3.tf
+        path: terraform/default/azurefail3.tf.sample
