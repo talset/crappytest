@@ -1,0 +1,22 @@
+version: "2"
+name: azurefail3
+canonical: azurefail3
+author: admin
+status: private
+description: azurefail3
+image: ""
+keywords:
+- azurefail3
+- provider:azure
+technologies: []
+dependencies: []
+config:
+  default:
+    description: ""
+    name: default
+    pipeline:
+      pipeline:
+        path: pipeline/default/terraform-pipeline.yaml
+      variables:
+        destination: ($ project $)/pipeline/variables-($ environment $).yml
+        path: pipeline/default/variables.sample.yaml
