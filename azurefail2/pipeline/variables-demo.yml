@@ -1,0 +1,73 @@
+#
+# Terraform
+#
+
+# Terraform tfstate storage Configuration
+terraform_storage_container_name: 
+terraform_storage_access_key: ((aws_aws_admin.access_key))
+terraform_storage_account_name: ((aws_aws_admin.account_name))
+
+azure_resource_group_name: cycloid-terraform
+azure_env: public
+
+azure_subscription_id: ((azure_admin_azure.subscription_id))
+azure_tenant_id: ((azure_admin_azure.tenant_id))
+azure_client_id: ((azure_admin_azure.client_id))
+azure_client_secret: ((azure_admin_azure.client_secret))
+
+#. azure_location (required): francecentral
+#+ Azure location to use for Terraform.
+azure_location: francecentral
+
+#
+# Repos
+#
+
+#. sc_repository (required): ""
+#+ Git repository URL of your service catalog containing the stack.
+sc_repository: "git@github.com:talset/crappytest.git"
+
+#. config_git_repository (required): ""
+#+ Path of the stack located in the git of your service catalog.
+sc_path: "azurefail2"
+
+#. sc_git_key (required): ((git_readonly.ssh_key))
+#+ SSH key pair to fetch the stack Git repository.
+sc_git_key: ((ssh_config.ssh_key))
+
+#. config_git_repository (required): ""
+#+ Git repository URL containing the config of the stack.
+config_git_repository: "git@github.com:talset/crappytest.git"
+
+#. config_git_private_key (required): ((ssh_config.ssh_key))
+#+ SSH key pair to fetch the config Git repository.
+config_git_private_key: ((ssh_config.ssh_key))
+
+#. config_git_branch (required): config
+#+ Git branch containing the config of the stack.
+config_git_branch: test
+
+#
+# Default variables that shouldn't be changed except if needed
+#
+
+#. sc_branch (required): stacks
+#+ Branch to use on the stack Git repository
+sc_branch: stacks
+
+#. env (required): demo
+#+ Name of the project's environment.
+env: demo
+
+#. project (required): azurefail2
+#+ Name of the project.
+project: azurefail2
+
+#. customer (required): cycloid
+#+ Name of the Cycloid Organization, used as customer variable name.
+customer: cycloid
+organization: cycloid
+
+#. terraform_version (required): '1.0.7'
+#+ terraform version used to execute your code.
+terraform_version: '1.0.7'
