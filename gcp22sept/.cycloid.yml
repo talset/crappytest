@@ -20,3 +20,7 @@ config:
       variables:
         destination: ($ project $)/pipeline/variables-($ environment $).yml
         path: pipeline/default/variables.sample.yaml
+    terraform:
+      gcp22sept:
+        destination: ($ project $)/terraform/($ environment $)/gcp22sept.tf
+        path: terraform/default/gcp22sept.tf.sample
