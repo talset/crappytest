@@ -1,0 +1,67 @@
+#
+# Terraform
+#
+
+gcp_project: cycloid-demo
+gcp_credentials_json: ((gcp_admin_gcp_cycloid-sandbox.json_key))
+
+#. gcp_zone (required): europe-west1-b
+##+ GCP zone to use for Terraform.
+gcp_zone: "europe-west1"
+
+#. terraform_storage_bucket_name (required): cycloid-terraform-remote-state
+#+ GCP storage name to store Terraform remote state file.
+terraform_storage_bucket_name: cycloid-terraform-remote-state
+
+#
+# Repos
+#
+
+#. sc_repository (required): ""
+#+ Git repository URL of your service catalog containing the stack.
+sc_repository: "git@github.com:talset/crappytest.git"
+
+#. config_git_repository (required): ""
+#+ Path of the stack located in the git of your service catalog.
+sc_path: "gcp22sept"
+
+#. sc_git_key (required): ((git_readonly.ssh_key))
+#+ SSH key pair to fetch the stack Git repository.
+sc_git_key: ((ssh_config.ssh_key))
+
+#. config_git_repository (required): ""
+#+ Git repository URL containing the config of the stack.
+config_git_repository: "git@github.com:talset/crappytest.git"
+
+#. config_git_private_key (required): ((ssh_config.ssh_key))
+#+ SSH key pair to fetch the config Git repository.
+config_git_private_key: ((ssh_config.ssh_key))
+
+#. config_git_branch (required): config
+#+ Git branch containing the config of the stack.
+config_git_branch: test
+
+#
+# Default variables that shouldn't be changed except if needed
+#
+
+#. sc_branch (required): stacks
+#+ Branch to use on the stack Git repository
+sc_branch: stacks
+
+#. env (required): demo
+#+ Name of the project's environment.
+env: demo
+
+#. project (required): gcp22sept
+#+ Name of the project.
+project: gcp22sept
+
+#. customer (required): cycloid
+#+ Name of the Cycloid Organization, used as customer variable name.
+customer: cycloid
+organization: cycloid
+
+#. terraform_version (required): '1.0.7'
+#+ terraform version used to execute your code.
+terraform_version: '1.0.7'
