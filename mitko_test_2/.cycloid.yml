@@ -1,0 +1,23 @@
+version: "2"
+name: Mitko test 2
+canonical: mitko_test_2
+author: admin
+status: private
+description: Mitko testing again
+image: ""
+keywords:
+- mitko
+- test
+- provider:google
+technologies: []
+dependencies: []
+config:
+  default:
+    description: ""
+    name: default
+    pipeline:
+      pipeline:
+        path: pipeline/default/terraform-pipeline.yaml
+      variables:
+        destination: ($ project $)/pipeline/variables-($ environment $).yml
+        path: pipeline/default/variables.sample.yaml
