@@ -1,0 +1,23 @@
+version: "2"
+name: Mitko test
+canonical: mitko_test
+author: admin
+status: private
+description: Mitko testing Edit button
+image: ""
+keywords:
+- mitko
+- test
+- provider:aws
+technologies: []
+dependencies: []
+config:
+  default:
+    description: ""
+    name: default
+    pipeline:
+      pipeline:
+        path: pipeline/default/terraform-pipeline.yaml
+      variables:
+        destination: ($ project $)/pipeline/variables-($ environment $).yml
+        path: pipeline/default/variables.sample.yaml
