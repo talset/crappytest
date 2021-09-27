@@ -21,3 +21,7 @@ config:
       variables:
         destination: ($ project $)/pipeline/variables-($ environment $).yml
         path: pipeline/default/variables.sample.yaml
+    terraform:
+      mitko_test_5:
+        destination: ($ project $)/terraform/($ environment $)/mitko_test_5.tf
+        path: terraform/default/mitko_test_5.tf.sample
