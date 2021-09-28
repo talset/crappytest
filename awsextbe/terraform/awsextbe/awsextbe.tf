@@ -79,7 +79,6 @@ module "awsextbe" {
 }
 
 provider "aws" {
-  region = var.region
 }
 
 
@@ -92,10 +91,6 @@ terraform {
   }
 
   required_version = ">= 1.0"
-}
-
-variable "region" {
-  default = "eu-west-1"
 }
 
 
