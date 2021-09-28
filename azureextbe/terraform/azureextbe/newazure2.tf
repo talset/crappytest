@@ -5,9 +5,7 @@ module "newazure2" {
 }
 
 provider "azurerm" {
-  environment   = var.environment
-  features      = var.features
-  metadata_host = var.metadata_host
+  features {}
 }
 
 
@@ -22,15 +20,6 @@ terraform {
   required_version = ">= 1.0"
 }
 
-variable "environment" {
-  default = "public"
-}
-
-variable "features" {
-}
-
-variable "metadata_host" {
-}
 
 
 # Cycloid
