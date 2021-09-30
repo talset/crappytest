@@ -1,0 +1,22 @@
+version: "2"
+name: azurestorage
+canonical: azurestorage
+author: admin
+status: private
+description: azurestorage
+image: ""
+keywords:
+- azurestorage
+- provider:azure
+technologies: []
+dependencies: []
+config:
+  default:
+    description: ""
+    name: default
+    pipeline:
+      pipeline:
+        path: pipeline/default/terraform-pipeline.yaml
+      variables:
+        destination: ($ project $)/pipeline/variables-($ environment $).yml
+        path: pipeline/default/variables.sample.yaml
