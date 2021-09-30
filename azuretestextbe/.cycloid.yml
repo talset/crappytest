@@ -1,0 +1,22 @@
+version: "2"
+name: azuretestextbe
+canonical: azuretestextbe
+author: admin
+status: private
+description: azuretestextbe
+image: ""
+keywords:
+- azuretestextbe
+- provider:azure
+technologies: []
+dependencies: []
+config:
+  default:
+    description: ""
+    name: default
+    pipeline:
+      pipeline:
+        path: pipeline/default/terraform-pipeline.yaml
+      variables:
+        destination: ($ project $)/pipeline/variables-($ environment $).yml
+        path: pipeline/default/variables.sample.yaml
