@@ -1,0 +1,2332 @@
+resource "aws_route53_record" "ENuGK" {
+  name    = var.aws_route53_record_enugk_name
+  records = var.aws_route53_record_enugk_records
+  ttl     = var.aws_route53_record_enugk_ttl
+  type    = var.aws_route53_record_enugk_type
+  zone_id = var.aws_route53_record_enugk_zone_id
+}
+
+resource "aws_route53_record" "IMxau" {
+  name    = var.aws_route53_record_imxau_name
+  records = var.aws_route53_record_imxau_records
+  ttl     = var.aws_route53_record_imxau_ttl
+  type    = var.aws_route53_record_imxau_type
+  zone_id = var.aws_route53_record_imxau_zone_id
+}
+
+resource "aws_route53_record" "LRqcc" {
+  name    = var.aws_route53_record_lrqcc_name
+  records = var.aws_route53_record_lrqcc_records
+  ttl     = var.aws_route53_record_lrqcc_ttl
+  type    = var.aws_route53_record_lrqcc_type
+  zone_id = var.aws_route53_record_lrqcc_zone_id
+}
+
+resource "aws_route53_record" "LWrIj" {
+  name    = var.aws_route53_record_lwrij_name
+  records = var.aws_route53_record_lwrij_records
+  ttl     = var.aws_route53_record_lwrij_ttl
+  type    = var.aws_route53_record_lwrij_type
+  zone_id = var.aws_route53_record_lwrij_zone_id
+}
+
+resource "aws_route53_record" "NJGcQ" {
+  name    = var.aws_route53_record_njgcq_name
+  records = var.aws_route53_record_njgcq_records
+  ttl     = var.aws_route53_record_njgcq_ttl
+  type    = var.aws_route53_record_njgcq_type
+  zone_id = var.aws_route53_record_njgcq_zone_id
+}
+
+resource "aws_route53_record" "OiuaM" {
+  name    = var.aws_route53_record_oiuam_name
+  records = var.aws_route53_record_oiuam_records
+  ttl     = var.aws_route53_record_oiuam_ttl
+  type    = var.aws_route53_record_oiuam_type
+  zone_id = var.aws_route53_record_oiuam_zone_id
+}
+
+resource "aws_route53_record" "WXBtc" {
+  name    = var.aws_route53_record_wxbtc_name
+  records = var.aws_route53_record_wxbtc_records
+  ttl     = var.aws_route53_record_wxbtc_ttl
+  type    = var.aws_route53_record_wxbtc_type
+  zone_id = var.aws_route53_record_wxbtc_zone_id
+}
+
+resource "aws_route53_record" "WbkPr" {
+  name    = var.aws_route53_record_wbkpr_name
+  records = var.aws_route53_record_wbkpr_records
+  ttl     = var.aws_route53_record_wbkpr_ttl
+  type    = var.aws_route53_record_wbkpr_type
+  zone_id = var.aws_route53_record_wbkpr_zone_id
+}
+
+resource "aws_route53_record" "_hostedzone_z19k7atto3t9rc_cycloid_test__ns" {
+  name    = var.aws_route53_record__hostedzone_z19k7atto3t9rc_cycloid_test__ns_name
+  records = var.aws_route53_record__hostedzone_z19k7atto3t9rc_cycloid_test__ns_records
+  ttl     = var.aws_route53_record__hostedzone_z19k7atto3t9rc_cycloid_test__ns_ttl
+  type    = var.aws_route53_record__hostedzone_z19k7atto3t9rc_cycloid_test__ns_type
+  zone_id = var.aws_route53_record__hostedzone_z19k7atto3t9rc_cycloid_test__ns_zone_id
+}
+
+resource "aws_route53_record" "_hostedzone_z19k7atto3t9rc_cycloid_test__soa" {
+  name    = var.aws_route53_record__hostedzone_z19k7atto3t9rc_cycloid_test__soa_name
+  records = var.aws_route53_record__hostedzone_z19k7atto3t9rc_cycloid_test__soa_records
+  ttl     = var.aws_route53_record__hostedzone_z19k7atto3t9rc_cycloid_test__soa_ttl
+  type    = var.aws_route53_record__hostedzone_z19k7atto3t9rc_cycloid_test__soa_type
+  zone_id = var.aws_route53_record__hostedzone_z19k7atto3t9rc_cycloid_test__soa_zone_id
+}
+
+resource "aws_route53_record" "_hostedzone_z1dmvt5uhyqd2c_cycloid_preprod__ns" {
+  name    = var.aws_route53_record__hostedzone_z1dmvt5uhyqd2c_cycloid_preprod__ns_name
+  records = var.aws_route53_record__hostedzone_z1dmvt5uhyqd2c_cycloid_preprod__ns_records
+  ttl     = var.aws_route53_record__hostedzone_z1dmvt5uhyqd2c_cycloid_preprod__ns_ttl
+  type    = var.aws_route53_record__hostedzone_z1dmvt5uhyqd2c_cycloid_preprod__ns_type
+  zone_id = var.aws_route53_record__hostedzone_z1dmvt5uhyqd2c_cycloid_preprod__ns_zone_id
+}
+
+resource "aws_route53_record" "_hostedzone_z1dmvt5uhyqd2c_cycloid_preprod__soa" {
+  name    = var.aws_route53_record__hostedzone_z1dmvt5uhyqd2c_cycloid_preprod__soa_name
+  records = var.aws_route53_record__hostedzone_z1dmvt5uhyqd2c_cycloid_preprod__soa_records
+  ttl     = var.aws_route53_record__hostedzone_z1dmvt5uhyqd2c_cycloid_preprod__soa_ttl
+  type    = var.aws_route53_record__hostedzone_z1dmvt5uhyqd2c_cycloid_preprod__soa_type
+  zone_id = var.aws_route53_record__hostedzone_z1dmvt5uhyqd2c_cycloid_preprod__soa_zone_id
+}
+
+resource "aws_route53_record" "_hostedzone_z1w92clvcbo38s_cycloid_fr__a" {
+  alias {
+    evaluate_target_health = var.aws_route53_record__hostedzone_z1w92clvcbo38s_cycloid_fr__a_alias_evaluate_target_health
+    name                   = var.aws_route53_record__hostedzone_z1w92clvcbo38s_cycloid_fr__a_alias_name
+    zone_id                = var.aws_route53_record__hostedzone_z1w92clvcbo38s_cycloid_fr__a_alias_zone_id
+  }
+
+  name    = var.aws_route53_record__hostedzone_z1w92clvcbo38s_cycloid_fr__a_name
+  type    = var.aws_route53_record__hostedzone_z1w92clvcbo38s_cycloid_fr__a_type
+  zone_id = var.aws_route53_record__hostedzone_z1w92clvcbo38s_cycloid_fr__a_zone_id
+}
+
+resource "aws_route53_record" "_hostedzone_z1w92clvcbo38s_cycloid_fr__mx" {
+  name    = var.aws_route53_record__hostedzone_z1w92clvcbo38s_cycloid_fr__mx_name
+  records = var.aws_route53_record__hostedzone_z1w92clvcbo38s_cycloid_fr__mx_records
+  ttl     = var.aws_route53_record__hostedzone_z1w92clvcbo38s_cycloid_fr__mx_ttl
+  type    = var.aws_route53_record__hostedzone_z1w92clvcbo38s_cycloid_fr__mx_type
+  zone_id = var.aws_route53_record__hostedzone_z1w92clvcbo38s_cycloid_fr__mx_zone_id
+}
+
+resource "aws_route53_record" "_hostedzone_z1w92clvcbo38s_cycloid_fr__ns" {
+  name    = var.aws_route53_record__hostedzone_z1w92clvcbo38s_cycloid_fr__ns_name
+  records = var.aws_route53_record__hostedzone_z1w92clvcbo38s_cycloid_fr__ns_records
+  ttl     = var.aws_route53_record__hostedzone_z1w92clvcbo38s_cycloid_fr__ns_ttl
+  type    = var.aws_route53_record__hostedzone_z1w92clvcbo38s_cycloid_fr__ns_type
+  zone_id = var.aws_route53_record__hostedzone_z1w92clvcbo38s_cycloid_fr__ns_zone_id
+}
+
+resource "aws_route53_record" "_hostedzone_z1w92clvcbo38s_cycloid_fr__soa" {
+  name    = var.aws_route53_record__hostedzone_z1w92clvcbo38s_cycloid_fr__soa_name
+  records = var.aws_route53_record__hostedzone_z1w92clvcbo38s_cycloid_fr__soa_records
+  ttl     = var.aws_route53_record__hostedzone_z1w92clvcbo38s_cycloid_fr__soa_ttl
+  type    = var.aws_route53_record__hostedzone_z1w92clvcbo38s_cycloid_fr__soa_type
+  zone_id = var.aws_route53_record__hostedzone_z1w92clvcbo38s_cycloid_fr__soa_zone_id
+}
+
+resource "aws_route53_record" "_hostedzone_z1w92clvcbo38s_cycloid_fr__txt" {
+  name    = var.aws_route53_record__hostedzone_z1w92clvcbo38s_cycloid_fr__txt_name
+  records = var.aws_route53_record__hostedzone_z1w92clvcbo38s_cycloid_fr__txt_records
+  ttl     = var.aws_route53_record__hostedzone_z1w92clvcbo38s_cycloid_fr__txt_ttl
+  type    = var.aws_route53_record__hostedzone_z1w92clvcbo38s_cycloid_fr__txt_type
+  zone_id = var.aws_route53_record__hostedzone_z1w92clvcbo38s_cycloid_fr__txt_zone_id
+}
+
+resource "aws_route53_record" "_hostedzone_z1w92clvcbo38s_www_cycloid_fr__cname" {
+  name    = var.aws_route53_record__hostedzone_z1w92clvcbo38s_www_cycloid_fr__cname_name
+  records = var.aws_route53_record__hostedzone_z1w92clvcbo38s_www_cycloid_fr__cname_records
+  ttl     = var.aws_route53_record__hostedzone_z1w92clvcbo38s_www_cycloid_fr__cname_ttl
+  type    = var.aws_route53_record__hostedzone_z1w92clvcbo38s_www_cycloid_fr__cname_type
+  zone_id = var.aws_route53_record__hostedzone_z1w92clvcbo38s_www_cycloid_fr__cname_zone_id
+}
+
+resource "aws_route53_record" "_hostedzone_z1y2fjwxxm33o5_4bbge2rsc6dspti2j4hp3nbif2wkljtg__domainkey_frizbiz_cycloid_io__cname" {
+  name    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_4bbge2rsc6dspti2j4hp3nbif2wkljtg__domainkey_frizbiz_cycloid_io__cname_name
+  records = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_4bbge2rsc6dspti2j4hp3nbif2wkljtg__domainkey_frizbiz_cycloid_io__cname_records
+  ttl     = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_4bbge2rsc6dspti2j4hp3nbif2wkljtg__domainkey_frizbiz_cycloid_io__cname_ttl
+  type    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_4bbge2rsc6dspti2j4hp3nbif2wkljtg__domainkey_frizbiz_cycloid_io__cname_type
+  zone_id = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_4bbge2rsc6dspti2j4hp3nbif2wkljtg__domainkey_frizbiz_cycloid_io__cname_zone_id
+}
+
+resource "aws_route53_record" "_hostedzone_z1y2fjwxxm33o5_4snpesyqim42zg4d34bp575mpq2otzrm__domainkey_atk_cycloid_io__cname" {
+  name    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_4snpesyqim42zg4d34bp575mpq2otzrm__domainkey_atk_cycloid_io__cname_name
+  records = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_4snpesyqim42zg4d34bp575mpq2otzrm__domainkey_atk_cycloid_io__cname_records
+  ttl     = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_4snpesyqim42zg4d34bp575mpq2otzrm__domainkey_atk_cycloid_io__cname_ttl
+  type    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_4snpesyqim42zg4d34bp575mpq2otzrm__domainkey_atk_cycloid_io__cname_type
+  zone_id = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_4snpesyqim42zg4d34bp575mpq2otzrm__domainkey_atk_cycloid_io__cname_zone_id
+}
+
+resource "aws_route53_record" "_hostedzone_z1y2fjwxxm33o5_6lm2g2qto24evuk73uajygk45duw42x5__domainkey_cycloid_io__cname" {
+  name    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_6lm2g2qto24evuk73uajygk45duw42x5__domainkey_cycloid_io__cname_name
+  records = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_6lm2g2qto24evuk73uajygk45duw42x5__domainkey_cycloid_io__cname_records
+  ttl     = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_6lm2g2qto24evuk73uajygk45duw42x5__domainkey_cycloid_io__cname_ttl
+  type    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_6lm2g2qto24evuk73uajygk45duw42x5__domainkey_cycloid_io__cname_type
+  zone_id = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_6lm2g2qto24evuk73uajygk45duw42x5__domainkey_cycloid_io__cname_zone_id
+}
+
+resource "aws_route53_record" "_hostedzone_z1y2fjwxxm33o5_757gnqglbdd536mncz4hk6xz6e5s3zsy__domainkey_storyssimo_cycloid_io__cname" {
+  name    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_757gnqglbdd536mncz4hk6xz6e5s3zsy__domainkey_storyssimo_cycloid_io__cname_name
+  records = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_757gnqglbdd536mncz4hk6xz6e5s3zsy__domainkey_storyssimo_cycloid_io__cname_records
+  ttl     = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_757gnqglbdd536mncz4hk6xz6e5s3zsy__domainkey_storyssimo_cycloid_io__cname_ttl
+  type    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_757gnqglbdd536mncz4hk6xz6e5s3zsy__domainkey_storyssimo_cycloid_io__cname_type
+  zone_id = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_757gnqglbdd536mncz4hk6xz6e5s3zsy__domainkey_storyssimo_cycloid_io__cname_zone_id
+}
+
+resource "aws_route53_record" "_hostedzone_z1y2fjwxxm33o5_7lmsnkgtrgvbwcnk42ajyj6lya6wlibb__domainkey_storyssimo_cycloid_io__cname" {
+  name    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_7lmsnkgtrgvbwcnk42ajyj6lya6wlibb__domainkey_storyssimo_cycloid_io__cname_name
+  records = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_7lmsnkgtrgvbwcnk42ajyj6lya6wlibb__domainkey_storyssimo_cycloid_io__cname_records
+  ttl     = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_7lmsnkgtrgvbwcnk42ajyj6lya6wlibb__domainkey_storyssimo_cycloid_io__cname_ttl
+  type    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_7lmsnkgtrgvbwcnk42ajyj6lya6wlibb__domainkey_storyssimo_cycloid_io__cname_type
+  zone_id = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_7lmsnkgtrgvbwcnk42ajyj6lya6wlibb__domainkey_storyssimo_cycloid_io__cname_zone_id
+}
+
+resource "aws_route53_record" "_hostedzone_z1y2fjwxxm33o5__567533ed6e88fb1dc717e67200c451ee_cycloid_io__cname" {
+  name    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5__567533ed6e88fb1dc717e67200c451ee_cycloid_io__cname_name
+  records = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5__567533ed6e88fb1dc717e67200c451ee_cycloid_io__cname_records
+  ttl     = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5__567533ed6e88fb1dc717e67200c451ee_cycloid_io__cname_ttl
+  type    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5__567533ed6e88fb1dc717e67200c451ee_cycloid_io__cname_type
+  zone_id = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5__567533ed6e88fb1dc717e67200c451ee_cycloid_io__cname_zone_id
+}
+
+resource "aws_route53_record" "_hostedzone_z1y2fjwxxm33o5__amazonses_atk_cycloid_io__txt" {
+  name    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5__amazonses_atk_cycloid_io__txt_name
+  records = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5__amazonses_atk_cycloid_io__txt_records
+  ttl     = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5__amazonses_atk_cycloid_io__txt_ttl
+  type    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5__amazonses_atk_cycloid_io__txt_type
+  zone_id = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5__amazonses_atk_cycloid_io__txt_zone_id
+}
+
+resource "aws_route53_record" "_hostedzone_z1y2fjwxxm33o5__amazonses_cycloid_io__txt" {
+  name    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5__amazonses_cycloid_io__txt_name
+  records = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5__amazonses_cycloid_io__txt_records
+  ttl     = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5__amazonses_cycloid_io__txt_ttl
+  type    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5__amazonses_cycloid_io__txt_type
+  zone_id = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5__amazonses_cycloid_io__txt_zone_id
+}
+
+resource "aws_route53_record" "_hostedzone_z1y2fjwxxm33o5__amazonses_francetv_cycloid_io__txt" {
+  name    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5__amazonses_francetv_cycloid_io__txt_name
+  records = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5__amazonses_francetv_cycloid_io__txt_records
+  ttl     = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5__amazonses_francetv_cycloid_io__txt_ttl
+  type    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5__amazonses_francetv_cycloid_io__txt_type
+  zone_id = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5__amazonses_francetv_cycloid_io__txt_zone_id
+}
+
+resource "aws_route53_record" "_hostedzone_z1y2fjwxxm33o5__amazonses_frizbiz_cycloid_io__txt" {
+  name    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5__amazonses_frizbiz_cycloid_io__txt_name
+  records = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5__amazonses_frizbiz_cycloid_io__txt_records
+  ttl     = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5__amazonses_frizbiz_cycloid_io__txt_ttl
+  type    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5__amazonses_frizbiz_cycloid_io__txt_type
+  zone_id = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5__amazonses_frizbiz_cycloid_io__txt_zone_id
+}
+
+resource "aws_route53_record" "_hostedzone_z1y2fjwxxm33o5__amazonses_fundshop_cycloid_io__txt" {
+  name    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5__amazonses_fundshop_cycloid_io__txt_name
+  records = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5__amazonses_fundshop_cycloid_io__txt_records
+  ttl     = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5__amazonses_fundshop_cycloid_io__txt_ttl
+  type    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5__amazonses_fundshop_cycloid_io__txt_type
+  zone_id = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5__amazonses_fundshop_cycloid_io__txt_zone_id
+}
+
+resource "aws_route53_record" "_hostedzone_z1y2fjwxxm33o5__amazonses_lipskymedia_cycloid_io__txt" {
+  name    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5__amazonses_lipskymedia_cycloid_io__txt_name
+  records = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5__amazonses_lipskymedia_cycloid_io__txt_records
+  ttl     = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5__amazonses_lipskymedia_cycloid_io__txt_ttl
+  type    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5__amazonses_lipskymedia_cycloid_io__txt_type
+  zone_id = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5__amazonses_lipskymedia_cycloid_io__txt_zone_id
+}
+
+resource "aws_route53_record" "_hostedzone_z1y2fjwxxm33o5__amazonses_millesima_ecocea_cycloid_io__txt" {
+  name    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5__amazonses_millesima_ecocea_cycloid_io__txt_name
+  records = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5__amazonses_millesima_ecocea_cycloid_io__txt_records
+  ttl     = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5__amazonses_millesima_ecocea_cycloid_io__txt_ttl
+  type    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5__amazonses_millesima_ecocea_cycloid_io__txt_type
+  zone_id = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5__amazonses_millesima_ecocea_cycloid_io__txt_zone_id
+}
+
+resource "aws_route53_record" "_hostedzone_z1y2fjwxxm33o5__amazonses_repetto_cycloid_io__txt" {
+  name    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5__amazonses_repetto_cycloid_io__txt_name
+  records = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5__amazonses_repetto_cycloid_io__txt_records
+  ttl     = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5__amazonses_repetto_cycloid_io__txt_ttl
+  type    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5__amazonses_repetto_cycloid_io__txt_type
+  zone_id = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5__amazonses_repetto_cycloid_io__txt_zone_id
+}
+
+resource "aws_route53_record" "_hostedzone_z1y2fjwxxm33o5__amazonses_storyssimo_cycloid_io__txt" {
+  name    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5__amazonses_storyssimo_cycloid_io__txt_name
+  records = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5__amazonses_storyssimo_cycloid_io__txt_records
+  ttl     = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5__amazonses_storyssimo_cycloid_io__txt_ttl
+  type    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5__amazonses_storyssimo_cycloid_io__txt_type
+  zone_id = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5__amazonses_storyssimo_cycloid_io__txt_zone_id
+}
+
+resource "aws_route53_record" "_hostedzone_z1y2fjwxxm33o5__amazonses_ti_cycloid_io__txt" {
+  name    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5__amazonses_ti_cycloid_io__txt_name
+  records = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5__amazonses_ti_cycloid_io__txt_records
+  ttl     = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5__amazonses_ti_cycloid_io__txt_ttl
+  type    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5__amazonses_ti_cycloid_io__txt_type
+  zone_id = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5__amazonses_ti_cycloid_io__txt_zone_id
+}
+
+resource "aws_route53_record" "_hostedzone_z1y2fjwxxm33o5__amazonses_warner_cycloid_io__txt" {
+  name    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5__amazonses_warner_cycloid_io__txt_name
+  records = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5__amazonses_warner_cycloid_io__txt_records
+  ttl     = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5__amazonses_warner_cycloid_io__txt_ttl
+  type    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5__amazonses_warner_cycloid_io__txt_type
+  zone_id = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5__amazonses_warner_cycloid_io__txt_zone_id
+}
+
+resource "aws_route53_record" "_hostedzone_z1y2fjwxxm33o5__amazonses_yves_salomon_cycloid_io__txt" {
+  name    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5__amazonses_yves_salomon_cycloid_io__txt_name
+  records = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5__amazonses_yves_salomon_cycloid_io__txt_records
+  ttl     = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5__amazonses_yves_salomon_cycloid_io__txt_ttl
+  type    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5__amazonses_yves_salomon_cycloid_io__txt_type
+  zone_id = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5__amazonses_yves_salomon_cycloid_io__txt_zone_id
+}
+
+resource "aws_route53_record" "_hostedzone_z1y2fjwxxm33o5__dmarc_cycloid_io__txt" {
+  name    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5__dmarc_cycloid_io__txt_name
+  records = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5__dmarc_cycloid_io__txt_records
+  ttl     = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5__dmarc_cycloid_io__txt_ttl
+  type    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5__dmarc_cycloid_io__txt_type
+  zone_id = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5__dmarc_cycloid_io__txt_zone_id
+}
+
+resource "aws_route53_record" "_hostedzone_z1y2fjwxxm33o5__externaldns_adminer_staging_cycloid_io__txt" {
+  name    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5__externaldns_adminer_staging_cycloid_io__txt_name
+  records = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5__externaldns_adminer_staging_cycloid_io__txt_records
+  ttl     = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5__externaldns_adminer_staging_cycloid_io__txt_ttl
+  type    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5__externaldns_adminer_staging_cycloid_io__txt_type
+  zone_id = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5__externaldns_adminer_staging_cycloid_io__txt_zone_id
+}
+
+resource "aws_route53_record" "_hostedzone_z1y2fjwxxm33o5__externaldns_alertmanager_0_infra_cycloid_io__txt" {
+  name    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5__externaldns_alertmanager_0_infra_cycloid_io__txt_name
+  records = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5__externaldns_alertmanager_0_infra_cycloid_io__txt_records
+  ttl     = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5__externaldns_alertmanager_0_infra_cycloid_io__txt_ttl
+  type    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5__externaldns_alertmanager_0_infra_cycloid_io__txt_type
+  zone_id = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5__externaldns_alertmanager_0_infra_cycloid_io__txt_zone_id
+}
+
+resource "aws_route53_record" "_hostedzone_z1y2fjwxxm33o5__externaldns_alertmanager_1_infra_cycloid_io__txt" {
+  name    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5__externaldns_alertmanager_1_infra_cycloid_io__txt_name
+  records = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5__externaldns_alertmanager_1_infra_cycloid_io__txt_records
+  ttl     = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5__externaldns_alertmanager_1_infra_cycloid_io__txt_ttl
+  type    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5__externaldns_alertmanager_1_infra_cycloid_io__txt_type
+  zone_id = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5__externaldns_alertmanager_1_infra_cycloid_io__txt_zone_id
+}
+
+resource "aws_route53_record" "_hostedzone_z1y2fjwxxm33o5__externaldns_alertmanager_cycloid_io__txt" {
+  name    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5__externaldns_alertmanager_cycloid_io__txt_name
+  records = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5__externaldns_alertmanager_cycloid_io__txt_records
+  ttl     = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5__externaldns_alertmanager_cycloid_io__txt_ttl
+  type    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5__externaldns_alertmanager_cycloid_io__txt_type
+  zone_id = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5__externaldns_alertmanager_cycloid_io__txt_zone_id
+}
+
+resource "aws_route53_record" "_hostedzone_z1y2fjwxxm33o5__externaldns_alertmanager_infra_cycloid_io__txt" {
+  name    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5__externaldns_alertmanager_infra_cycloid_io__txt_name
+  records = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5__externaldns_alertmanager_infra_cycloid_io__txt_records
+  ttl     = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5__externaldns_alertmanager_infra_cycloid_io__txt_ttl
+  type    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5__externaldns_alertmanager_infra_cycloid_io__txt_type
+  zone_id = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5__externaldns_alertmanager_infra_cycloid_io__txt_zone_id
+}
+
+resource "aws_route53_record" "_hostedzone_z1y2fjwxxm33o5__externaldns_api_staging_cycloid_io__txt" {
+  name    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5__externaldns_api_staging_cycloid_io__txt_name
+  records = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5__externaldns_api_staging_cycloid_io__txt_records
+  ttl     = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5__externaldns_api_staging_cycloid_io__txt_ttl
+  type    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5__externaldns_api_staging_cycloid_io__txt_type
+  zone_id = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5__externaldns_api_staging_cycloid_io__txt_zone_id
+}
+
+resource "aws_route53_record" "_hostedzone_z1y2fjwxxm33o5__externaldns_approval_cycloid_io__txt" {
+  name    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5__externaldns_approval_cycloid_io__txt_name
+  records = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5__externaldns_approval_cycloid_io__txt_records
+  ttl     = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5__externaldns_approval_cycloid_io__txt_ttl
+  type    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5__externaldns_approval_cycloid_io__txt_type
+  zone_id = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5__externaldns_approval_cycloid_io__txt_zone_id
+}
+
+resource "aws_route53_record" "_hostedzone_z1y2fjwxxm33o5__externaldns_approval_owl_cycloid_io__txt" {
+  name    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5__externaldns_approval_owl_cycloid_io__txt_name
+  records = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5__externaldns_approval_owl_cycloid_io__txt_records
+  ttl     = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5__externaldns_approval_owl_cycloid_io__txt_ttl
+  type    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5__externaldns_approval_owl_cycloid_io__txt_type
+  zone_id = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5__externaldns_approval_owl_cycloid_io__txt_zone_id
+}
+
+resource "aws_route53_record" "_hostedzone_z1y2fjwxxm33o5__externaldns_approval_slack_cycloid_io__txt" {
+  name    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5__externaldns_approval_slack_cycloid_io__txt_name
+  records = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5__externaldns_approval_slack_cycloid_io__txt_records
+  ttl     = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5__externaldns_approval_slack_cycloid_io__txt_ttl
+  type    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5__externaldns_approval_slack_cycloid_io__txt_type
+  zone_id = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5__externaldns_approval_slack_cycloid_io__txt_zone_id
+}
+
+resource "aws_route53_record" "_hostedzone_z1y2fjwxxm33o5__externaldns_approval_slack_owl_cycloid_io__txt" {
+  name    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5__externaldns_approval_slack_owl_cycloid_io__txt_name
+  records = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5__externaldns_approval_slack_owl_cycloid_io__txt_records
+  ttl     = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5__externaldns_approval_slack_owl_cycloid_io__txt_ttl
+  type    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5__externaldns_approval_slack_owl_cycloid_io__txt_type
+  zone_id = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5__externaldns_approval_slack_owl_cycloid_io__txt_zone_id
+}
+
+resource "aws_route53_record" "_hostedzone_z1y2fjwxxm33o5__externaldns_concourse_cycloid_io__txt" {
+  name    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5__externaldns_concourse_cycloid_io__txt_name
+  records = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5__externaldns_concourse_cycloid_io__txt_records
+  ttl     = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5__externaldns_concourse_cycloid_io__txt_ttl
+  type    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5__externaldns_concourse_cycloid_io__txt_type
+  zone_id = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5__externaldns_concourse_cycloid_io__txt_zone_id
+}
+
+resource "aws_route53_record" "_hostedzone_z1y2fjwxxm33o5__externaldns_concourse_infra_cycloid_io__txt" {
+  name    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5__externaldns_concourse_infra_cycloid_io__txt_name
+  records = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5__externaldns_concourse_infra_cycloid_io__txt_records
+  ttl     = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5__externaldns_concourse_infra_cycloid_io__txt_ttl
+  type    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5__externaldns_concourse_infra_cycloid_io__txt_type
+  zone_id = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5__externaldns_concourse_infra_cycloid_io__txt_zone_id
+}
+
+resource "aws_route53_record" "_hostedzone_z1y2fjwxxm33o5__externaldns_concourse_staging_cycloid_io__txt" {
+  name    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5__externaldns_concourse_staging_cycloid_io__txt_name
+  records = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5__externaldns_concourse_staging_cycloid_io__txt_records
+  ttl     = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5__externaldns_concourse_staging_cycloid_io__txt_ttl
+  type    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5__externaldns_concourse_staging_cycloid_io__txt_type
+  zone_id = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5__externaldns_concourse_staging_cycloid_io__txt_zone_id
+}
+
+resource "aws_route53_record" "_hostedzone_z1y2fjwxxm33o5__externaldns_console_admin_cycloid_io__txt" {
+  name    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5__externaldns_console_admin_cycloid_io__txt_name
+  records = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5__externaldns_console_admin_cycloid_io__txt_records
+  ttl     = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5__externaldns_console_admin_cycloid_io__txt_ttl
+  type    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5__externaldns_console_admin_cycloid_io__txt_type
+  zone_id = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5__externaldns_console_admin_cycloid_io__txt_zone_id
+}
+
+resource "aws_route53_record" "_hostedzone_z1y2fjwxxm33o5__externaldns_console_admin_prod_cycloid_io__txt" {
+  name    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5__externaldns_console_admin_prod_cycloid_io__txt_name
+  records = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5__externaldns_console_admin_prod_cycloid_io__txt_records
+  ttl     = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5__externaldns_console_admin_prod_cycloid_io__txt_ttl
+  type    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5__externaldns_console_admin_prod_cycloid_io__txt_type
+  zone_id = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5__externaldns_console_admin_prod_cycloid_io__txt_zone_id
+}
+
+resource "aws_route53_record" "_hostedzone_z1y2fjwxxm33o5__externaldns_console_admin_staging_cycloid_io__txt" {
+  name    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5__externaldns_console_admin_staging_cycloid_io__txt_name
+  records = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5__externaldns_console_admin_staging_cycloid_io__txt_records
+  ttl     = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5__externaldns_console_admin_staging_cycloid_io__txt_ttl
+  type    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5__externaldns_console_admin_staging_cycloid_io__txt_type
+  zone_id = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5__externaldns_console_admin_staging_cycloid_io__txt_zone_id
+}
+
+resource "aws_route53_record" "_hostedzone_z1y2fjwxxm33o5__externaldns_console_beta_cycloid_io__txt" {
+  name    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5__externaldns_console_beta_cycloid_io__txt_name
+  records = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5__externaldns_console_beta_cycloid_io__txt_records
+  ttl     = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5__externaldns_console_beta_cycloid_io__txt_ttl
+  type    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5__externaldns_console_beta_cycloid_io__txt_type
+  zone_id = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5__externaldns_console_beta_cycloid_io__txt_zone_id
+}
+
+resource "aws_route53_record" "_hostedzone_z1y2fjwxxm33o5__externaldns_console_cycloid_io__txt" {
+  name    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5__externaldns_console_cycloid_io__txt_name
+  records = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5__externaldns_console_cycloid_io__txt_records
+  ttl     = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5__externaldns_console_cycloid_io__txt_ttl
+  type    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5__externaldns_console_cycloid_io__txt_type
+  zone_id = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5__externaldns_console_cycloid_io__txt_zone_id
+}
+
+resource "aws_route53_record" "_hostedzone_z1y2fjwxxm33o5__externaldns_console_pr_4665_staging_cycloid_io__txt" {
+  name    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5__externaldns_console_pr_4665_staging_cycloid_io__txt_name
+  records = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5__externaldns_console_pr_4665_staging_cycloid_io__txt_records
+  ttl     = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5__externaldns_console_pr_4665_staging_cycloid_io__txt_ttl
+  type    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5__externaldns_console_pr_4665_staging_cycloid_io__txt_type
+  zone_id = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5__externaldns_console_pr_4665_staging_cycloid_io__txt_zone_id
+}
+
+resource "aws_route53_record" "_hostedzone_z1y2fjwxxm33o5__externaldns_console_pr_4793_staging_cycloid_io__txt" {
+  name    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5__externaldns_console_pr_4793_staging_cycloid_io__txt_name
+  records = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5__externaldns_console_pr_4793_staging_cycloid_io__txt_records
+  ttl     = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5__externaldns_console_pr_4793_staging_cycloid_io__txt_ttl
+  type    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5__externaldns_console_pr_4793_staging_cycloid_io__txt_type
+  zone_id = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5__externaldns_console_pr_4793_staging_cycloid_io__txt_zone_id
+}
+
+resource "aws_route53_record" "_hostedzone_z1y2fjwxxm33o5__externaldns_console_pr_4840_staging_cycloid_io__txt" {
+  name    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5__externaldns_console_pr_4840_staging_cycloid_io__txt_name
+  records = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5__externaldns_console_pr_4840_staging_cycloid_io__txt_records
+  ttl     = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5__externaldns_console_pr_4840_staging_cycloid_io__txt_ttl
+  type    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5__externaldns_console_pr_4840_staging_cycloid_io__txt_type
+  zone_id = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5__externaldns_console_pr_4840_staging_cycloid_io__txt_zone_id
+}
+
+resource "aws_route53_record" "_hostedzone_z1y2fjwxxm33o5__externaldns_console_pr_4938_staging_cycloid_io__txt" {
+  name    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5__externaldns_console_pr_4938_staging_cycloid_io__txt_name
+  records = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5__externaldns_console_pr_4938_staging_cycloid_io__txt_records
+  ttl     = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5__externaldns_console_pr_4938_staging_cycloid_io__txt_ttl
+  type    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5__externaldns_console_pr_4938_staging_cycloid_io__txt_type
+  zone_id = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5__externaldns_console_pr_4938_staging_cycloid_io__txt_zone_id
+}
+
+resource "aws_route53_record" "_hostedzone_z1y2fjwxxm33o5__externaldns_console_pr_4999_staging_cycloid_io__txt" {
+  name    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5__externaldns_console_pr_4999_staging_cycloid_io__txt_name
+  records = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5__externaldns_console_pr_4999_staging_cycloid_io__txt_records
+  ttl     = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5__externaldns_console_pr_4999_staging_cycloid_io__txt_ttl
+  type    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5__externaldns_console_pr_4999_staging_cycloid_io__txt_type
+  zone_id = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5__externaldns_console_pr_4999_staging_cycloid_io__txt_zone_id
+}
+
+resource "aws_route53_record" "_hostedzone_z1y2fjwxxm33o5__externaldns_console_pr_5015_staging_cycloid_io__txt" {
+  name    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5__externaldns_console_pr_5015_staging_cycloid_io__txt_name
+  records = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5__externaldns_console_pr_5015_staging_cycloid_io__txt_records
+  ttl     = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5__externaldns_console_pr_5015_staging_cycloid_io__txt_ttl
+  type    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5__externaldns_console_pr_5015_staging_cycloid_io__txt_type
+  zone_id = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5__externaldns_console_pr_5015_staging_cycloid_io__txt_zone_id
+}
+
+resource "aws_route53_record" "_hostedzone_z1y2fjwxxm33o5__externaldns_console_pr_5151_staging_cycloid_io__txt" {
+  name    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5__externaldns_console_pr_5151_staging_cycloid_io__txt_name
+  records = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5__externaldns_console_pr_5151_staging_cycloid_io__txt_records
+  ttl     = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5__externaldns_console_pr_5151_staging_cycloid_io__txt_ttl
+  type    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5__externaldns_console_pr_5151_staging_cycloid_io__txt_type
+  zone_id = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5__externaldns_console_pr_5151_staging_cycloid_io__txt_zone_id
+}
+
+resource "aws_route53_record" "_hostedzone_z1y2fjwxxm33o5__externaldns_console_pr_5200_staging_cycloid_io__txt" {
+  name    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5__externaldns_console_pr_5200_staging_cycloid_io__txt_name
+  records = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5__externaldns_console_pr_5200_staging_cycloid_io__txt_records
+  ttl     = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5__externaldns_console_pr_5200_staging_cycloid_io__txt_ttl
+  type    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5__externaldns_console_pr_5200_staging_cycloid_io__txt_type
+  zone_id = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5__externaldns_console_pr_5200_staging_cycloid_io__txt_zone_id
+}
+
+resource "aws_route53_record" "_hostedzone_z1y2fjwxxm33o5__externaldns_console_pr_5235_staging_cycloid_io__txt" {
+  name    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5__externaldns_console_pr_5235_staging_cycloid_io__txt_name
+  records = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5__externaldns_console_pr_5235_staging_cycloid_io__txt_records
+  ttl     = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5__externaldns_console_pr_5235_staging_cycloid_io__txt_ttl
+  type    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5__externaldns_console_pr_5235_staging_cycloid_io__txt_type
+  zone_id = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5__externaldns_console_pr_5235_staging_cycloid_io__txt_zone_id
+}
+
+resource "aws_route53_record" "_hostedzone_z1y2fjwxxm33o5__externaldns_console_pr_5239_staging_cycloid_io__txt" {
+  name    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5__externaldns_console_pr_5239_staging_cycloid_io__txt_name
+  records = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5__externaldns_console_pr_5239_staging_cycloid_io__txt_records
+  ttl     = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5__externaldns_console_pr_5239_staging_cycloid_io__txt_ttl
+  type    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5__externaldns_console_pr_5239_staging_cycloid_io__txt_type
+  zone_id = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5__externaldns_console_pr_5239_staging_cycloid_io__txt_zone_id
+}
+
+resource "aws_route53_record" "_hostedzone_z1y2fjwxxm33o5__externaldns_console_pr_5245_staging_cycloid_io__txt" {
+  name    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5__externaldns_console_pr_5245_staging_cycloid_io__txt_name
+  records = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5__externaldns_console_pr_5245_staging_cycloid_io__txt_records
+  ttl     = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5__externaldns_console_pr_5245_staging_cycloid_io__txt_ttl
+  type    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5__externaldns_console_pr_5245_staging_cycloid_io__txt_type
+  zone_id = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5__externaldns_console_pr_5245_staging_cycloid_io__txt_zone_id
+}
+
+resource "aws_route53_record" "_hostedzone_z1y2fjwxxm33o5__externaldns_console_pr_5269_staging_cycloid_io__txt" {
+  name    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5__externaldns_console_pr_5269_staging_cycloid_io__txt_name
+  records = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5__externaldns_console_pr_5269_staging_cycloid_io__txt_records
+  ttl     = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5__externaldns_console_pr_5269_staging_cycloid_io__txt_ttl
+  type    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5__externaldns_console_pr_5269_staging_cycloid_io__txt_type
+  zone_id = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5__externaldns_console_pr_5269_staging_cycloid_io__txt_zone_id
+}
+
+resource "aws_route53_record" "_hostedzone_z1y2fjwxxm33o5__externaldns_console_pr_5270_staging_cycloid_io__txt" {
+  name    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5__externaldns_console_pr_5270_staging_cycloid_io__txt_name
+  records = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5__externaldns_console_pr_5270_staging_cycloid_io__txt_records
+  ttl     = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5__externaldns_console_pr_5270_staging_cycloid_io__txt_ttl
+  type    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5__externaldns_console_pr_5270_staging_cycloid_io__txt_type
+  zone_id = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5__externaldns_console_pr_5270_staging_cycloid_io__txt_zone_id
+}
+
+resource "aws_route53_record" "_hostedzone_z1y2fjwxxm33o5__externaldns_console_pr_5271_staging_cycloid_io__txt" {
+  name    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5__externaldns_console_pr_5271_staging_cycloid_io__txt_name
+  records = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5__externaldns_console_pr_5271_staging_cycloid_io__txt_records
+  ttl     = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5__externaldns_console_pr_5271_staging_cycloid_io__txt_ttl
+  type    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5__externaldns_console_pr_5271_staging_cycloid_io__txt_type
+  zone_id = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5__externaldns_console_pr_5271_staging_cycloid_io__txt_zone_id
+}
+
+resource "aws_route53_record" "_hostedzone_z1y2fjwxxm33o5__externaldns_console_pr_5272_staging_cycloid_io__txt" {
+  name    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5__externaldns_console_pr_5272_staging_cycloid_io__txt_name
+  records = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5__externaldns_console_pr_5272_staging_cycloid_io__txt_records
+  ttl     = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5__externaldns_console_pr_5272_staging_cycloid_io__txt_ttl
+  type    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5__externaldns_console_pr_5272_staging_cycloid_io__txt_type
+  zone_id = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5__externaldns_console_pr_5272_staging_cycloid_io__txt_zone_id
+}
+
+resource "aws_route53_record" "_hostedzone_z1y2fjwxxm33o5__externaldns_console_pr_5286_staging_cycloid_io__txt" {
+  name    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5__externaldns_console_pr_5286_staging_cycloid_io__txt_name
+  records = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5__externaldns_console_pr_5286_staging_cycloid_io__txt_records
+  ttl     = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5__externaldns_console_pr_5286_staging_cycloid_io__txt_ttl
+  type    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5__externaldns_console_pr_5286_staging_cycloid_io__txt_type
+  zone_id = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5__externaldns_console_pr_5286_staging_cycloid_io__txt_zone_id
+}
+
+resource "aws_route53_record" "_hostedzone_z1y2fjwxxm33o5__externaldns_console_pr_5290_staging_cycloid_io__txt" {
+  name    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5__externaldns_console_pr_5290_staging_cycloid_io__txt_name
+  records = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5__externaldns_console_pr_5290_staging_cycloid_io__txt_records
+  ttl     = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5__externaldns_console_pr_5290_staging_cycloid_io__txt_ttl
+  type    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5__externaldns_console_pr_5290_staging_cycloid_io__txt_type
+  zone_id = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5__externaldns_console_pr_5290_staging_cycloid_io__txt_zone_id
+}
+
+resource "aws_route53_record" "_hostedzone_z1y2fjwxxm33o5__externaldns_console_staging_cycloid_io__txt" {
+  name    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5__externaldns_console_staging_cycloid_io__txt_name
+  records = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5__externaldns_console_staging_cycloid_io__txt_records
+  ttl     = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5__externaldns_console_staging_cycloid_io__txt_ttl
+  type    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5__externaldns_console_staging_cycloid_io__txt_type
+  zone_id = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5__externaldns_console_staging_cycloid_io__txt_zone_id
+}
+
+resource "aws_route53_record" "_hostedzone_z1y2fjwxxm33o5__externaldns_dashboard_infra_cycloid_io__txt" {
+  name    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5__externaldns_dashboard_infra_cycloid_io__txt_name
+  records = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5__externaldns_dashboard_infra_cycloid_io__txt_records
+  ttl     = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5__externaldns_dashboard_infra_cycloid_io__txt_ttl
+  type    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5__externaldns_dashboard_infra_cycloid_io__txt_type
+  zone_id = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5__externaldns_dashboard_infra_cycloid_io__txt_zone_id
+}
+
+resource "aws_route53_record" "_hostedzone_z1y2fjwxxm33o5__externaldns_docs_cycloid_io__txt" {
+  name    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5__externaldns_docs_cycloid_io__txt_name
+  records = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5__externaldns_docs_cycloid_io__txt_records
+  ttl     = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5__externaldns_docs_cycloid_io__txt_ttl
+  type    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5__externaldns_docs_cycloid_io__txt_type
+  zone_id = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5__externaldns_docs_cycloid_io__txt_zone_id
+}
+
+resource "aws_route53_record" "_hostedzone_z1y2fjwxxm33o5__externaldns_docs_pr_289_staging_cycloid_io__txt" {
+  name    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5__externaldns_docs_pr_289_staging_cycloid_io__txt_name
+  records = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5__externaldns_docs_pr_289_staging_cycloid_io__txt_records
+  ttl     = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5__externaldns_docs_pr_289_staging_cycloid_io__txt_ttl
+  type    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5__externaldns_docs_pr_289_staging_cycloid_io__txt_type
+  zone_id = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5__externaldns_docs_pr_289_staging_cycloid_io__txt_zone_id
+}
+
+resource "aws_route53_record" "_hostedzone_z1y2fjwxxm33o5__externaldns_docs_pr_291_staging_cycloid_io__txt" {
+  name    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5__externaldns_docs_pr_291_staging_cycloid_io__txt_name
+  records = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5__externaldns_docs_pr_291_staging_cycloid_io__txt_records
+  ttl     = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5__externaldns_docs_pr_291_staging_cycloid_io__txt_ttl
+  type    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5__externaldns_docs_pr_291_staging_cycloid_io__txt_type
+  zone_id = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5__externaldns_docs_pr_291_staging_cycloid_io__txt_zone_id
+}
+
+resource "aws_route53_record" "_hostedzone_z1y2fjwxxm33o5__externaldns_docs_pr_296_staging_cycloid_io__txt" {
+  name    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5__externaldns_docs_pr_296_staging_cycloid_io__txt_name
+  records = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5__externaldns_docs_pr_296_staging_cycloid_io__txt_records
+  ttl     = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5__externaldns_docs_pr_296_staging_cycloid_io__txt_ttl
+  type    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5__externaldns_docs_pr_296_staging_cycloid_io__txt_type
+  zone_id = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5__externaldns_docs_pr_296_staging_cycloid_io__txt_zone_id
+}
+
+resource "aws_route53_record" "_hostedzone_z1y2fjwxxm33o5__externaldns_docs_staging_cycloid_io__txt" {
+  name    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5__externaldns_docs_staging_cycloid_io__txt_name
+  records = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5__externaldns_docs_staging_cycloid_io__txt_records
+  ttl     = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5__externaldns_docs_staging_cycloid_io__txt_ttl
+  type    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5__externaldns_docs_staging_cycloid_io__txt_type
+  zone_id = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5__externaldns_docs_staging_cycloid_io__txt_zone_id
+}
+
+resource "aws_route53_record" "_hostedzone_z1y2fjwxxm33o5__externaldns_http_api_cycloid_io__txt" {
+  name    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5__externaldns_http_api_cycloid_io__txt_name
+  records = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5__externaldns_http_api_cycloid_io__txt_records
+  ttl     = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5__externaldns_http_api_cycloid_io__txt_ttl
+  type    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5__externaldns_http_api_cycloid_io__txt_type
+  zone_id = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5__externaldns_http_api_cycloid_io__txt_zone_id
+}
+
+resource "aws_route53_record" "_hostedzone_z1y2fjwxxm33o5__externaldns_http_api_staging_adminer_cycloid_io__txt" {
+  name    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5__externaldns_http_api_staging_adminer_cycloid_io__txt_name
+  records = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5__externaldns_http_api_staging_adminer_cycloid_io__txt_records
+  ttl     = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5__externaldns_http_api_staging_adminer_cycloid_io__txt_ttl
+  type    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5__externaldns_http_api_staging_adminer_cycloid_io__txt_type
+  zone_id = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5__externaldns_http_api_staging_adminer_cycloid_io__txt_zone_id
+}
+
+resource "aws_route53_record" "_hostedzone_z1y2fjwxxm33o5__externaldns_http_api_staging_cycloid_io__txt" {
+  name    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5__externaldns_http_api_staging_cycloid_io__txt_name
+  records = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5__externaldns_http_api_staging_cycloid_io__txt_records
+  ttl     = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5__externaldns_http_api_staging_cycloid_io__txt_ttl
+  type    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5__externaldns_http_api_staging_cycloid_io__txt_type
+  zone_id = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5__externaldns_http_api_staging_cycloid_io__txt_zone_id
+}
+
+resource "aws_route53_record" "_hostedzone_z1y2fjwxxm33o5__externaldns_jaeger_prod_cycloid_io__txt" {
+  name    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5__externaldns_jaeger_prod_cycloid_io__txt_name
+  records = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5__externaldns_jaeger_prod_cycloid_io__txt_records
+  ttl     = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5__externaldns_jaeger_prod_cycloid_io__txt_ttl
+  type    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5__externaldns_jaeger_prod_cycloid_io__txt_type
+  zone_id = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5__externaldns_jaeger_prod_cycloid_io__txt_zone_id
+}
+
+resource "aws_route53_record" "_hostedzone_z1y2fjwxxm33o5__externaldns_jaeger_staging_cycloid_io__txt" {
+  name    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5__externaldns_jaeger_staging_cycloid_io__txt_name
+  records = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5__externaldns_jaeger_staging_cycloid_io__txt_records
+  ttl     = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5__externaldns_jaeger_staging_cycloid_io__txt_ttl
+  type    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5__externaldns_jaeger_staging_cycloid_io__txt_type
+  zone_id = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5__externaldns_jaeger_staging_cycloid_io__txt_zone_id
+}
+
+resource "aws_route53_record" "_hostedzone_z1y2fjwxxm33o5__externaldns_metrics_cycloid_io__txt" {
+  name    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5__externaldns_metrics_cycloid_io__txt_name
+  records = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5__externaldns_metrics_cycloid_io__txt_records
+  ttl     = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5__externaldns_metrics_cycloid_io__txt_ttl
+  type    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5__externaldns_metrics_cycloid_io__txt_type
+  zone_id = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5__externaldns_metrics_cycloid_io__txt_zone_id
+}
+
+resource "aws_route53_record" "_hostedzone_z1y2fjwxxm33o5__externaldns_metrics_infra_cycloid_io__txt" {
+  name    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5__externaldns_metrics_infra_cycloid_io__txt_name
+  records = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5__externaldns_metrics_infra_cycloid_io__txt_records
+  ttl     = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5__externaldns_metrics_infra_cycloid_io__txt_ttl
+  type    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5__externaldns_metrics_infra_cycloid_io__txt_type
+  zone_id = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5__externaldns_metrics_infra_cycloid_io__txt_zone_id
+}
+
+resource "aws_route53_record" "_hostedzone_z1y2fjwxxm33o5__externaldns_paste_owl_cycloid_io__txt" {
+  name    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5__externaldns_paste_owl_cycloid_io__txt_name
+  records = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5__externaldns_paste_owl_cycloid_io__txt_records
+  ttl     = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5__externaldns_paste_owl_cycloid_io__txt_ttl
+  type    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5__externaldns_paste_owl_cycloid_io__txt_type
+  zone_id = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5__externaldns_paste_owl_cycloid_io__txt_zone_id
+}
+
+resource "aws_route53_record" "_hostedzone_z1y2fjwxxm33o5__externaldns_pastefile_owl_cycloid_io__txt" {
+  name    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5__externaldns_pastefile_owl_cycloid_io__txt_name
+  records = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5__externaldns_pastefile_owl_cycloid_io__txt_records
+  ttl     = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5__externaldns_pastefile_owl_cycloid_io__txt_ttl
+  type    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5__externaldns_pastefile_owl_cycloid_io__txt_type
+  zone_id = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5__externaldns_pastefile_owl_cycloid_io__txt_zone_id
+}
+
+resource "aws_route53_record" "_hostedzone_z1y2fjwxxm33o5__externaldns_prometheus_cycloid_io__txt" {
+  name    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5__externaldns_prometheus_cycloid_io__txt_name
+  records = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5__externaldns_prometheus_cycloid_io__txt_records
+  ttl     = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5__externaldns_prometheus_cycloid_io__txt_ttl
+  type    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5__externaldns_prometheus_cycloid_io__txt_type
+  zone_id = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5__externaldns_prometheus_cycloid_io__txt_zone_id
+}
+
+resource "aws_route53_record" "_hostedzone_z1y2fjwxxm33o5__externaldns_prometheus_infra_cycloid_io__txt" {
+  name    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5__externaldns_prometheus_infra_cycloid_io__txt_name
+  records = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5__externaldns_prometheus_infra_cycloid_io__txt_records
+  ttl     = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5__externaldns_prometheus_infra_cycloid_io__txt_ttl
+  type    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5__externaldns_prometheus_infra_cycloid_io__txt_type
+  zone_id = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5__externaldns_prometheus_infra_cycloid_io__txt_zone_id
+}
+
+resource "aws_route53_record" "_hostedzone_z1y2fjwxxm33o5__externaldns_registry_mirror_owl_cycloid_io__txt" {
+  name    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5__externaldns_registry_mirror_owl_cycloid_io__txt_name
+  records = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5__externaldns_registry_mirror_owl_cycloid_io__txt_records
+  ttl     = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5__externaldns_registry_mirror_owl_cycloid_io__txt_ttl
+  type    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5__externaldns_registry_mirror_owl_cycloid_io__txt_type
+  zone_id = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5__externaldns_registry_mirror_owl_cycloid_io__txt_zone_id
+}
+
+resource "aws_route53_record" "_hostedzone_z1y2fjwxxm33o5__externaldns_resque_web_prod_cycloid_io__txt" {
+  name    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5__externaldns_resque_web_prod_cycloid_io__txt_name
+  records = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5__externaldns_resque_web_prod_cycloid_io__txt_records
+  ttl     = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5__externaldns_resque_web_prod_cycloid_io__txt_ttl
+  type    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5__externaldns_resque_web_prod_cycloid_io__txt_type
+  zone_id = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5__externaldns_resque_web_prod_cycloid_io__txt_zone_id
+}
+
+resource "aws_route53_record" "_hostedzone_z1y2fjwxxm33o5__externaldns_resque_web_staging_cycloid_io__txt" {
+  name    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5__externaldns_resque_web_staging_cycloid_io__txt_name
+  records = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5__externaldns_resque_web_staging_cycloid_io__txt_records
+  ttl     = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5__externaldns_resque_web_staging_cycloid_io__txt_ttl
+  type    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5__externaldns_resque_web_staging_cycloid_io__txt_type
+  zone_id = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5__externaldns_resque_web_staging_cycloid_io__txt_zone_id
+}
+
+resource "aws_route53_record" "_hostedzone_z1y2fjwxxm33o5__externaldns_scheduler_cycloid_io__txt" {
+  name    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5__externaldns_scheduler_cycloid_io__txt_name
+  records = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5__externaldns_scheduler_cycloid_io__txt_records
+  ttl     = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5__externaldns_scheduler_cycloid_io__txt_ttl
+  type    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5__externaldns_scheduler_cycloid_io__txt_type
+  zone_id = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5__externaldns_scheduler_cycloid_io__txt_zone_id
+}
+
+resource "aws_route53_record" "_hostedzone_z1y2fjwxxm33o5__externaldns_sonarqube_infra_cycloid_io__txt" {
+  name    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5__externaldns_sonarqube_infra_cycloid_io__txt_name
+  records = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5__externaldns_sonarqube_infra_cycloid_io__txt_records
+  ttl     = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5__externaldns_sonarqube_infra_cycloid_io__txt_ttl
+  type    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5__externaldns_sonarqube_infra_cycloid_io__txt_type
+  zone_id = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5__externaldns_sonarqube_infra_cycloid_io__txt_zone_id
+}
+
+resource "aws_route53_record" "_hostedzone_z1y2fjwxxm33o5__externaldns_sorry_cypress_dashboard_staging_cycloid_io__txt" {
+  name    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5__externaldns_sorry_cypress_dashboard_staging_cycloid_io__txt_name
+  records = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5__externaldns_sorry_cypress_dashboard_staging_cycloid_io__txt_records
+  ttl     = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5__externaldns_sorry_cypress_dashboard_staging_cycloid_io__txt_ttl
+  type    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5__externaldns_sorry_cypress_dashboard_staging_cycloid_io__txt_type
+  zone_id = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5__externaldns_sorry_cypress_dashboard_staging_cycloid_io__txt_zone_id
+}
+
+resource "aws_route53_record" "_hostedzone_z1y2fjwxxm33o5__externaldns_sorry_cypress_director_staging_cycloid_io__txt" {
+  name    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5__externaldns_sorry_cypress_director_staging_cycloid_io__txt_name
+  records = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5__externaldns_sorry_cypress_director_staging_cycloid_io__txt_records
+  ttl     = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5__externaldns_sorry_cypress_director_staging_cycloid_io__txt_ttl
+  type    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5__externaldns_sorry_cypress_director_staging_cycloid_io__txt_type
+  zone_id = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5__externaldns_sorry_cypress_director_staging_cycloid_io__txt_zone_id
+}
+
+resource "aws_route53_record" "_hostedzone_z1y2fjwxxm33o5__externaldns_thanos_infra_cycloid_io__txt" {
+  name    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5__externaldns_thanos_infra_cycloid_io__txt_name
+  records = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5__externaldns_thanos_infra_cycloid_io__txt_records
+  ttl     = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5__externaldns_thanos_infra_cycloid_io__txt_ttl
+  type    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5__externaldns_thanos_infra_cycloid_io__txt_type
+  zone_id = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5__externaldns_thanos_infra_cycloid_io__txt_zone_id
+}
+
+resource "aws_route53_record" "_hostedzone_z1y2fjwxxm33o5__externaldns_vault_cycloid_io__txt" {
+  name    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5__externaldns_vault_cycloid_io__txt_name
+  records = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5__externaldns_vault_cycloid_io__txt_records
+  ttl     = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5__externaldns_vault_cycloid_io__txt_ttl
+  type    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5__externaldns_vault_cycloid_io__txt_type
+  zone_id = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5__externaldns_vault_cycloid_io__txt_zone_id
+}
+
+resource "aws_route53_record" "_hostedzone_z1y2fjwxxm33o5__externaldns_vault_staging_cycloid_io__txt" {
+  name    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5__externaldns_vault_staging_cycloid_io__txt_name
+  records = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5__externaldns_vault_staging_cycloid_io__txt_records
+  ttl     = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5__externaldns_vault_staging_cycloid_io__txt_ttl
+  type    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5__externaldns_vault_staging_cycloid_io__txt_type
+  zone_id = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5__externaldns_vault_staging_cycloid_io__txt_zone_id
+}
+
+resource "aws_route53_record" "_hostedzone_z1y2fjwxxm33o5__f5557fcb3aaae9391f7583e5cc9e7cca_cycloid_io__cname" {
+  name    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5__f5557fcb3aaae9391f7583e5cc9e7cca_cycloid_io__cname_name
+  records = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5__f5557fcb3aaae9391f7583e5cc9e7cca_cycloid_io__cname_records
+  ttl     = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5__f5557fcb3aaae9391f7583e5cc9e7cca_cycloid_io__cname_ttl
+  type    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5__f5557fcb3aaae9391f7583e5cc9e7cca_cycloid_io__cname_type
+  zone_id = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5__f5557fcb3aaae9391f7583e5cc9e7cca_cycloid_io__cname_zone_id
+}
+
+resource "aws_route53_record" "_hostedzone_z1y2fjwxxm33o5_adminer_staging_cycloid_io__cname" {
+  name    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_adminer_staging_cycloid_io__cname_name
+  records = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_adminer_staging_cycloid_io__cname_records
+  ttl     = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_adminer_staging_cycloid_io__cname_ttl
+  type    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_adminer_staging_cycloid_io__cname_type
+  zone_id = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_adminer_staging_cycloid_io__cname_zone_id
+}
+
+resource "aws_route53_record" "_hostedzone_z1y2fjwxxm33o5_alertmanager_0_infra_cycloid_io__cname" {
+  name    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_alertmanager_0_infra_cycloid_io__cname_name
+  records = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_alertmanager_0_infra_cycloid_io__cname_records
+  ttl     = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_alertmanager_0_infra_cycloid_io__cname_ttl
+  type    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_alertmanager_0_infra_cycloid_io__cname_type
+  zone_id = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_alertmanager_0_infra_cycloid_io__cname_zone_id
+}
+
+resource "aws_route53_record" "_hostedzone_z1y2fjwxxm33o5_alertmanager_1_infra_cycloid_io__cname" {
+  name    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_alertmanager_1_infra_cycloid_io__cname_name
+  records = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_alertmanager_1_infra_cycloid_io__cname_records
+  ttl     = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_alertmanager_1_infra_cycloid_io__cname_ttl
+  type    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_alertmanager_1_infra_cycloid_io__cname_type
+  zone_id = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_alertmanager_1_infra_cycloid_io__cname_zone_id
+}
+
+resource "aws_route53_record" "_hostedzone_z1y2fjwxxm33o5_alertmanager_cycloid_io__cname" {
+  name    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_alertmanager_cycloid_io__cname_name
+  records = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_alertmanager_cycloid_io__cname_records
+  ttl     = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_alertmanager_cycloid_io__cname_ttl
+  type    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_alertmanager_cycloid_io__cname_type
+  zone_id = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_alertmanager_cycloid_io__cname_zone_id
+}
+
+resource "aws_route53_record" "_hostedzone_z1y2fjwxxm33o5_alertmanager_infra_cycloid_io__cname" {
+  name    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_alertmanager_infra_cycloid_io__cname_name
+  records = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_alertmanager_infra_cycloid_io__cname_records
+  ttl     = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_alertmanager_infra_cycloid_io__cname_ttl
+  type    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_alertmanager_infra_cycloid_io__cname_type
+  zone_id = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_alertmanager_infra_cycloid_io__cname_zone_id
+}
+
+resource "aws_route53_record" "_hostedzone_z1y2fjwxxm33o5_alliance_reseaux_bastion_eu_we3_cycloid_io__a" {
+  name    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_alliance_reseaux_bastion_eu_we3_cycloid_io__a_name
+  records = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_alliance_reseaux_bastion_eu_we3_cycloid_io__a_records
+  ttl     = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_alliance_reseaux_bastion_eu_we3_cycloid_io__a_ttl
+  type    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_alliance_reseaux_bastion_eu_we3_cycloid_io__a_type
+  zone_id = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_alliance_reseaux_bastion_eu_we3_cycloid_io__a_zone_id
+}
+
+resource "aws_route53_record" "_hostedzone_z1y2fjwxxm33o5_alliance_reseaux_metrics_eu_we3_cycloid_io__a" {
+  name    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_alliance_reseaux_metrics_eu_we3_cycloid_io__a_name
+  records = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_alliance_reseaux_metrics_eu_we3_cycloid_io__a_records
+  ttl     = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_alliance_reseaux_metrics_eu_we3_cycloid_io__a_ttl
+  type    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_alliance_reseaux_metrics_eu_we3_cycloid_io__a_type
+  zone_id = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_alliance_reseaux_metrics_eu_we3_cycloid_io__a_zone_id
+}
+
+resource "aws_route53_record" "_hostedzone_z1y2fjwxxm33o5_ao2gjtzmoqlkllsoe6coiqx3ipthkq42__domainkey_millesima_ecocea_cycloid_io__cname" {
+  name    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_ao2gjtzmoqlkllsoe6coiqx3ipthkq42__domainkey_millesima_ecocea_cycloid_io__cname_name
+  records = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_ao2gjtzmoqlkllsoe6coiqx3ipthkq42__domainkey_millesima_ecocea_cycloid_io__cname_records
+  ttl     = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_ao2gjtzmoqlkllsoe6coiqx3ipthkq42__domainkey_millesima_ecocea_cycloid_io__cname_ttl
+  type    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_ao2gjtzmoqlkllsoe6coiqx3ipthkq42__domainkey_millesima_ecocea_cycloid_io__cname_type
+  zone_id = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_ao2gjtzmoqlkllsoe6coiqx3ipthkq42__domainkey_millesima_ecocea_cycloid_io__cname_zone_id
+}
+
+resource "aws_route53_record" "_hostedzone_z1y2fjwxxm33o5_api_staging_cycloid_io__cname" {
+  name    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_api_staging_cycloid_io__cname_name
+  records = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_api_staging_cycloid_io__cname_records
+  ttl     = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_api_staging_cycloid_io__cname_ttl
+  type    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_api_staging_cycloid_io__cname_type
+  zone_id = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_api_staging_cycloid_io__cname_zone_id
+}
+
+resource "aws_route53_record" "_hostedzone_z1y2fjwxxm33o5_approval_cycloid_io__cname" {
+  name    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_approval_cycloid_io__cname_name
+  records = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_approval_cycloid_io__cname_records
+  ttl     = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_approval_cycloid_io__cname_ttl
+  type    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_approval_cycloid_io__cname_type
+  zone_id = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_approval_cycloid_io__cname_zone_id
+}
+
+resource "aws_route53_record" "_hostedzone_z1y2fjwxxm33o5_approval_owl_cycloid_io__cname" {
+  name    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_approval_owl_cycloid_io__cname_name
+  records = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_approval_owl_cycloid_io__cname_records
+  ttl     = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_approval_owl_cycloid_io__cname_ttl
+  type    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_approval_owl_cycloid_io__cname_type
+  zone_id = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_approval_owl_cycloid_io__cname_zone_id
+}
+
+resource "aws_route53_record" "_hostedzone_z1y2fjwxxm33o5_approval_slack_cycloid_io__cname" {
+  name    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_approval_slack_cycloid_io__cname_name
+  records = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_approval_slack_cycloid_io__cname_records
+  ttl     = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_approval_slack_cycloid_io__cname_ttl
+  type    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_approval_slack_cycloid_io__cname_type
+  zone_id = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_approval_slack_cycloid_io__cname_zone_id
+}
+
+resource "aws_route53_record" "_hostedzone_z1y2fjwxxm33o5_approval_slack_owl_cycloid_io__cname" {
+  name    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_approval_slack_owl_cycloid_io__cname_name
+  records = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_approval_slack_owl_cycloid_io__cname_records
+  ttl     = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_approval_slack_owl_cycloid_io__cname_ttl
+  type    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_approval_slack_owl_cycloid_io__cname_type
+  zone_id = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_approval_slack_owl_cycloid_io__cname_zone_id
+}
+
+resource "aws_route53_record" "_hostedzone_z1y2fjwxxm33o5_appyourself_bastion_eu_we1_cycloid_io__a" {
+  name    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_appyourself_bastion_eu_we1_cycloid_io__a_name
+  records = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_appyourself_bastion_eu_we1_cycloid_io__a_records
+  ttl     = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_appyourself_bastion_eu_we1_cycloid_io__a_ttl
+  type    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_appyourself_bastion_eu_we1_cycloid_io__a_type
+  zone_id = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_appyourself_bastion_eu_we1_cycloid_io__a_zone_id
+}
+
+resource "aws_route53_record" "_hostedzone_z1y2fjwxxm33o5_atk_bastion_eu_we3_cycloid_io__a" {
+  name    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_atk_bastion_eu_we3_cycloid_io__a_name
+  records = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_atk_bastion_eu_we3_cycloid_io__a_records
+  ttl     = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_atk_bastion_eu_we3_cycloid_io__a_ttl
+  type    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_atk_bastion_eu_we3_cycloid_io__a_type
+  zone_id = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_atk_bastion_eu_we3_cycloid_io__a_zone_id
+}
+
+resource "aws_route53_record" "_hostedzone_z1y2fjwxxm33o5_atk_metrics_eu_we3_cycloid_io__a" {
+  name    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_atk_metrics_eu_we3_cycloid_io__a_name
+  records = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_atk_metrics_eu_we3_cycloid_io__a_records
+  ttl     = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_atk_metrics_eu_we3_cycloid_io__a_ttl
+  type    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_atk_metrics_eu_we3_cycloid_io__a_type
+  zone_id = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_atk_metrics_eu_we3_cycloid_io__a_zone_id
+}
+
+resource "aws_route53_record" "_hostedzone_z1y2fjwxxm33o5_auth_chat_cycloid_io__a" {
+  name    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_auth_chat_cycloid_io__a_name
+  records = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_auth_chat_cycloid_io__a_records
+  ttl     = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_auth_chat_cycloid_io__a_ttl
+  type    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_auth_chat_cycloid_io__a_type
+  zone_id = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_auth_chat_cycloid_io__a_zone_id
+}
+
+resource "aws_route53_record" "_hostedzone_z1y2fjwxxm33o5_bastion_cycloid_io__a" {
+  name    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_bastion_cycloid_io__a_name
+  records = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_bastion_cycloid_io__a_records
+  ttl     = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_bastion_cycloid_io__a_ttl
+  type    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_bastion_cycloid_io__a_type
+  zone_id = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_bastion_cycloid_io__a_zone_id
+}
+
+resource "aws_route53_record" "_hostedzone_z1y2fjwxxm33o5_blog_cycloid_io__cname" {
+  name    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_blog_cycloid_io__cname_name
+  records = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_blog_cycloid_io__cname_records
+  ttl     = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_blog_cycloid_io__cname_ttl
+  type    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_blog_cycloid_io__cname_type
+  zone_id = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_blog_cycloid_io__cname_zone_id
+}
+
+resource "aws_route53_record" "_hostedzone_z1y2fjwxxm33o5_cdn_cycloid_io__cname" {
+  name    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_cdn_cycloid_io__cname_name
+  records = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_cdn_cycloid_io__cname_records
+  ttl     = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_cdn_cycloid_io__cname_ttl
+  type    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_cdn_cycloid_io__cname_type
+  zone_id = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_cdn_cycloid_io__cname_zone_id
+}
+
+resource "aws_route53_record" "_hostedzone_z1y2fjwxxm33o5_chat_cycloid_io__a" {
+  name    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_chat_cycloid_io__a_name
+  records = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_chat_cycloid_io__a_records
+  ttl     = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_chat_cycloid_io__a_ttl
+  type    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_chat_cycloid_io__a_type
+  zone_id = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_chat_cycloid_io__a_zone_id
+}
+
+resource "aws_route53_record" "_hostedzone_z1y2fjwxxm33o5_community_chat_cycloid_io__a" {
+  name    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_community_chat_cycloid_io__a_name
+  records = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_community_chat_cycloid_io__a_records
+  ttl     = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_community_chat_cycloid_io__a_ttl
+  type    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_community_chat_cycloid_io__a_type
+  zone_id = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_community_chat_cycloid_io__a_zone_id
+}
+
+resource "aws_route53_record" "_hostedzone_z1y2fjwxxm33o5_concourse_cycloid_io__cname" {
+  name    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_concourse_cycloid_io__cname_name
+  records = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_concourse_cycloid_io__cname_records
+  ttl     = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_concourse_cycloid_io__cname_ttl
+  type    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_concourse_cycloid_io__cname_type
+  zone_id = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_concourse_cycloid_io__cname_zone_id
+}
+
+resource "aws_route53_record" "_hostedzone_z1y2fjwxxm33o5_concourse_infra_cycloid_io__cname" {
+  name    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_concourse_infra_cycloid_io__cname_name
+  records = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_concourse_infra_cycloid_io__cname_records
+  ttl     = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_concourse_infra_cycloid_io__cname_ttl
+  type    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_concourse_infra_cycloid_io__cname_type
+  zone_id = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_concourse_infra_cycloid_io__cname_zone_id
+}
+
+resource "aws_route53_record" "_hostedzone_z1y2fjwxxm33o5_concourse_staging_cycloid_io__cname" {
+  name    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_concourse_staging_cycloid_io__cname_name
+  records = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_concourse_staging_cycloid_io__cname_records
+  ttl     = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_concourse_staging_cycloid_io__cname_ttl
+  type    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_concourse_staging_cycloid_io__cname_type
+  zone_id = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_concourse_staging_cycloid_io__cname_zone_id
+}
+
+resource "aws_route53_record" "_hostedzone_z1y2fjwxxm33o5_console_admin_cycloid_io__cname" {
+  name    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_console_admin_cycloid_io__cname_name
+  records = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_console_admin_cycloid_io__cname_records
+  ttl     = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_console_admin_cycloid_io__cname_ttl
+  type    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_console_admin_cycloid_io__cname_type
+  zone_id = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_console_admin_cycloid_io__cname_zone_id
+}
+
+resource "aws_route53_record" "_hostedzone_z1y2fjwxxm33o5_console_admin_prod_cycloid_io__cname" {
+  name    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_console_admin_prod_cycloid_io__cname_name
+  records = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_console_admin_prod_cycloid_io__cname_records
+  ttl     = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_console_admin_prod_cycloid_io__cname_ttl
+  type    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_console_admin_prod_cycloid_io__cname_type
+  zone_id = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_console_admin_prod_cycloid_io__cname_zone_id
+}
+
+resource "aws_route53_record" "_hostedzone_z1y2fjwxxm33o5_console_admin_staging_cycloid_io__cname" {
+  name    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_console_admin_staging_cycloid_io__cname_name
+  records = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_console_admin_staging_cycloid_io__cname_records
+  ttl     = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_console_admin_staging_cycloid_io__cname_ttl
+  type    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_console_admin_staging_cycloid_io__cname_type
+  zone_id = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_console_admin_staging_cycloid_io__cname_zone_id
+}
+
+resource "aws_route53_record" "_hostedzone_z1y2fjwxxm33o5_console_beta_cycloid_io__cname" {
+  name    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_console_beta_cycloid_io__cname_name
+  records = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_console_beta_cycloid_io__cname_records
+  ttl     = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_console_beta_cycloid_io__cname_ttl
+  type    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_console_beta_cycloid_io__cname_type
+  zone_id = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_console_beta_cycloid_io__cname_zone_id
+}
+
+resource "aws_route53_record" "_hostedzone_z1y2fjwxxm33o5_console_cycloid_io__cname" {
+  name    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_console_cycloid_io__cname_name
+  records = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_console_cycloid_io__cname_records
+  ttl     = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_console_cycloid_io__cname_ttl
+  type    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_console_cycloid_io__cname_type
+  zone_id = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_console_cycloid_io__cname_zone_id
+}
+
+resource "aws_route53_record" "_hostedzone_z1y2fjwxxm33o5_console_pr_4665_staging_cycloid_io__cname" {
+  name    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_console_pr_4665_staging_cycloid_io__cname_name
+  records = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_console_pr_4665_staging_cycloid_io__cname_records
+  ttl     = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_console_pr_4665_staging_cycloid_io__cname_ttl
+  type    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_console_pr_4665_staging_cycloid_io__cname_type
+  zone_id = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_console_pr_4665_staging_cycloid_io__cname_zone_id
+}
+
+resource "aws_route53_record" "_hostedzone_z1y2fjwxxm33o5_console_pr_4793_staging_cycloid_io__cname" {
+  name    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_console_pr_4793_staging_cycloid_io__cname_name
+  records = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_console_pr_4793_staging_cycloid_io__cname_records
+  ttl     = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_console_pr_4793_staging_cycloid_io__cname_ttl
+  type    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_console_pr_4793_staging_cycloid_io__cname_type
+  zone_id = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_console_pr_4793_staging_cycloid_io__cname_zone_id
+}
+
+resource "aws_route53_record" "_hostedzone_z1y2fjwxxm33o5_console_pr_4840_staging_cycloid_io__cname" {
+  name    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_console_pr_4840_staging_cycloid_io__cname_name
+  records = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_console_pr_4840_staging_cycloid_io__cname_records
+  ttl     = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_console_pr_4840_staging_cycloid_io__cname_ttl
+  type    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_console_pr_4840_staging_cycloid_io__cname_type
+  zone_id = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_console_pr_4840_staging_cycloid_io__cname_zone_id
+}
+
+resource "aws_route53_record" "_hostedzone_z1y2fjwxxm33o5_console_pr_4938_staging_cycloid_io__cname" {
+  name    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_console_pr_4938_staging_cycloid_io__cname_name
+  records = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_console_pr_4938_staging_cycloid_io__cname_records
+  ttl     = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_console_pr_4938_staging_cycloid_io__cname_ttl
+  type    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_console_pr_4938_staging_cycloid_io__cname_type
+  zone_id = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_console_pr_4938_staging_cycloid_io__cname_zone_id
+}
+
+resource "aws_route53_record" "_hostedzone_z1y2fjwxxm33o5_console_pr_4999_staging_cycloid_io__cname" {
+  name    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_console_pr_4999_staging_cycloid_io__cname_name
+  records = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_console_pr_4999_staging_cycloid_io__cname_records
+  ttl     = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_console_pr_4999_staging_cycloid_io__cname_ttl
+  type    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_console_pr_4999_staging_cycloid_io__cname_type
+  zone_id = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_console_pr_4999_staging_cycloid_io__cname_zone_id
+}
+
+resource "aws_route53_record" "_hostedzone_z1y2fjwxxm33o5_console_pr_5015_staging_cycloid_io__cname" {
+  name    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_console_pr_5015_staging_cycloid_io__cname_name
+  records = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_console_pr_5015_staging_cycloid_io__cname_records
+  ttl     = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_console_pr_5015_staging_cycloid_io__cname_ttl
+  type    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_console_pr_5015_staging_cycloid_io__cname_type
+  zone_id = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_console_pr_5015_staging_cycloid_io__cname_zone_id
+}
+
+resource "aws_route53_record" "_hostedzone_z1y2fjwxxm33o5_console_pr_5151_staging_cycloid_io__cname" {
+  name    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_console_pr_5151_staging_cycloid_io__cname_name
+  records = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_console_pr_5151_staging_cycloid_io__cname_records
+  ttl     = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_console_pr_5151_staging_cycloid_io__cname_ttl
+  type    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_console_pr_5151_staging_cycloid_io__cname_type
+  zone_id = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_console_pr_5151_staging_cycloid_io__cname_zone_id
+}
+
+resource "aws_route53_record" "_hostedzone_z1y2fjwxxm33o5_console_pr_5200_staging_cycloid_io__cname" {
+  name    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_console_pr_5200_staging_cycloid_io__cname_name
+  records = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_console_pr_5200_staging_cycloid_io__cname_records
+  ttl     = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_console_pr_5200_staging_cycloid_io__cname_ttl
+  type    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_console_pr_5200_staging_cycloid_io__cname_type
+  zone_id = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_console_pr_5200_staging_cycloid_io__cname_zone_id
+}
+
+resource "aws_route53_record" "_hostedzone_z1y2fjwxxm33o5_console_pr_5235_staging_cycloid_io__cname" {
+  name    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_console_pr_5235_staging_cycloid_io__cname_name
+  records = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_console_pr_5235_staging_cycloid_io__cname_records
+  ttl     = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_console_pr_5235_staging_cycloid_io__cname_ttl
+  type    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_console_pr_5235_staging_cycloid_io__cname_type
+  zone_id = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_console_pr_5235_staging_cycloid_io__cname_zone_id
+}
+
+resource "aws_route53_record" "_hostedzone_z1y2fjwxxm33o5_console_pr_5239_staging_cycloid_io__cname" {
+  name    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_console_pr_5239_staging_cycloid_io__cname_name
+  records = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_console_pr_5239_staging_cycloid_io__cname_records
+  ttl     = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_console_pr_5239_staging_cycloid_io__cname_ttl
+  type    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_console_pr_5239_staging_cycloid_io__cname_type
+  zone_id = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_console_pr_5239_staging_cycloid_io__cname_zone_id
+}
+
+resource "aws_route53_record" "_hostedzone_z1y2fjwxxm33o5_console_pr_5245_staging_cycloid_io__cname" {
+  name    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_console_pr_5245_staging_cycloid_io__cname_name
+  records = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_console_pr_5245_staging_cycloid_io__cname_records
+  ttl     = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_console_pr_5245_staging_cycloid_io__cname_ttl
+  type    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_console_pr_5245_staging_cycloid_io__cname_type
+  zone_id = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_console_pr_5245_staging_cycloid_io__cname_zone_id
+}
+
+resource "aws_route53_record" "_hostedzone_z1y2fjwxxm33o5_console_pr_5269_staging_cycloid_io__cname" {
+  name    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_console_pr_5269_staging_cycloid_io__cname_name
+  records = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_console_pr_5269_staging_cycloid_io__cname_records
+  ttl     = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_console_pr_5269_staging_cycloid_io__cname_ttl
+  type    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_console_pr_5269_staging_cycloid_io__cname_type
+  zone_id = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_console_pr_5269_staging_cycloid_io__cname_zone_id
+}
+
+resource "aws_route53_record" "_hostedzone_z1y2fjwxxm33o5_console_pr_5270_staging_cycloid_io__cname" {
+  name    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_console_pr_5270_staging_cycloid_io__cname_name
+  records = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_console_pr_5270_staging_cycloid_io__cname_records
+  ttl     = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_console_pr_5270_staging_cycloid_io__cname_ttl
+  type    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_console_pr_5270_staging_cycloid_io__cname_type
+  zone_id = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_console_pr_5270_staging_cycloid_io__cname_zone_id
+}
+
+resource "aws_route53_record" "_hostedzone_z1y2fjwxxm33o5_console_pr_5271_staging_cycloid_io__cname" {
+  name    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_console_pr_5271_staging_cycloid_io__cname_name
+  records = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_console_pr_5271_staging_cycloid_io__cname_records
+  ttl     = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_console_pr_5271_staging_cycloid_io__cname_ttl
+  type    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_console_pr_5271_staging_cycloid_io__cname_type
+  zone_id = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_console_pr_5271_staging_cycloid_io__cname_zone_id
+}
+
+resource "aws_route53_record" "_hostedzone_z1y2fjwxxm33o5_console_pr_5272_staging_cycloid_io__cname" {
+  name    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_console_pr_5272_staging_cycloid_io__cname_name
+  records = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_console_pr_5272_staging_cycloid_io__cname_records
+  ttl     = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_console_pr_5272_staging_cycloid_io__cname_ttl
+  type    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_console_pr_5272_staging_cycloid_io__cname_type
+  zone_id = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_console_pr_5272_staging_cycloid_io__cname_zone_id
+}
+
+resource "aws_route53_record" "_hostedzone_z1y2fjwxxm33o5_console_pr_5286_staging_cycloid_io__cname" {
+  name    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_console_pr_5286_staging_cycloid_io__cname_name
+  records = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_console_pr_5286_staging_cycloid_io__cname_records
+  ttl     = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_console_pr_5286_staging_cycloid_io__cname_ttl
+  type    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_console_pr_5286_staging_cycloid_io__cname_type
+  zone_id = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_console_pr_5286_staging_cycloid_io__cname_zone_id
+}
+
+resource "aws_route53_record" "_hostedzone_z1y2fjwxxm33o5_console_pr_5290_staging_cycloid_io__cname" {
+  name    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_console_pr_5290_staging_cycloid_io__cname_name
+  records = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_console_pr_5290_staging_cycloid_io__cname_records
+  ttl     = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_console_pr_5290_staging_cycloid_io__cname_ttl
+  type    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_console_pr_5290_staging_cycloid_io__cname_type
+  zone_id = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_console_pr_5290_staging_cycloid_io__cname_zone_id
+}
+
+resource "aws_route53_record" "_hostedzone_z1y2fjwxxm33o5_console_staging_cycloid_io__cname" {
+  name    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_console_staging_cycloid_io__cname_name
+  records = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_console_staging_cycloid_io__cname_records
+  ttl     = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_console_staging_cycloid_io__cname_ttl
+  type    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_console_staging_cycloid_io__cname_type
+  zone_id = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_console_staging_cycloid_io__cname_zone_id
+}
+
+resource "aws_route53_record" "_hostedzone_z1y2fjwxxm33o5_cycloid_bastion_eu_we1_cycloid_io__cname" {
+  name    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_cycloid_bastion_eu_we1_cycloid_io__cname_name
+  records = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_cycloid_bastion_eu_we1_cycloid_io__cname_records
+  ttl     = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_cycloid_bastion_eu_we1_cycloid_io__cname_ttl
+  type    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_cycloid_bastion_eu_we1_cycloid_io__cname_type
+  zone_id = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_cycloid_bastion_eu_we1_cycloid_io__cname_zone_id
+}
+
+resource "aws_route53_record" "_hostedzone_z1y2fjwxxm33o5_cycloid_io__a" {
+  alias {
+    evaluate_target_health = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_cycloid_io__a_alias_evaluate_target_health
+    name                   = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_cycloid_io__a_alias_name
+    zone_id                = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_cycloid_io__a_alias_zone_id
+  }
+
+  name    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_cycloid_io__a_name
+  type    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_cycloid_io__a_type
+  zone_id = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_cycloid_io__a_zone_id
+}
+
+resource "aws_route53_record" "_hostedzone_z1y2fjwxxm33o5_cycloid_io__mx" {
+  name    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_cycloid_io__mx_name
+  records = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_cycloid_io__mx_records
+  ttl     = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_cycloid_io__mx_ttl
+  type    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_cycloid_io__mx_type
+  zone_id = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_cycloid_io__mx_zone_id
+}
+
+resource "aws_route53_record" "_hostedzone_z1y2fjwxxm33o5_cycloid_io__ns" {
+  name    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_cycloid_io__ns_name
+  records = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_cycloid_io__ns_records
+  ttl     = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_cycloid_io__ns_ttl
+  type    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_cycloid_io__ns_type
+  zone_id = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_cycloid_io__ns_zone_id
+}
+
+resource "aws_route53_record" "_hostedzone_z1y2fjwxxm33o5_cycloid_io__soa" {
+  name    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_cycloid_io__soa_name
+  records = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_cycloid_io__soa_records
+  ttl     = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_cycloid_io__soa_ttl
+  type    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_cycloid_io__soa_type
+  zone_id = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_cycloid_io__soa_zone_id
+}
+
+resource "aws_route53_record" "_hostedzone_z1y2fjwxxm33o5_cycloid_io__txt" {
+  name    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_cycloid_io__txt_name
+  records = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_cycloid_io__txt_records
+  ttl     = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_cycloid_io__txt_ttl
+  type    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_cycloid_io__txt_type
+  zone_id = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_cycloid_io__txt_zone_id
+}
+
+resource "aws_route53_record" "_hostedzone_z1y2fjwxxm33o5_cycloid_monitoring0_eu_we1_cycloid_io__a" {
+  name    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_cycloid_monitoring0_eu_we1_cycloid_io__a_name
+  records = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_cycloid_monitoring0_eu_we1_cycloid_io__a_records
+  ttl     = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_cycloid_monitoring0_eu_we1_cycloid_io__a_ttl
+  type    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_cycloid_monitoring0_eu_we1_cycloid_io__a_type
+  zone_id = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_cycloid_monitoring0_eu_we1_cycloid_io__a_zone_id
+}
+
+resource "aws_route53_record" "_hostedzone_z1y2fjwxxm33o5_dashboard_infra_cycloid_io__cname" {
+  name    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_dashboard_infra_cycloid_io__cname_name
+  records = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_dashboard_infra_cycloid_io__cname_records
+  ttl     = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_dashboard_infra_cycloid_io__cname_ttl
+  type    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_dashboard_infra_cycloid_io__cname_type
+  zone_id = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_dashboard_infra_cycloid_io__cname_zone_id
+}
+
+resource "aws_route53_record" "_hostedzone_z1y2fjwxxm33o5_demo_cycloid_io__a" {
+  alias {
+    evaluate_target_health = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_demo_cycloid_io__a_alias_evaluate_target_health
+    name                   = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_demo_cycloid_io__a_alias_name
+    zone_id                = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_demo_cycloid_io__a_alias_zone_id
+  }
+
+  name    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_demo_cycloid_io__a_name
+  type    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_demo_cycloid_io__a_type
+  zone_id = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_demo_cycloid_io__a_zone_id
+}
+
+resource "aws_route53_record" "_hostedzone_z1y2fjwxxm33o5_docs_cycloid_io__cname" {
+  name    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_docs_cycloid_io__cname_name
+  records = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_docs_cycloid_io__cname_records
+  ttl     = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_docs_cycloid_io__cname_ttl
+  type    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_docs_cycloid_io__cname_type
+  zone_id = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_docs_cycloid_io__cname_zone_id
+}
+
+resource "aws_route53_record" "_hostedzone_z1y2fjwxxm33o5_docs_pr_289_staging_cycloid_io__cname" {
+  name    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_docs_pr_289_staging_cycloid_io__cname_name
+  records = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_docs_pr_289_staging_cycloid_io__cname_records
+  ttl     = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_docs_pr_289_staging_cycloid_io__cname_ttl
+  type    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_docs_pr_289_staging_cycloid_io__cname_type
+  zone_id = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_docs_pr_289_staging_cycloid_io__cname_zone_id
+}
+
+resource "aws_route53_record" "_hostedzone_z1y2fjwxxm33o5_docs_pr_291_staging_cycloid_io__cname" {
+  name    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_docs_pr_291_staging_cycloid_io__cname_name
+  records = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_docs_pr_291_staging_cycloid_io__cname_records
+  ttl     = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_docs_pr_291_staging_cycloid_io__cname_ttl
+  type    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_docs_pr_291_staging_cycloid_io__cname_type
+  zone_id = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_docs_pr_291_staging_cycloid_io__cname_zone_id
+}
+
+resource "aws_route53_record" "_hostedzone_z1y2fjwxxm33o5_docs_pr_296_staging_cycloid_io__cname" {
+  name    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_docs_pr_296_staging_cycloid_io__cname_name
+  records = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_docs_pr_296_staging_cycloid_io__cname_records
+  ttl     = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_docs_pr_296_staging_cycloid_io__cname_ttl
+  type    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_docs_pr_296_staging_cycloid_io__cname_type
+  zone_id = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_docs_pr_296_staging_cycloid_io__cname_zone_id
+}
+
+resource "aws_route53_record" "_hostedzone_z1y2fjwxxm33o5_docs_staging_cycloid_io__cname" {
+  name    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_docs_staging_cycloid_io__cname_name
+  records = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_docs_staging_cycloid_io__cname_records
+  ttl     = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_docs_staging_cycloid_io__cname_ttl
+  type    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_docs_staging_cycloid_io__cname_type
+  zone_id = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_docs_staging_cycloid_io__cname_zone_id
+}
+
+resource "aws_route53_record" "_hostedzone_z1y2fjwxxm33o5_e54bcyprojwcs7d72ltxvyytptnn27q6__domainkey_cycloid_io__cname" {
+  name    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_e54bcyprojwcs7d72ltxvyytptnn27q6__domainkey_cycloid_io__cname_name
+  records = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_e54bcyprojwcs7d72ltxvyytptnn27q6__domainkey_cycloid_io__cname_records
+  ttl     = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_e54bcyprojwcs7d72ltxvyytptnn27q6__domainkey_cycloid_io__cname_ttl
+  type    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_e54bcyprojwcs7d72ltxvyytptnn27q6__domainkey_cycloid_io__cname_type
+  zone_id = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_e54bcyprojwcs7d72ltxvyytptnn27q6__domainkey_cycloid_io__cname_zone_id
+}
+
+resource "aws_route53_record" "_hostedzone_z1y2fjwxxm33o5_email_cycloid_io__cname" {
+  name    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_email_cycloid_io__cname_name
+  records = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_email_cycloid_io__cname_records
+  ttl     = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_email_cycloid_io__cname_ttl
+  type    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_email_cycloid_io__cname_type
+  zone_id = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_email_cycloid_io__cname_zone_id
+}
+
+resource "aws_route53_record" "_hostedzone_z1y2fjwxxm33o5_fqjkdmcpcvkthh5vvaxa6ydjxd2uj2vj__domainkey_frizbiz_cycloid_io__cname" {
+  name    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_fqjkdmcpcvkthh5vvaxa6ydjxd2uj2vj__domainkey_frizbiz_cycloid_io__cname_name
+  records = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_fqjkdmcpcvkthh5vvaxa6ydjxd2uj2vj__domainkey_frizbiz_cycloid_io__cname_records
+  ttl     = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_fqjkdmcpcvkthh5vvaxa6ydjxd2uj2vj__domainkey_frizbiz_cycloid_io__cname_ttl
+  type    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_fqjkdmcpcvkthh5vvaxa6ydjxd2uj2vj__domainkey_frizbiz_cycloid_io__cname_type
+  zone_id = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_fqjkdmcpcvkthh5vvaxa6ydjxd2uj2vj__domainkey_frizbiz_cycloid_io__cname_zone_id
+}
+
+resource "aws_route53_record" "_hostedzone_z1y2fjwxxm33o5_francetv_bastion_eu_we1_cycloid_io__a" {
+  name    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_francetv_bastion_eu_we1_cycloid_io__a_name
+  records = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_francetv_bastion_eu_we1_cycloid_io__a_records
+  ttl     = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_francetv_bastion_eu_we1_cycloid_io__a_ttl
+  type    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_francetv_bastion_eu_we1_cycloid_io__a_type
+  zone_id = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_francetv_bastion_eu_we1_cycloid_io__a_zone_id
+}
+
+resource "aws_route53_record" "_hostedzone_z1y2fjwxxm33o5_frizbiz_bastion_eu_we1_cycloid_io__a" {
+  name    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_frizbiz_bastion_eu_we1_cycloid_io__a_name
+  records = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_frizbiz_bastion_eu_we1_cycloid_io__a_records
+  ttl     = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_frizbiz_bastion_eu_we1_cycloid_io__a_ttl
+  type    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_frizbiz_bastion_eu_we1_cycloid_io__a_type
+  zone_id = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_frizbiz_bastion_eu_we1_cycloid_io__a_zone_id
+}
+
+resource "aws_route53_record" "_hostedzone_z1y2fjwxxm33o5_frizbiz_metrics_eu_we1_cycloid_io__a" {
+  name    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_frizbiz_metrics_eu_we1_cycloid_io__a_name
+  records = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_frizbiz_metrics_eu_we1_cycloid_io__a_records
+  ttl     = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_frizbiz_metrics_eu_we1_cycloid_io__a_ttl
+  type    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_frizbiz_metrics_eu_we1_cycloid_io__a_type
+  zone_id = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_frizbiz_metrics_eu_we1_cycloid_io__a_zone_id
+}
+
+resource "aws_route53_record" "_hostedzone_z1y2fjwxxm33o5_frizbiz_monitoring_eu_we1_cycloid_io__a" {
+  name    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_frizbiz_monitoring_eu_we1_cycloid_io__a_name
+  records = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_frizbiz_monitoring_eu_we1_cycloid_io__a_records
+  ttl     = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_frizbiz_monitoring_eu_we1_cycloid_io__a_ttl
+  type    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_frizbiz_monitoring_eu_we1_cycloid_io__a_type
+  zone_id = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_frizbiz_monitoring_eu_we1_cycloid_io__a_zone_id
+}
+
+resource "aws_route53_record" "_hostedzone_z1y2fjwxxm33o5_fundshop_bastion_eu_we1_cycloid_io__a" {
+  name    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_fundshop_bastion_eu_we1_cycloid_io__a_name
+  records = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_fundshop_bastion_eu_we1_cycloid_io__a_records
+  ttl     = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_fundshop_bastion_eu_we1_cycloid_io__a_ttl
+  type    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_fundshop_bastion_eu_we1_cycloid_io__a_type
+  zone_id = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_fundshop_bastion_eu_we1_cycloid_io__a_zone_id
+}
+
+resource "aws_route53_record" "_hostedzone_z1y2fjwxxm33o5_fundshop_metrics_eu_we1_cycloid_io__a" {
+  name    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_fundshop_metrics_eu_we1_cycloid_io__a_name
+  records = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_fundshop_metrics_eu_we1_cycloid_io__a_records
+  ttl     = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_fundshop_metrics_eu_we1_cycloid_io__a_ttl
+  type    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_fundshop_metrics_eu_we1_cycloid_io__a_type
+  zone_id = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_fundshop_metrics_eu_we1_cycloid_io__a_zone_id
+}
+
+resource "aws_route53_record" "_hostedzone_z1y2fjwxxm33o5_fundshop_monitoring_eu_we1_cycloid_io__a" {
+  name    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_fundshop_monitoring_eu_we1_cycloid_io__a_name
+  records = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_fundshop_monitoring_eu_we1_cycloid_io__a_records
+  ttl     = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_fundshop_monitoring_eu_we1_cycloid_io__a_ttl
+  type    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_fundshop_monitoring_eu_we1_cycloid_io__a_type
+  zone_id = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_fundshop_monitoring_eu_we1_cycloid_io__a_zone_id
+}
+
+resource "aws_route53_record" "_hostedzone_z1y2fjwxxm33o5_google__domainkey_cycloid_io__txt" {
+  name    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_google__domainkey_cycloid_io__txt_name
+  records = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_google__domainkey_cycloid_io__txt_records
+  ttl     = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_google__domainkey_cycloid_io__txt_ttl
+  type    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_google__domainkey_cycloid_io__txt_type
+  zone_id = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_google__domainkey_cycloid_io__txt_zone_id
+}
+
+resource "aws_route53_record" "_hostedzone_z1y2fjwxxm33o5_hpi_group_alerts_eu_we3_cycloid_io__a" {
+  name    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_hpi_group_alerts_eu_we3_cycloid_io__a_name
+  records = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_hpi_group_alerts_eu_we3_cycloid_io__a_records
+  ttl     = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_hpi_group_alerts_eu_we3_cycloid_io__a_ttl
+  type    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_hpi_group_alerts_eu_we3_cycloid_io__a_type
+  zone_id = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_hpi_group_alerts_eu_we3_cycloid_io__a_zone_id
+}
+
+resource "aws_route53_record" "_hostedzone_z1y2fjwxxm33o5_hpi_group_bastion_eu_we3_cycloid_io__a" {
+  name    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_hpi_group_bastion_eu_we3_cycloid_io__a_name
+  records = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_hpi_group_bastion_eu_we3_cycloid_io__a_records
+  ttl     = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_hpi_group_bastion_eu_we3_cycloid_io__a_ttl
+  type    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_hpi_group_bastion_eu_we3_cycloid_io__a_type
+  zone_id = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_hpi_group_bastion_eu_we3_cycloid_io__a_zone_id
+}
+
+resource "aws_route53_record" "_hostedzone_z1y2fjwxxm33o5_hpi_group_graphs_eu_we3_cycloid_io__a" {
+  name    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_hpi_group_graphs_eu_we3_cycloid_io__a_name
+  records = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_hpi_group_graphs_eu_we3_cycloid_io__a_records
+  ttl     = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_hpi_group_graphs_eu_we3_cycloid_io__a_ttl
+  type    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_hpi_group_graphs_eu_we3_cycloid_io__a_type
+  zone_id = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_hpi_group_graphs_eu_we3_cycloid_io__a_zone_id
+}
+
+resource "aws_route53_record" "_hostedzone_z1y2fjwxxm33o5_hpi_group_metrics_eu_we3_cycloid_io__a" {
+  name    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_hpi_group_metrics_eu_we3_cycloid_io__a_name
+  records = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_hpi_group_metrics_eu_we3_cycloid_io__a_records
+  ttl     = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_hpi_group_metrics_eu_we3_cycloid_io__a_ttl
+  type    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_hpi_group_metrics_eu_we3_cycloid_io__a_type
+  zone_id = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_hpi_group_metrics_eu_we3_cycloid_io__a_zone_id
+}
+
+resource "aws_route53_record" "_hostedzone_z1y2fjwxxm33o5_hs1__domainkey_cycloid_io__cname" {
+  name    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_hs1__domainkey_cycloid_io__cname_name
+  records = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_hs1__domainkey_cycloid_io__cname_records
+  ttl     = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_hs1__domainkey_cycloid_io__cname_ttl
+  type    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_hs1__domainkey_cycloid_io__cname_type
+  zone_id = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_hs1__domainkey_cycloid_io__cname_zone_id
+}
+
+resource "aws_route53_record" "_hostedzone_z1y2fjwxxm33o5_hs2__domainkey_cycloid_io__cname" {
+  name    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_hs2__domainkey_cycloid_io__cname_name
+  records = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_hs2__domainkey_cycloid_io__cname_records
+  ttl     = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_hs2__domainkey_cycloid_io__cname_ttl
+  type    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_hs2__domainkey_cycloid_io__cname_type
+  zone_id = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_hs2__domainkey_cycloid_io__cname_zone_id
+}
+
+resource "aws_route53_record" "_hostedzone_z1y2fjwxxm33o5_http_api_cycloid_io__cname" {
+  name    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_http_api_cycloid_io__cname_name
+  records = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_http_api_cycloid_io__cname_records
+  ttl     = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_http_api_cycloid_io__cname_ttl
+  type    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_http_api_cycloid_io__cname_type
+  zone_id = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_http_api_cycloid_io__cname_zone_id
+}
+
+resource "aws_route53_record" "_hostedzone_z1y2fjwxxm33o5_http_api_staging_adminer_cycloid_io__cname" {
+  name    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_http_api_staging_adminer_cycloid_io__cname_name
+  records = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_http_api_staging_adminer_cycloid_io__cname_records
+  ttl     = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_http_api_staging_adminer_cycloid_io__cname_ttl
+  type    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_http_api_staging_adminer_cycloid_io__cname_type
+  zone_id = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_http_api_staging_adminer_cycloid_io__cname_zone_id
+}
+
+resource "aws_route53_record" "_hostedzone_z1y2fjwxxm33o5_http_api_staging_cycloid_io__cname" {
+  name    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_http_api_staging_cycloid_io__cname_name
+  records = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_http_api_staging_cycloid_io__cname_records
+  ttl     = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_http_api_staging_cycloid_io__cname_ttl
+  type    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_http_api_staging_cycloid_io__cname_type
+  zone_id = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_http_api_staging_cycloid_io__cname_zone_id
+}
+
+resource "aws_route53_record" "_hostedzone_z1y2fjwxxm33o5_hv7mbpjfckuphhfzolfqkvtlpws57vpa__domainkey_storyssimo_cycloid_io__cname" {
+  name    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_hv7mbpjfckuphhfzolfqkvtlpws57vpa__domainkey_storyssimo_cycloid_io__cname_name
+  records = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_hv7mbpjfckuphhfzolfqkvtlpws57vpa__domainkey_storyssimo_cycloid_io__cname_records
+  ttl     = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_hv7mbpjfckuphhfzolfqkvtlpws57vpa__domainkey_storyssimo_cycloid_io__cname_ttl
+  type    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_hv7mbpjfckuphhfzolfqkvtlpws57vpa__domainkey_storyssimo_cycloid_io__cname_type
+  zone_id = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_hv7mbpjfckuphhfzolfqkvtlpws57vpa__domainkey_storyssimo_cycloid_io__cname_zone_id
+}
+
+resource "aws_route53_record" "_hostedzone_z1y2fjwxxm33o5_img_cycloid_io__cname" {
+  name    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_img_cycloid_io__cname_name
+  records = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_img_cycloid_io__cname_records
+  ttl     = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_img_cycloid_io__cname_ttl
+  type    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_img_cycloid_io__cname_type
+  zone_id = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_img_cycloid_io__cname_zone_id
+}
+
+resource "aws_route53_record" "_hostedzone_z1y2fjwxxm33o5_info_cycloid_io__cname" {
+  name    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_info_cycloid_io__cname_name
+  records = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_info_cycloid_io__cname_records
+  ttl     = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_info_cycloid_io__cname_ttl
+  type    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_info_cycloid_io__cname_type
+  zone_id = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_info_cycloid_io__cname_zone_id
+}
+
+resource "aws_route53_record" "_hostedzone_z1y2fjwxxm33o5_jaeger_prod_cycloid_io__cname" {
+  name    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_jaeger_prod_cycloid_io__cname_name
+  records = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_jaeger_prod_cycloid_io__cname_records
+  ttl     = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_jaeger_prod_cycloid_io__cname_ttl
+  type    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_jaeger_prod_cycloid_io__cname_type
+  zone_id = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_jaeger_prod_cycloid_io__cname_zone_id
+}
+
+resource "aws_route53_record" "_hostedzone_z1y2fjwxxm33o5_jaeger_staging_cycloid_io__cname" {
+  name    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_jaeger_staging_cycloid_io__cname_name
+  records = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_jaeger_staging_cycloid_io__cname_records
+  ttl     = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_jaeger_staging_cycloid_io__cname_ttl
+  type    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_jaeger_staging_cycloid_io__cname_type
+  zone_id = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_jaeger_staging_cycloid_io__cname_zone_id
+}
+
+resource "aws_route53_record" "_hostedzone_z1y2fjwxxm33o5_link_cycloid_io__cname" {
+  name    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_link_cycloid_io__cname_name
+  records = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_link_cycloid_io__cname_records
+  ttl     = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_link_cycloid_io__cname_ttl
+  type    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_link_cycloid_io__cname_type
+  zone_id = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_link_cycloid_io__cname_zone_id
+}
+
+resource "aws_route53_record" "_hostedzone_z1y2fjwxxm33o5_lipskymedia_bastion_eu_we1_cycloid_io__a" {
+  name    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_lipskymedia_bastion_eu_we1_cycloid_io__a_name
+  records = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_lipskymedia_bastion_eu_we1_cycloid_io__a_records
+  ttl     = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_lipskymedia_bastion_eu_we1_cycloid_io__a_ttl
+  type    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_lipskymedia_bastion_eu_we1_cycloid_io__a_type
+  zone_id = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_lipskymedia_bastion_eu_we1_cycloid_io__a_zone_id
+}
+
+resource "aws_route53_record" "_hostedzone_z1y2fjwxxm33o5_lipskymedia_metrics_eu_we1_cycloid_io__a" {
+  name    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_lipskymedia_metrics_eu_we1_cycloid_io__a_name
+  records = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_lipskymedia_metrics_eu_we1_cycloid_io__a_records
+  ttl     = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_lipskymedia_metrics_eu_we1_cycloid_io__a_ttl
+  type    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_lipskymedia_metrics_eu_we1_cycloid_io__a_type
+  zone_id = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_lipskymedia_metrics_eu_we1_cycloid_io__a_zone_id
+}
+
+resource "aws_route53_record" "_hostedzone_z1y2fjwxxm33o5_lipskymedia_monitoring_eu_we1_cycloid_io__a" {
+  name    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_lipskymedia_monitoring_eu_we1_cycloid_io__a_name
+  records = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_lipskymedia_monitoring_eu_we1_cycloid_io__a_records
+  ttl     = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_lipskymedia_monitoring_eu_we1_cycloid_io__a_ttl
+  type    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_lipskymedia_monitoring_eu_we1_cycloid_io__a_type
+  zone_id = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_lipskymedia_monitoring_eu_we1_cycloid_io__a_zone_id
+}
+
+resource "aws_route53_record" "_hostedzone_z1y2fjwxxm33o5_metrics_cycloid_io__cname" {
+  name    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_metrics_cycloid_io__cname_name
+  records = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_metrics_cycloid_io__cname_records
+  ttl     = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_metrics_cycloid_io__cname_ttl
+  type    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_metrics_cycloid_io__cname_type
+  zone_id = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_metrics_cycloid_io__cname_zone_id
+}
+
+resource "aws_route53_record" "_hostedzone_z1y2fjwxxm33o5_metrics_infra_cycloid_io__cname" {
+  name    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_metrics_infra_cycloid_io__cname_name
+  records = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_metrics_infra_cycloid_io__cname_records
+  ttl     = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_metrics_infra_cycloid_io__cname_ttl
+  type    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_metrics_infra_cycloid_io__cname_type
+  zone_id = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_metrics_infra_cycloid_io__cname_zone_id
+}
+
+resource "aws_route53_record" "_hostedzone_z1y2fjwxxm33o5_mfw7nyv4lyi7ls6nki7aor5rciv3khm7__domainkey_atk_cycloid_io__cname" {
+  name    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_mfw7nyv4lyi7ls6nki7aor5rciv3khm7__domainkey_atk_cycloid_io__cname_name
+  records = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_mfw7nyv4lyi7ls6nki7aor5rciv3khm7__domainkey_atk_cycloid_io__cname_records
+  ttl     = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_mfw7nyv4lyi7ls6nki7aor5rciv3khm7__domainkey_atk_cycloid_io__cname_ttl
+  type    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_mfw7nyv4lyi7ls6nki7aor5rciv3khm7__domainkey_atk_cycloid_io__cname_type
+  zone_id = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_mfw7nyv4lyi7ls6nki7aor5rciv3khm7__domainkey_atk_cycloid_io__cname_zone_id
+}
+
+resource "aws_route53_record" "_hostedzone_z1y2fjwxxm33o5_millesima_bastion_eu_we1_cycloid_io__a" {
+  name    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_millesima_bastion_eu_we1_cycloid_io__a_name
+  records = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_millesima_bastion_eu_we1_cycloid_io__a_records
+  ttl     = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_millesima_bastion_eu_we1_cycloid_io__a_ttl
+  type    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_millesima_bastion_eu_we1_cycloid_io__a_type
+  zone_id = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_millesima_bastion_eu_we1_cycloid_io__a_zone_id
+}
+
+resource "aws_route53_record" "_hostedzone_z1y2fjwxxm33o5_monitoring_cycloid_io__cname" {
+  name    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_monitoring_cycloid_io__cname_name
+  records = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_monitoring_cycloid_io__cname_records
+  ttl     = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_monitoring_cycloid_io__cname_ttl
+  type    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_monitoring_cycloid_io__cname_type
+  zone_id = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_monitoring_cycloid_io__cname_zone_id
+}
+
+resource "aws_route53_record" "_hostedzone_z1y2fjwxxm33o5_mta0__domainkey_cycloid_io__txt" {
+  name    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_mta0__domainkey_cycloid_io__txt_name
+  records = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_mta0__domainkey_cycloid_io__txt_records
+  ttl     = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_mta0__domainkey_cycloid_io__txt_ttl
+  type    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_mta0__domainkey_cycloid_io__txt_type
+  zone_id = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_mta0__domainkey_cycloid_io__txt_zone_id
+}
+
+resource "aws_route53_record" "_hostedzone_z1y2fjwxxm33o5_paste_owl_cycloid_io__cname" {
+  name    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_paste_owl_cycloid_io__cname_name
+  records = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_paste_owl_cycloid_io__cname_records
+  ttl     = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_paste_owl_cycloid_io__cname_ttl
+  type    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_paste_owl_cycloid_io__cname_type
+  zone_id = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_paste_owl_cycloid_io__cname_zone_id
+}
+
+resource "aws_route53_record" "_hostedzone_z1y2fjwxxm33o5_pastefile_owl_cycloid_io__cname" {
+  name    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_pastefile_owl_cycloid_io__cname_name
+  records = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_pastefile_owl_cycloid_io__cname_records
+  ttl     = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_pastefile_owl_cycloid_io__cname_ttl
+  type    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_pastefile_owl_cycloid_io__cname_type
+  zone_id = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_pastefile_owl_cycloid_io__cname_zone_id
+}
+
+resource "aws_route53_record" "_hostedzone_z1y2fjwxxm33o5_ppwsbvegjgvz36nh2fqxh5zd66la7d2f__domainkey_atk_cycloid_io__cname" {
+  name    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_ppwsbvegjgvz36nh2fqxh5zd66la7d2f__domainkey_atk_cycloid_io__cname_name
+  records = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_ppwsbvegjgvz36nh2fqxh5zd66la7d2f__domainkey_atk_cycloid_io__cname_records
+  ttl     = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_ppwsbvegjgvz36nh2fqxh5zd66la7d2f__domainkey_atk_cycloid_io__cname_ttl
+  type    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_ppwsbvegjgvz36nh2fqxh5zd66la7d2f__domainkey_atk_cycloid_io__cname_type
+  zone_id = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_ppwsbvegjgvz36nh2fqxh5zd66la7d2f__domainkey_atk_cycloid_io__cname_zone_id
+}
+
+resource "aws_route53_record" "_hostedzone_z1y2fjwxxm33o5_prod_cycloid_io__a" {
+  alias {
+    evaluate_target_health = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_prod_cycloid_io__a_alias_evaluate_target_health
+    name                   = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_prod_cycloid_io__a_alias_name
+    zone_id                = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_prod_cycloid_io__a_alias_zone_id
+  }
+
+  name    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_prod_cycloid_io__a_name
+  type    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_prod_cycloid_io__a_type
+  zone_id = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_prod_cycloid_io__a_zone_id
+}
+
+resource "aws_route53_record" "_hostedzone_z1y2fjwxxm33o5_prometheus_cycloid_io__cname" {
+  name    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_prometheus_cycloid_io__cname_name
+  records = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_prometheus_cycloid_io__cname_records
+  ttl     = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_prometheus_cycloid_io__cname_ttl
+  type    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_prometheus_cycloid_io__cname_type
+  zone_id = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_prometheus_cycloid_io__cname_zone_id
+}
+
+resource "aws_route53_record" "_hostedzone_z1y2fjwxxm33o5_prometheus_infra_cycloid_io__a" {
+  name    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_prometheus_infra_cycloid_io__a_name
+  records = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_prometheus_infra_cycloid_io__a_records
+  ttl     = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_prometheus_infra_cycloid_io__a_ttl
+  type    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_prometheus_infra_cycloid_io__a_type
+  zone_id = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_prometheus_infra_cycloid_io__a_zone_id
+}
+
+resource "aws_route53_record" "_hostedzone_z1y2fjwxxm33o5_prometheus_infra_cycloid_io__cname" {
+  name    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_prometheus_infra_cycloid_io__cname_name
+  records = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_prometheus_infra_cycloid_io__cname_records
+  ttl     = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_prometheus_infra_cycloid_io__cname_ttl
+  type    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_prometheus_infra_cycloid_io__cname_type
+  zone_id = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_prometheus_infra_cycloid_io__cname_zone_id
+}
+
+resource "aws_route53_record" "_hostedzone_z1y2fjwxxm33o5_qady3rnpghrggidnn4fc7trzds25h5e6__domainkey_millesima_ecocea_cycloid_io__cname" {
+  name    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_qady3rnpghrggidnn4fc7trzds25h5e6__domainkey_millesima_ecocea_cycloid_io__cname_name
+  records = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_qady3rnpghrggidnn4fc7trzds25h5e6__domainkey_millesima_ecocea_cycloid_io__cname_records
+  ttl     = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_qady3rnpghrggidnn4fc7trzds25h5e6__domainkey_millesima_ecocea_cycloid_io__cname_ttl
+  type    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_qady3rnpghrggidnn4fc7trzds25h5e6__domainkey_millesima_ecocea_cycloid_io__cname_type
+  zone_id = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_qady3rnpghrggidnn4fc7trzds25h5e6__domainkey_millesima_ecocea_cycloid_io__cname_zone_id
+}
+
+resource "aws_route53_record" "_hostedzone_z1y2fjwxxm33o5_qynvwjlvuyfl6l4qjwopyb2jgi534iub__domainkey_cycloid_io__cname" {
+  name    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_qynvwjlvuyfl6l4qjwopyb2jgi534iub__domainkey_cycloid_io__cname_name
+  records = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_qynvwjlvuyfl6l4qjwopyb2jgi534iub__domainkey_cycloid_io__cname_records
+  ttl     = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_qynvwjlvuyfl6l4qjwopyb2jgi534iub__domainkey_cycloid_io__cname_ttl
+  type    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_qynvwjlvuyfl6l4qjwopyb2jgi534iub__domainkey_cycloid_io__cname_type
+  zone_id = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_qynvwjlvuyfl6l4qjwopyb2jgi534iub__domainkey_cycloid_io__cname_zone_id
+}
+
+resource "aws_route53_record" "_hostedzone_z1y2fjwxxm33o5_registry_mirror_owl_cycloid_io__cname" {
+  name    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_registry_mirror_owl_cycloid_io__cname_name
+  records = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_registry_mirror_owl_cycloid_io__cname_records
+  ttl     = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_registry_mirror_owl_cycloid_io__cname_ttl
+  type    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_registry_mirror_owl_cycloid_io__cname_type
+  zone_id = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_registry_mirror_owl_cycloid_io__cname_zone_id
+}
+
+resource "aws_route53_record" "_hostedzone_z1y2fjwxxm33o5_repetto_bastion_eu_we1_cycloid_io__a" {
+  name    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_repetto_bastion_eu_we1_cycloid_io__a_name
+  records = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_repetto_bastion_eu_we1_cycloid_io__a_records
+  ttl     = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_repetto_bastion_eu_we1_cycloid_io__a_ttl
+  type    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_repetto_bastion_eu_we1_cycloid_io__a_type
+  zone_id = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_repetto_bastion_eu_we1_cycloid_io__a_zone_id
+}
+
+resource "aws_route53_record" "_hostedzone_z1y2fjwxxm33o5_repetto_metrics_eu_we1_cycloid_io__a" {
+  name    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_repetto_metrics_eu_we1_cycloid_io__a_name
+  records = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_repetto_metrics_eu_we1_cycloid_io__a_records
+  ttl     = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_repetto_metrics_eu_we1_cycloid_io__a_ttl
+  type    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_repetto_metrics_eu_we1_cycloid_io__a_type
+  zone_id = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_repetto_metrics_eu_we1_cycloid_io__a_zone_id
+}
+
+resource "aws_route53_record" "_hostedzone_z1y2fjwxxm33o5_repetto_monitoring_eu_we1_cycloid_io__a" {
+  name    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_repetto_monitoring_eu_we1_cycloid_io__a_name
+  records = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_repetto_monitoring_eu_we1_cycloid_io__a_records
+  ttl     = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_repetto_monitoring_eu_we1_cycloid_io__a_ttl
+  type    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_repetto_monitoring_eu_we1_cycloid_io__a_type
+  zone_id = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_repetto_monitoring_eu_we1_cycloid_io__a_zone_id
+}
+
+resource "aws_route53_record" "_hostedzone_z1y2fjwxxm33o5_resque_web_prod_cycloid_io__cname" {
+  name    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_resque_web_prod_cycloid_io__cname_name
+  records = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_resque_web_prod_cycloid_io__cname_records
+  ttl     = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_resque_web_prod_cycloid_io__cname_ttl
+  type    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_resque_web_prod_cycloid_io__cname_type
+  zone_id = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_resque_web_prod_cycloid_io__cname_zone_id
+}
+
+resource "aws_route53_record" "_hostedzone_z1y2fjwxxm33o5_resque_web_staging_cycloid_io__cname" {
+  name    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_resque_web_staging_cycloid_io__cname_name
+  records = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_resque_web_staging_cycloid_io__cname_records
+  ttl     = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_resque_web_staging_cycloid_io__cname_ttl
+  type    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_resque_web_staging_cycloid_io__cname_type
+  zone_id = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_resque_web_staging_cycloid_io__cname_zone_id
+}
+
+resource "aws_route53_record" "_hostedzone_z1y2fjwxxm33o5_scheduler_cycloid_io__cname" {
+  name    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_scheduler_cycloid_io__cname_name
+  records = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_scheduler_cycloid_io__cname_records
+  ttl     = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_scheduler_cycloid_io__cname_ttl
+  type    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_scheduler_cycloid_io__cname_type
+  zone_id = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_scheduler_cycloid_io__cname_zone_id
+}
+
+resource "aws_route53_record" "_hostedzone_z1y2fjwxxm33o5_service_chat_cycloid_io__a" {
+  name    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_service_chat_cycloid_io__a_name
+  records = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_service_chat_cycloid_io__a_records
+  ttl     = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_service_chat_cycloid_io__a_ttl
+  type    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_service_chat_cycloid_io__a_type
+  zone_id = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_service_chat_cycloid_io__a_zone_id
+}
+
+resource "aws_route53_record" "_hostedzone_z1y2fjwxxm33o5_smtpapi__domainkey_cycloid_io__txt" {
+  name    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_smtpapi__domainkey_cycloid_io__txt_name
+  records = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_smtpapi__domainkey_cycloid_io__txt_records
+  ttl     = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_smtpapi__domainkey_cycloid_io__txt_ttl
+  type    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_smtpapi__domainkey_cycloid_io__txt_type
+  zone_id = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_smtpapi__domainkey_cycloid_io__txt_zone_id
+}
+
+resource "aws_route53_record" "_hostedzone_z1y2fjwxxm33o5_sonarqube_infra_cycloid_io__cname" {
+  name    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_sonarqube_infra_cycloid_io__cname_name
+  records = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_sonarqube_infra_cycloid_io__cname_records
+  ttl     = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_sonarqube_infra_cycloid_io__cname_ttl
+  type    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_sonarqube_infra_cycloid_io__cname_type
+  zone_id = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_sonarqube_infra_cycloid_io__cname_zone_id
+}
+
+resource "aws_route53_record" "_hostedzone_z1y2fjwxxm33o5_sorry_cypress_dashboard_staging_cycloid_io__cname" {
+  name    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_sorry_cypress_dashboard_staging_cycloid_io__cname_name
+  records = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_sorry_cypress_dashboard_staging_cycloid_io__cname_records
+  ttl     = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_sorry_cypress_dashboard_staging_cycloid_io__cname_ttl
+  type    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_sorry_cypress_dashboard_staging_cycloid_io__cname_type
+  zone_id = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_sorry_cypress_dashboard_staging_cycloid_io__cname_zone_id
+}
+
+resource "aws_route53_record" "_hostedzone_z1y2fjwxxm33o5_sorry_cypress_director_staging_cycloid_io__cname" {
+  name    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_sorry_cypress_director_staging_cycloid_io__cname_name
+  records = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_sorry_cypress_director_staging_cycloid_io__cname_records
+  ttl     = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_sorry_cypress_director_staging_cycloid_io__cname_ttl
+  type    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_sorry_cypress_director_staging_cycloid_io__cname_type
+  zone_id = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_sorry_cypress_director_staging_cycloid_io__cname_zone_id
+}
+
+resource "aws_route53_record" "_hostedzone_z1y2fjwxxm33o5_staging_cdn_cycloid_io__cname" {
+  name    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_staging_cdn_cycloid_io__cname_name
+  records = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_staging_cdn_cycloid_io__cname_records
+  ttl     = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_staging_cdn_cycloid_io__cname_ttl
+  type    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_staging_cdn_cycloid_io__cname_type
+  zone_id = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_staging_cdn_cycloid_io__cname_zone_id
+}
+
+resource "aws_route53_record" "_hostedzone_z1y2fjwxxm33o5_staging_cycloid_io__a" {
+  alias {
+    evaluate_target_health = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_staging_cycloid_io__a_alias_evaluate_target_health
+    name                   = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_staging_cycloid_io__a_alias_name
+    zone_id                = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_staging_cycloid_io__a_alias_zone_id
+  }
+
+  name    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_staging_cycloid_io__a_name
+  type    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_staging_cycloid_io__a_type
+  zone_id = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_staging_cycloid_io__a_zone_id
+}
+
+resource "aws_route53_record" "_hostedzone_z1y2fjwxxm33o5_storyssimo_bastion_eu_we1_cycloid_io__a" {
+  name    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_storyssimo_bastion_eu_we1_cycloid_io__a_name
+  records = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_storyssimo_bastion_eu_we1_cycloid_io__a_records
+  ttl     = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_storyssimo_bastion_eu_we1_cycloid_io__a_ttl
+  type    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_storyssimo_bastion_eu_we1_cycloid_io__a_type
+  zone_id = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_storyssimo_bastion_eu_we1_cycloid_io__a_zone_id
+}
+
+resource "aws_route53_record" "_hostedzone_z1y2fjwxxm33o5_storyssimo_metrics_eu_we1_cycloid_io__a" {
+  name    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_storyssimo_metrics_eu_we1_cycloid_io__a_name
+  records = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_storyssimo_metrics_eu_we1_cycloid_io__a_records
+  ttl     = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_storyssimo_metrics_eu_we1_cycloid_io__a_ttl
+  type    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_storyssimo_metrics_eu_we1_cycloid_io__a_type
+  zone_id = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_storyssimo_metrics_eu_we1_cycloid_io__a_zone_id
+}
+
+resource "aws_route53_record" "_hostedzone_z1y2fjwxxm33o5_storyssimo_monitoring_eu_we1_cycloid_io__a" {
+  name    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_storyssimo_monitoring_eu_we1_cycloid_io__a_name
+  records = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_storyssimo_monitoring_eu_we1_cycloid_io__a_records
+  ttl     = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_storyssimo_monitoring_eu_we1_cycloid_io__a_ttl
+  type    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_storyssimo_monitoring_eu_we1_cycloid_io__a_type
+  zone_id = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_storyssimo_monitoring_eu_we1_cycloid_io__a_zone_id
+}
+
+resource "aws_route53_record" "_hostedzone_z1y2fjwxxm33o5_support_cycloid_io__cname" {
+  name    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_support_cycloid_io__cname_name
+  records = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_support_cycloid_io__cname_records
+  ttl     = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_support_cycloid_io__cname_ttl
+  type    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_support_cycloid_io__cname_type
+  zone_id = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_support_cycloid_io__cname_zone_id
+}
+
+resource "aws_route53_record" "_hostedzone_z1y2fjwxxm33o5_swqayi2dijqcpl57qgrou4sbm5b64mvx__domainkey_frizbiz_cycloid_io__cname" {
+  name    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_swqayi2dijqcpl57qgrou4sbm5b64mvx__domainkey_frizbiz_cycloid_io__cname_name
+  records = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_swqayi2dijqcpl57qgrou4sbm5b64mvx__domainkey_frizbiz_cycloid_io__cname_records
+  ttl     = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_swqayi2dijqcpl57qgrou4sbm5b64mvx__domainkey_frizbiz_cycloid_io__cname_ttl
+  type    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_swqayi2dijqcpl57qgrou4sbm5b64mvx__domainkey_frizbiz_cycloid_io__cname_type
+  zone_id = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_swqayi2dijqcpl57qgrou4sbm5b64mvx__domainkey_frizbiz_cycloid_io__cname_zone_id
+}
+
+resource "aws_route53_record" "_hostedzone_z1y2fjwxxm33o5_thanos_infra_cycloid_io__cname" {
+  name    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_thanos_infra_cycloid_io__cname_name
+  records = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_thanos_infra_cycloid_io__cname_records
+  ttl     = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_thanos_infra_cycloid_io__cname_ttl
+  type    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_thanos_infra_cycloid_io__cname_type
+  zone_id = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_thanos_infra_cycloid_io__cname_zone_id
+}
+
+resource "aws_route53_record" "_hostedzone_z1y2fjwxxm33o5_ti_bastion_eu_we1_cycloid_io__a" {
+  name    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_ti_bastion_eu_we1_cycloid_io__a_name
+  records = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_ti_bastion_eu_we1_cycloid_io__a_records
+  ttl     = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_ti_bastion_eu_we1_cycloid_io__a_ttl
+  type    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_ti_bastion_eu_we1_cycloid_io__a_type
+  zone_id = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_ti_bastion_eu_we1_cycloid_io__a_zone_id
+}
+
+resource "aws_route53_record" "_hostedzone_z1y2fjwxxm33o5_ti_graph_cycloid_io__a" {
+  name    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_ti_graph_cycloid_io__a_name
+  records = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_ti_graph_cycloid_io__a_records
+  ttl     = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_ti_graph_cycloid_io__a_ttl
+  type    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_ti_graph_cycloid_io__a_type
+  zone_id = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_ti_graph_cycloid_io__a_zone_id
+}
+
+resource "aws_route53_record" "_hostedzone_z1y2fjwxxm33o5_ti_metrics_eu_we1_cycloid_io__a" {
+  name    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_ti_metrics_eu_we1_cycloid_io__a_name
+  records = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_ti_metrics_eu_we1_cycloid_io__a_records
+  ttl     = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_ti_metrics_eu_we1_cycloid_io__a_ttl
+  type    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_ti_metrics_eu_we1_cycloid_io__a_type
+  zone_id = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_ti_metrics_eu_we1_cycloid_io__a_zone_id
+}
+
+resource "aws_route53_record" "_hostedzone_z1y2fjwxxm33o5_ti_mon_cycloid_io__a" {
+  name    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_ti_mon_cycloid_io__a_name
+  records = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_ti_mon_cycloid_io__a_records
+  ttl     = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_ti_mon_cycloid_io__a_ttl
+  type    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_ti_mon_cycloid_io__a_type
+  zone_id = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_ti_mon_cycloid_io__a_zone_id
+}
+
+resource "aws_route53_record" "_hostedzone_z1y2fjwxxm33o5_ti_monitoring_eu_we1_cycloid_io__a" {
+  name    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_ti_monitoring_eu_we1_cycloid_io__a_name
+  records = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_ti_monitoring_eu_we1_cycloid_io__a_records
+  ttl     = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_ti_monitoring_eu_we1_cycloid_io__a_ttl
+  type    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_ti_monitoring_eu_we1_cycloid_io__a_type
+  zone_id = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_ti_monitoring_eu_we1_cycloid_io__a_zone_id
+}
+
+resource "aws_route53_record" "_hostedzone_z1y2fjwxxm33o5_total_immersion_bastion_eu_we1_cycloid_io__cname" {
+  name    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_total_immersion_bastion_eu_we1_cycloid_io__cname_name
+  records = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_total_immersion_bastion_eu_we1_cycloid_io__cname_records
+  ttl     = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_total_immersion_bastion_eu_we1_cycloid_io__cname_ttl
+  type    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_total_immersion_bastion_eu_we1_cycloid_io__cname_type
+  zone_id = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_total_immersion_bastion_eu_we1_cycloid_io__cname_zone_id
+}
+
+resource "aws_route53_record" "_hostedzone_z1y2fjwxxm33o5_totalimmersion_bastion_eu_we1_cycloid_io__cname" {
+  name    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_totalimmersion_bastion_eu_we1_cycloid_io__cname_name
+  records = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_totalimmersion_bastion_eu_we1_cycloid_io__cname_records
+  ttl     = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_totalimmersion_bastion_eu_we1_cycloid_io__cname_ttl
+  type    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_totalimmersion_bastion_eu_we1_cycloid_io__cname_type
+  zone_id = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_totalimmersion_bastion_eu_we1_cycloid_io__cname_zone_id
+}
+
+resource "aws_route53_record" "_hostedzone_z1y2fjwxxm33o5_vault_cycloid_io__cname" {
+  name    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_vault_cycloid_io__cname_name
+  records = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_vault_cycloid_io__cname_records
+  ttl     = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_vault_cycloid_io__cname_ttl
+  type    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_vault_cycloid_io__cname_type
+  zone_id = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_vault_cycloid_io__cname_zone_id
+}
+
+resource "aws_route53_record" "_hostedzone_z1y2fjwxxm33o5_vault_staging_cycloid_io__cname" {
+  name    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_vault_staging_cycloid_io__cname_name
+  records = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_vault_staging_cycloid_io__cname_records
+  ttl     = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_vault_staging_cycloid_io__cname_ttl
+  type    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_vault_staging_cycloid_io__cname_type
+  zone_id = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_vault_staging_cycloid_io__cname_zone_id
+}
+
+resource "aws_route53_record" "_hostedzone_z1y2fjwxxm33o5_warner_bastion_eu_we1_cycloid_io__a" {
+  name    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_warner_bastion_eu_we1_cycloid_io__a_name
+  records = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_warner_bastion_eu_we1_cycloid_io__a_records
+  ttl     = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_warner_bastion_eu_we1_cycloid_io__a_ttl
+  type    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_warner_bastion_eu_we1_cycloid_io__a_type
+  zone_id = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_warner_bastion_eu_we1_cycloid_io__a_zone_id
+}
+
+resource "aws_route53_record" "_hostedzone_z1y2fjwxxm33o5_warner_metrics_eu_we1_cycloid_io__a" {
+  name    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_warner_metrics_eu_we1_cycloid_io__a_name
+  records = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_warner_metrics_eu_we1_cycloid_io__a_records
+  ttl     = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_warner_metrics_eu_we1_cycloid_io__a_ttl
+  type    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_warner_metrics_eu_we1_cycloid_io__a_type
+  zone_id = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_warner_metrics_eu_we1_cycloid_io__a_zone_id
+}
+
+resource "aws_route53_record" "_hostedzone_z1y2fjwxxm33o5_warner_monitoring_blue_eu_we1_cycloid_io__a" {
+  name    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_warner_monitoring_blue_eu_we1_cycloid_io__a_name
+  records = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_warner_monitoring_blue_eu_we1_cycloid_io__a_records
+  ttl     = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_warner_monitoring_blue_eu_we1_cycloid_io__a_ttl
+  type    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_warner_monitoring_blue_eu_we1_cycloid_io__a_type
+  zone_id = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_warner_monitoring_blue_eu_we1_cycloid_io__a_zone_id
+}
+
+resource "aws_route53_record" "_hostedzone_z1y2fjwxxm33o5_warnerbros_bastion_eu_we1_cycloid_io__cname" {
+  name    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_warnerbros_bastion_eu_we1_cycloid_io__cname_name
+  records = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_warnerbros_bastion_eu_we1_cycloid_io__cname_records
+  ttl     = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_warnerbros_bastion_eu_we1_cycloid_io__cname_ttl
+  type    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_warnerbros_bastion_eu_we1_cycloid_io__cname_type
+  zone_id = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_warnerbros_bastion_eu_we1_cycloid_io__cname_zone_id
+}
+
+resource "aws_route53_record" "_hostedzone_z1y2fjwxxm33o5_warnerbros_metrics_eu_we1_cycloid_io__a" {
+  name    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_warnerbros_metrics_eu_we1_cycloid_io__a_name
+  records = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_warnerbros_metrics_eu_we1_cycloid_io__a_records
+  ttl     = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_warnerbros_metrics_eu_we1_cycloid_io__a_ttl
+  type    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_warnerbros_metrics_eu_we1_cycloid_io__a_type
+  zone_id = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_warnerbros_metrics_eu_we1_cycloid_io__a_zone_id
+}
+
+resource "aws_route53_record" "_hostedzone_z1y2fjwxxm33o5_warnerbros_monitoring_eu_we1_cycloid_io__a" {
+  name    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_warnerbros_monitoring_eu_we1_cycloid_io__a_name
+  records = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_warnerbros_monitoring_eu_we1_cycloid_io__a_records
+  ttl     = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_warnerbros_monitoring_eu_we1_cycloid_io__a_ttl
+  type    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_warnerbros_monitoring_eu_we1_cycloid_io__a_type
+  zone_id = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_warnerbros_monitoring_eu_we1_cycloid_io__a_zone_id
+}
+
+resource "aws_route53_record" "_hostedzone_z1y2fjwxxm33o5_www_cycloid_io__cname" {
+  name    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_www_cycloid_io__cname_name
+  records = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_www_cycloid_io__cname_records
+  ttl     = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_www_cycloid_io__cname_ttl
+  type    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_www_cycloid_io__cname_type
+  zone_id = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_www_cycloid_io__cname_zone_id
+}
+
+resource "aws_route53_record" "_hostedzone_z1y2fjwxxm33o5_xrwnb4ldtjrzpjbpcwvlrupylw7lcvfx__domainkey_millesima_ecocea_cycloid_io__cname" {
+  name    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_xrwnb4ldtjrzpjbpcwvlrupylw7lcvfx__domainkey_millesima_ecocea_cycloid_io__cname_name
+  records = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_xrwnb4ldtjrzpjbpcwvlrupylw7lcvfx__domainkey_millesima_ecocea_cycloid_io__cname_records
+  ttl     = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_xrwnb4ldtjrzpjbpcwvlrupylw7lcvfx__domainkey_millesima_ecocea_cycloid_io__cname_ttl
+  type    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_xrwnb4ldtjrzpjbpcwvlrupylw7lcvfx__domainkey_millesima_ecocea_cycloid_io__cname_type
+  zone_id = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_xrwnb4ldtjrzpjbpcwvlrupylw7lcvfx__domainkey_millesima_ecocea_cycloid_io__cname_zone_id
+}
+
+resource "aws_route53_record" "_hostedzone_z1y2fjwxxm33o5_yves_salomon_bastion_eu_we1_cycloid_io__a" {
+  name    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_yves_salomon_bastion_eu_we1_cycloid_io__a_name
+  records = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_yves_salomon_bastion_eu_we1_cycloid_io__a_records
+  ttl     = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_yves_salomon_bastion_eu_we1_cycloid_io__a_ttl
+  type    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_yves_salomon_bastion_eu_we1_cycloid_io__a_type
+  zone_id = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_yves_salomon_bastion_eu_we1_cycloid_io__a_zone_id
+}
+
+resource "aws_route53_record" "_hostedzone_z1y2fjwxxm33o5_yves_salomon_metrics_eu_we1_cycloid_io__a" {
+  name    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_yves_salomon_metrics_eu_we1_cycloid_io__a_name
+  records = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_yves_salomon_metrics_eu_we1_cycloid_io__a_records
+  ttl     = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_yves_salomon_metrics_eu_we1_cycloid_io__a_ttl
+  type    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_yves_salomon_metrics_eu_we1_cycloid_io__a_type
+  zone_id = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_yves_salomon_metrics_eu_we1_cycloid_io__a_zone_id
+}
+
+resource "aws_route53_record" "_hostedzone_z1y2fjwxxm33o5_yves_salomon_monitoring_eu_we1_cycloid_io__a" {
+  name    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_yves_salomon_monitoring_eu_we1_cycloid_io__a_name
+  records = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_yves_salomon_monitoring_eu_we1_cycloid_io__a_records
+  ttl     = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_yves_salomon_monitoring_eu_we1_cycloid_io__a_ttl
+  type    = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_yves_salomon_monitoring_eu_we1_cycloid_io__a_type
+  zone_id = var.aws_route53_record__hostedzone_z1y2fjwxxm33o5_yves_salomon_monitoring_eu_we1_cycloid_io__a_zone_id
+}
+
+resource "aws_route53_record" "_hostedzone_z3f5t2re6zshyp_cycloid_prod__ns" {
+  name    = var.aws_route53_record__hostedzone_z3f5t2re6zshyp_cycloid_prod__ns_name
+  records = var.aws_route53_record__hostedzone_z3f5t2re6zshyp_cycloid_prod__ns_records
+  ttl     = var.aws_route53_record__hostedzone_z3f5t2re6zshyp_cycloid_prod__ns_ttl
+  type    = var.aws_route53_record__hostedzone_z3f5t2re6zshyp_cycloid_prod__ns_type
+  zone_id = var.aws_route53_record__hostedzone_z3f5t2re6zshyp_cycloid_prod__ns_zone_id
+}
+
+resource "aws_route53_record" "_hostedzone_z3f5t2re6zshyp_cycloid_prod__soa" {
+  name    = var.aws_route53_record__hostedzone_z3f5t2re6zshyp_cycloid_prod__soa_name
+  records = var.aws_route53_record__hostedzone_z3f5t2re6zshyp_cycloid_prod__soa_records
+  ttl     = var.aws_route53_record__hostedzone_z3f5t2re6zshyp_cycloid_prod__soa_ttl
+  type    = var.aws_route53_record__hostedzone_z3f5t2re6zshyp_cycloid_prod__soa_type
+  zone_id = var.aws_route53_record__hostedzone_z3f5t2re6zshyp_cycloid_prod__soa_zone_id
+}
+
+resource "aws_route53_record" "_hostedzone_z3lqtigjci1wmg_cycloid_bastion0_eu_we1_cycloid_internal__a" {
+  name    = var.aws_route53_record__hostedzone_z3lqtigjci1wmg_cycloid_bastion0_eu_we1_cycloid_internal__a_name
+  records = var.aws_route53_record__hostedzone_z3lqtigjci1wmg_cycloid_bastion0_eu_we1_cycloid_internal__a_records
+  ttl     = var.aws_route53_record__hostedzone_z3lqtigjci1wmg_cycloid_bastion0_eu_we1_cycloid_internal__a_ttl
+  type    = var.aws_route53_record__hostedzone_z3lqtigjci1wmg_cycloid_bastion0_eu_we1_cycloid_internal__a_type
+  zone_id = var.aws_route53_record__hostedzone_z3lqtigjci1wmg_cycloid_bastion0_eu_we1_cycloid_internal__a_zone_id
+}
+
+resource "aws_route53_record" "_hostedzone_z3lqtigjci1wmg_cycloid_bastion0_eu_we1_infra_cycloid_internal__a" {
+  name    = var.aws_route53_record__hostedzone_z3lqtigjci1wmg_cycloid_bastion0_eu_we1_infra_cycloid_internal__a_name
+  records = var.aws_route53_record__hostedzone_z3lqtigjci1wmg_cycloid_bastion0_eu_we1_infra_cycloid_internal__a_records
+  ttl     = var.aws_route53_record__hostedzone_z3lqtigjci1wmg_cycloid_bastion0_eu_we1_infra_cycloid_internal__a_ttl
+  type    = var.aws_route53_record__hostedzone_z3lqtigjci1wmg_cycloid_bastion0_eu_we1_infra_cycloid_internal__a_type
+  zone_id = var.aws_route53_record__hostedzone_z3lqtigjci1wmg_cycloid_bastion0_eu_we1_infra_cycloid_internal__a_zone_id
+}
+
+resource "aws_route53_record" "_hostedzone_z3lqtigjci1wmg_cycloid_gael_ansible2_0_eu_we1_infra_cycloid_internal__a" {
+  name    = var.aws_route53_record__hostedzone_z3lqtigjci1wmg_cycloid_gael_ansible2_0_eu_we1_infra_cycloid_internal__a_name
+  records = var.aws_route53_record__hostedzone_z3lqtigjci1wmg_cycloid_gael_ansible2_0_eu_we1_infra_cycloid_internal__a_records
+  ttl     = var.aws_route53_record__hostedzone_z3lqtigjci1wmg_cycloid_gael_ansible2_0_eu_we1_infra_cycloid_internal__a_ttl
+  type    = var.aws_route53_record__hostedzone_z3lqtigjci1wmg_cycloid_gael_ansible2_0_eu_we1_infra_cycloid_internal__a_type
+  zone_id = var.aws_route53_record__hostedzone_z3lqtigjci1wmg_cycloid_gael_ansible2_0_eu_we1_infra_cycloid_internal__a_zone_id
+}
+
+resource "aws_route53_record" "_hostedzone_z3lqtigjci1wmg_cycloid_internal__ns" {
+  name    = var.aws_route53_record__hostedzone_z3lqtigjci1wmg_cycloid_internal__ns_name
+  records = var.aws_route53_record__hostedzone_z3lqtigjci1wmg_cycloid_internal__ns_records
+  ttl     = var.aws_route53_record__hostedzone_z3lqtigjci1wmg_cycloid_internal__ns_ttl
+  type    = var.aws_route53_record__hostedzone_z3lqtigjci1wmg_cycloid_internal__ns_type
+  zone_id = var.aws_route53_record__hostedzone_z3lqtigjci1wmg_cycloid_internal__ns_zone_id
+}
+
+resource "aws_route53_record" "_hostedzone_z3lqtigjci1wmg_cycloid_internal__soa" {
+  name    = var.aws_route53_record__hostedzone_z3lqtigjci1wmg_cycloid_internal__soa_name
+  records = var.aws_route53_record__hostedzone_z3lqtigjci1wmg_cycloid_internal__soa_records
+  ttl     = var.aws_route53_record__hostedzone_z3lqtigjci1wmg_cycloid_internal__soa_ttl
+  type    = var.aws_route53_record__hostedzone_z3lqtigjci1wmg_cycloid_internal__soa_type
+  zone_id = var.aws_route53_record__hostedzone_z3lqtigjci1wmg_cycloid_internal__soa_zone_id
+}
+
+resource "aws_route53_record" "_hostedzone_z3lqtigjci1wmg_cycloid_metrics0_eu_we1_infra_cycloid_internal__a" {
+  name    = var.aws_route53_record__hostedzone_z3lqtigjci1wmg_cycloid_metrics0_eu_we1_infra_cycloid_internal__a_name
+  records = var.aws_route53_record__hostedzone_z3lqtigjci1wmg_cycloid_metrics0_eu_we1_infra_cycloid_internal__a_records
+  ttl     = var.aws_route53_record__hostedzone_z3lqtigjci1wmg_cycloid_metrics0_eu_we1_infra_cycloid_internal__a_ttl
+  type    = var.aws_route53_record__hostedzone_z3lqtigjci1wmg_cycloid_metrics0_eu_we1_infra_cycloid_internal__a_type
+  zone_id = var.aws_route53_record__hostedzone_z3lqtigjci1wmg_cycloid_metrics0_eu_we1_infra_cycloid_internal__a_zone_id
+}
+
+resource "aws_route53_record" "_hostedzone_z3lqtigjci1wmg_cycloid_monitoring0_eu_we1_cycloid_internal__a" {
+  name    = var.aws_route53_record__hostedzone_z3lqtigjci1wmg_cycloid_monitoring0_eu_we1_cycloid_internal__a_name
+  records = var.aws_route53_record__hostedzone_z3lqtigjci1wmg_cycloid_monitoring0_eu_we1_cycloid_internal__a_records
+  ttl     = var.aws_route53_record__hostedzone_z3lqtigjci1wmg_cycloid_monitoring0_eu_we1_cycloid_internal__a_ttl
+  type    = var.aws_route53_record__hostedzone_z3lqtigjci1wmg_cycloid_monitoring0_eu_we1_cycloid_internal__a_type
+  zone_id = var.aws_route53_record__hostedzone_z3lqtigjci1wmg_cycloid_monitoring0_eu_we1_cycloid_internal__a_zone_id
+}
+
+resource "aws_route53_record" "_hostedzone_z3lqtigjci1wmg_cycloid_monitoring0_eu_we1_infra_cycloid_internal__a" {
+  name    = var.aws_route53_record__hostedzone_z3lqtigjci1wmg_cycloid_monitoring0_eu_we1_infra_cycloid_internal__a_name
+  records = var.aws_route53_record__hostedzone_z3lqtigjci1wmg_cycloid_monitoring0_eu_we1_infra_cycloid_internal__a_records
+  ttl     = var.aws_route53_record__hostedzone_z3lqtigjci1wmg_cycloid_monitoring0_eu_we1_infra_cycloid_internal__a_ttl
+  type    = var.aws_route53_record__hostedzone_z3lqtigjci1wmg_cycloid_monitoring0_eu_we1_infra_cycloid_internal__a_type
+  zone_id = var.aws_route53_record__hostedzone_z3lqtigjci1wmg_cycloid_monitoring0_eu_we1_infra_cycloid_internal__a_zone_id
+}
+
+resource "aws_route53_record" "_hostedzone_z3lqtigjci1wmg_cycloid_website_front0_eu_we1_preprod_cycloid_internal__a" {
+  name    = var.aws_route53_record__hostedzone_z3lqtigjci1wmg_cycloid_website_front0_eu_we1_preprod_cycloid_internal__a_name
+  records = var.aws_route53_record__hostedzone_z3lqtigjci1wmg_cycloid_website_front0_eu_we1_preprod_cycloid_internal__a_records
+  ttl     = var.aws_route53_record__hostedzone_z3lqtigjci1wmg_cycloid_website_front0_eu_we1_preprod_cycloid_internal__a_ttl
+  type    = var.aws_route53_record__hostedzone_z3lqtigjci1wmg_cycloid_website_front0_eu_we1_preprod_cycloid_internal__a_type
+  zone_id = var.aws_route53_record__hostedzone_z3lqtigjci1wmg_cycloid_website_front0_eu_we1_preprod_cycloid_internal__a_zone_id
+}
+
+resource "aws_route53_record" "_hostedzone_z3lqtigjci1wmg_cycloid_website_front0_eu_we1_prod_cycloid_internal__a" {
+  name    = var.aws_route53_record__hostedzone_z3lqtigjci1wmg_cycloid_website_front0_eu_we1_prod_cycloid_internal__a_name
+  records = var.aws_route53_record__hostedzone_z3lqtigjci1wmg_cycloid_website_front0_eu_we1_prod_cycloid_internal__a_records
+  ttl     = var.aws_route53_record__hostedzone_z3lqtigjci1wmg_cycloid_website_front0_eu_we1_prod_cycloid_internal__a_ttl
+  type    = var.aws_route53_record__hostedzone_z3lqtigjci1wmg_cycloid_website_front0_eu_we1_prod_cycloid_internal__a_type
+  zone_id = var.aws_route53_record__hostedzone_z3lqtigjci1wmg_cycloid_website_front0_eu_we1_prod_cycloid_internal__a_zone_id
+}
+
+resource "aws_route53_record" "_hostedzone_z3lqtigjci1wmg_cycloid_website_front1_eu_we1_preprod_cycloid_internal__a" {
+  name    = var.aws_route53_record__hostedzone_z3lqtigjci1wmg_cycloid_website_front1_eu_we1_preprod_cycloid_internal__a_name
+  records = var.aws_route53_record__hostedzone_z3lqtigjci1wmg_cycloid_website_front1_eu_we1_preprod_cycloid_internal__a_records
+  ttl     = var.aws_route53_record__hostedzone_z3lqtigjci1wmg_cycloid_website_front1_eu_we1_preprod_cycloid_internal__a_ttl
+  type    = var.aws_route53_record__hostedzone_z3lqtigjci1wmg_cycloid_website_front1_eu_we1_preprod_cycloid_internal__a_type
+  zone_id = var.aws_route53_record__hostedzone_z3lqtigjci1wmg_cycloid_website_front1_eu_we1_preprod_cycloid_internal__a_zone_id
+}
+
+resource "aws_route53_record" "_hostedzone_z3lqtigjci1wmg_cycloid_website_front1_eu_we1_prod_cycloid_internal__a" {
+  name    = var.aws_route53_record__hostedzone_z3lqtigjci1wmg_cycloid_website_front1_eu_we1_prod_cycloid_internal__a_name
+  records = var.aws_route53_record__hostedzone_z3lqtigjci1wmg_cycloid_website_front1_eu_we1_prod_cycloid_internal__a_records
+  ttl     = var.aws_route53_record__hostedzone_z3lqtigjci1wmg_cycloid_website_front1_eu_we1_prod_cycloid_internal__a_ttl
+  type    = var.aws_route53_record__hostedzone_z3lqtigjci1wmg_cycloid_website_front1_eu_we1_prod_cycloid_internal__a_type
+  zone_id = var.aws_route53_record__hostedzone_z3lqtigjci1wmg_cycloid_website_front1_eu_we1_prod_cycloid_internal__a_zone_id
+}
+
+resource "aws_route53_record" "bOKlv" {
+  name    = var.aws_route53_record_boklv_name
+  records = var.aws_route53_record_boklv_records
+  ttl     = var.aws_route53_record_boklv_ttl
+  type    = var.aws_route53_record_boklv_type
+  zone_id = var.aws_route53_record_boklv_zone_id
+}
+
+resource "aws_route53_record" "dIfza" {
+  name    = var.aws_route53_record_difza_name
+  records = var.aws_route53_record_difza_records
+  ttl     = var.aws_route53_record_difza_ttl
+  type    = var.aws_route53_record_difza_type
+  zone_id = var.aws_route53_record_difza_zone_id
+}
+
+resource "aws_route53_record" "ebROI" {
+  name    = var.aws_route53_record_ebroi_name
+  records = var.aws_route53_record_ebroi_records
+  ttl     = var.aws_route53_record_ebroi_ttl
+  type    = var.aws_route53_record_ebroi_type
+  zone_id = var.aws_route53_record_ebroi_zone_id
+}
+
+resource "aws_route53_record" "fHVTM" {
+  name    = var.aws_route53_record_fhvtm_name
+  records = var.aws_route53_record_fhvtm_records
+  ttl     = var.aws_route53_record_fhvtm_ttl
+  type    = var.aws_route53_record_fhvtm_type
+  zone_id = var.aws_route53_record_fhvtm_zone_id
+}
+
+resource "aws_route53_record" "mItYD" {
+  name    = var.aws_route53_record_mityd_name
+  records = var.aws_route53_record_mityd_records
+  ttl     = var.aws_route53_record_mityd_ttl
+  type    = var.aws_route53_record_mityd_type
+  zone_id = var.aws_route53_record_mityd_zone_id
+}
+
+resource "aws_route53_record" "obYcB" {
+  name    = var.aws_route53_record_obycb_name
+  records = var.aws_route53_record_obycb_records
+  ttl     = var.aws_route53_record_obycb_ttl
+  type    = var.aws_route53_record_obycb_type
+  zone_id = var.aws_route53_record_obycb_zone_id
+}
+
+resource "aws_route53_record" "qvVyd" {
+  name    = var.aws_route53_record_qvvyd_name
+  records = var.aws_route53_record_qvvyd_records
+  ttl     = var.aws_route53_record_qvvyd_ttl
+  type    = var.aws_route53_record_qvvyd_type
+  zone_id = var.aws_route53_record_qvvyd_zone_id
+}
+
+resource "aws_route53_record" "rDcGH" {
+  name    = var.aws_route53_record_rdcgh_name
+  records = var.aws_route53_record_rdcgh_records
+  ttl     = var.aws_route53_record_rdcgh_ttl
+  type    = var.aws_route53_record_rdcgh_type
+  zone_id = var.aws_route53_record_rdcgh_zone_id
+}
+
+resource "aws_route53_record" "wzcLo" {
+  name    = var.aws_route53_record_wzclo_name
+  records = var.aws_route53_record_wzclo_records
+  ttl     = var.aws_route53_record_wzclo_ttl
+  type    = var.aws_route53_record_wzclo_type
+  zone_id = var.aws_route53_record_wzclo_zone_id
+}
+
+resource "aws_route53_record" "xxVZP" {
+  name    = var.aws_route53_record_xxvzp_name
+  records = var.aws_route53_record_xxvzp_records
+  ttl     = var.aws_route53_record_xxvzp_ttl
+  type    = var.aws_route53_record_xxvzp_type
+  zone_id = var.aws_route53_record_xxvzp_zone_id
+}
+
+resource "aws_route53_record" "yjthl" {
+  name    = var.aws_route53_record_yjthl_name
+  records = var.aws_route53_record_yjthl_records
+  ttl     = var.aws_route53_record_yjthl_ttl
+  type    = var.aws_route53_record_yjthl_type
+  zone_id = var.aws_route53_record_yjthl_zone_id
+}
+
+resource "aws_route53_record" "zjUQN" {
+  name    = var.aws_route53_record_zjuqn_name
+  records = var.aws_route53_record_zjuqn_records
+  ttl     = var.aws_route53_record_zjuqn_ttl
+  type    = var.aws_route53_record_zjuqn_type
+  zone_id = var.aws_route53_record_zjuqn_zone_id
+}
+
+resource "aws_route53_zone" "_hostedzone_z19k7atto3t9rc" {
+  tags = {
+    client = var.aws_route53_zone__hostedzone_z19k7atto3t9rc__tc_tags_client
+  }
+
+  tags_all = {
+    client = var.aws_route53_zone__hostedzone_z19k7atto3t9rc__tc_tags_all_client
+  }
+
+  comment = var.aws_route53_zone__hostedzone_z19k7atto3t9rc_comment
+  name    = var.aws_route53_zone__hostedzone_z19k7atto3t9rc_name
+  vpc {
+    vpc_id     = var.aws_route53_zone__hostedzone_z19k7atto3t9rc_vpc_vpc_id
+    vpc_region = var.aws_route53_zone__hostedzone_z19k7atto3t9rc_vpc_vpc_region
+  }
+
+  vpc {
+    vpc_id     = var.aws_route53_zone__hostedzone_z19k7atto3t9rc_vpc_vpc_id
+    vpc_region = var.aws_route53_zone__hostedzone_z19k7atto3t9rc_vpc_vpc_region
+  }
+
+}
+
+resource "aws_route53_zone" "_hostedzone_z1dmvt5uhyqd2c" {
+  tags = {
+    client = var.aws_route53_zone__hostedzone_z1dmvt5uhyqd2c__tc_tags_client
+  }
+
+  tags_all = {
+    client = var.aws_route53_zone__hostedzone_z1dmvt5uhyqd2c__tc_tags_all_client
+  }
+
+  comment = var.aws_route53_zone__hostedzone_z1dmvt5uhyqd2c_comment
+  name    = var.aws_route53_zone__hostedzone_z1dmvt5uhyqd2c_name
+  vpc {
+    vpc_id     = var.aws_route53_zone__hostedzone_z1dmvt5uhyqd2c_vpc_vpc_id
+    vpc_region = var.aws_route53_zone__hostedzone_z1dmvt5uhyqd2c_vpc_vpc_region
+  }
+
+  vpc {
+    vpc_id     = var.aws_route53_zone__hostedzone_z1dmvt5uhyqd2c_vpc_vpc_id
+    vpc_region = var.aws_route53_zone__hostedzone_z1dmvt5uhyqd2c_vpc_vpc_region
+  }
+
+}
+
+resource "aws_route53_zone" "_hostedzone_z1w92clvcbo38s" {
+  tags = {
+    client = var.aws_route53_zone__hostedzone_z1w92clvcbo38s__tc_tags_client
+  }
+
+  tags_all = {
+    client = var.aws_route53_zone__hostedzone_z1w92clvcbo38s__tc_tags_all_client
+  }
+
+  comment = var.aws_route53_zone__hostedzone_z1w92clvcbo38s_comment
+  name    = var.aws_route53_zone__hostedzone_z1w92clvcbo38s_name
+}
+
+resource "aws_route53_zone" "_hostedzone_z1y2fjwxxm33o5" {
+  tags = {
+    client = var.aws_route53_zone__hostedzone_z1y2fjwxxm33o5__tc_tags_client
+  }
+
+  tags_all = {
+    client = var.aws_route53_zone__hostedzone_z1y2fjwxxm33o5__tc_tags_all_client
+  }
+
+  comment = var.aws_route53_zone__hostedzone_z1y2fjwxxm33o5_comment
+  name    = var.aws_route53_zone__hostedzone_z1y2fjwxxm33o5_name
+}
+
+resource "aws_route53_zone" "_hostedzone_z3f5t2re6zshyp" {
+  tags = {
+    client = var.aws_route53_zone__hostedzone_z3f5t2re6zshyp__tc_tags_client
+  }
+
+  tags_all = {
+    client = var.aws_route53_zone__hostedzone_z3f5t2re6zshyp__tc_tags_all_client
+  }
+
+  comment = var.aws_route53_zone__hostedzone_z3f5t2re6zshyp_comment
+  name    = var.aws_route53_zone__hostedzone_z3f5t2re6zshyp_name
+  vpc {
+    vpc_id     = var.aws_route53_zone__hostedzone_z3f5t2re6zshyp_vpc_vpc_id
+    vpc_region = var.aws_route53_zone__hostedzone_z3f5t2re6zshyp_vpc_vpc_region
+  }
+
+  vpc {
+    vpc_id     = var.aws_route53_zone__hostedzone_z3f5t2re6zshyp_vpc_vpc_id
+    vpc_region = var.aws_route53_zone__hostedzone_z3f5t2re6zshyp_vpc_vpc_region
+  }
+
+}
+
+resource "aws_route53_zone" "_hostedzone_z3lqtigjci1wmg" {
+  tags = {
+    client = var.aws_route53_zone__hostedzone_z3lqtigjci1wmg__tc_tags_client
+  }
+
+  tags_all = {
+    client = var.aws_route53_zone__hostedzone_z3lqtigjci1wmg__tc_tags_all_client
+  }
+
+  comment = var.aws_route53_zone__hostedzone_z3lqtigjci1wmg_comment
+  name    = var.aws_route53_zone__hostedzone_z3lqtigjci1wmg_name
+  vpc {
+    vpc_id     = var.aws_route53_zone__hostedzone_z3lqtigjci1wmg_vpc_vpc_id
+    vpc_region = var.aws_route53_zone__hostedzone_z3lqtigjci1wmg_vpc_vpc_region
+  }
+
+  vpc {
+    vpc_id     = var.aws_route53_zone__hostedzone_z3lqtigjci1wmg_vpc_vpc_id
+    vpc_region = var.aws_route53_zone__hostedzone_z3lqtigjci1wmg_vpc_vpc_region
+  }
+
+  vpc {
+    vpc_id     = var.aws_route53_zone__hostedzone_z3lqtigjci1wmg_vpc_vpc_id
+    vpc_region = var.aws_route53_zone__hostedzone_z3lqtigjci1wmg_vpc_vpc_region
+  }
+
+  vpc {
+    vpc_id     = var.aws_route53_zone__hostedzone_z3lqtigjci1wmg_vpc_vpc_id
+    vpc_region = var.aws_route53_zone__hostedzone_z3lqtigjci1wmg_vpc_vpc_region
+  }
+
+}
+
