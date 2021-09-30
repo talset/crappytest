@@ -1,0 +1,22 @@
+version: "2"
+name: test_stack_2
+canonical: test_stack_2
+author: admin
+status: private
+description: descr2
+image: ""
+keywords:
+- crappy
+- provider:aws
+technologies: []
+dependencies: []
+config:
+  default:
+    description: ""
+    name: default
+    pipeline:
+      pipeline:
+        path: pipeline/default/terraform-pipeline.yaml
+      variables:
+        destination: ($ project $)/pipeline/variables-($ environment $).yml
+        path: pipeline/default/variables.sample.yaml
