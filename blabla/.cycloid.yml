@@ -20,3 +20,7 @@ config:
       variables:
         destination: ($ project $)/pipeline/variables-($ environment $).yml
         path: pipeline/default/variables.sample.yaml
+    terraform:
+      blabla:
+        destination: ($ project $)/terraform/($ environment $)/blabla.tf
+        path: terraform/default/blabla.tf.sample
