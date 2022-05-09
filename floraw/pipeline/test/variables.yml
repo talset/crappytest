@@ -1,25 +1,8 @@
-#### variables
-
-# "Git repository URL containing the config of the stack."
-config_git_repository: "git@github.com:cycloidio/cycloid-labs.git"
-
-# "SSH key pair to fetch the config Git repository."
+config_git_repository: 'git@github.com:cycloidio/cycloid-labs.git'
 config_git_private_key: ((github-labs.ssh_key))
-
-# "The branch used by the config repository"
-config_git_branch: "config"
-
-stack_path: "stack-formv2"
+config_git_branch: confi
+stack_path: stack-formv2
 config_path: floraw/stack_yml/test
-
-#. env (required): test
-#+ Name of the project's environment.
 env: test
-
-#. project (required): floraw
-#+ Name of the project.
 project: floraw
-
-#. organization (required): cycloid
-#+ Name of the Cycloid Organization.
 organization: cycloid
