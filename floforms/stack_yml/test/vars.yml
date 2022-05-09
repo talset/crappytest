@@ -10,10 +10,11 @@
 #
 advanced_opt: true
 aiven_project_id: ""
-application_name: cycloidapp
-gcp_gitops_repo_id: sdfsdfsdid
-gcp_gke_name: qsqqq
+application_name: cyc
+gcp_gitops_repo_id: fsdid
+gcp_gke_name: namegke
 raw_params:
-  foo: bar
+  bla: foo
+  foo: foo
 use_aiven: false
 use_gcp: true
