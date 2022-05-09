@@ -11,9 +11,9 @@
 advanced_opt: true
 aiven_project_id: ""
 application_name: cycloidapp
-gcp_gitops_repo_id: fdgdfgdf77
-gcp_gke_name: dfgfdgfdgdf
+gcp_gitops_repo_id: sdfsdfsdid
+gcp_gke_name: qsqqq
 raw_params:
-  foo: bla
+  foo: bar
 use_aiven: false
 use_gcp: true
