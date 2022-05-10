@@ -8,7 +8,7 @@
 #
 # Any extra variables not found in the original file have been ignored.
 #
-config_git_branch: bla
+config_git_branch: foo
 config_git_private_key: ((ssh_configflo2.ssh_key))
 config_git_repository: git@github.com:talset/crappytest.git
 config_path: floraw/stack_yml/test
