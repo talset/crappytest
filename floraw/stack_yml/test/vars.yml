@@ -10,9 +10,9 @@
 #
 advanced_opt: true
 aiven_project_id: ""
-application_name: my SUPER app
+application_name: my SUPER app2
 gcp_gitops_repo_id: ""
 gcp_gke_name: ""
-raw_params: 'foo: blabliblou'
+raw_params: 'foo: blabliblou2'
 use_aiven: true
 use_gcp: true
