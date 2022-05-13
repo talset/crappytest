@@ -8,11 +8,13 @@
 #
 # Any extra variables not found in the original file have been ignored.
 #
-config_git_branch: master
+config_git_branch: test
 config_git_private_key: ((ssh_configflo2.ssh_key))
 config_git_repository: git@github.com:talset/crappytest.git
 config_path: floraw/stack_yml/test
 env: test
 organization: cycloid
 project: floraw
+stack_git_branch: stacks
+stack_git_repository: git@github.com:talset/stacks.git
 stack_path: stack-formv2
