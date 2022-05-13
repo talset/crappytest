@@ -17,7 +17,7 @@ bastion_private_key_pair: |-
   -----END RSA PRIVATE KEY-----
 bastion_url: admin@bastion.cycloid.io
 env: morgen
-frequency: 2.1
+frequency: 2.2
 magento_config_git_branch: master
 magento_config_git_private_key: |-
   -----BEGIN RSA PRIVATE KEY-----
@@ -36,7 +36,7 @@ magento_git_private_key: |-
   -----BEGIN RSA PRIVATE KEY-----
   -----END RSA PRIVATE KEY-----
 magento_git_repository: git@github.com:MyUser/code-magento.git
-replicas: 20
+replicas: 22
 terraform_storage_access_key: '...'
 terraform_storage_bucket_name: magento-terraform-remote-state
 terraform_storage_bucket_path: magento/morgen
