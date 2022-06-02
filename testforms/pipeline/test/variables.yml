@@ -12,7 +12,7 @@ backup_policy_name_dev: ""
 backup_policy_name_prod: ""
 backup_policy_name_uat: bkgazuvm00y06m30d03h30
 config_git_branch: test
-config_git_private_key: ((aws_aws.secret_key))
+config_git_private_key: ((github-labs.ssh_key))
 config_git_repository: git@github.com:talset/crappytest.git
 config_path: testforms/stack_yml/test
 env: test
