@@ -9,14 +9,14 @@
 # Any extra variables not found in the original file have been ignored.
 #
 backup_policy_name_dev: ""
-backup_policy_name_prod: bkgazuvm00y00m15d04h00
-backup_policy_name_uat: ""
+backup_policy_name_prod: ""
+backup_policy_name_uat: bkgazuvm00y06m30d03h30
 config_git_branch: test
 config_git_private_key: ((aws_aws.secret_key))
 config_git_repository: git@github.com:talset/crappytest.git
 config_path: testforms/stack_yml/test
 env: test
-environment: Prod
+environment: UAT
 organization: florian
 project: testforms
 stack_git_branch: stacks
