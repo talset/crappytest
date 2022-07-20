@@ -8,7 +8,7 @@
 #
 # Any extra variables not found in the original file have been ignored.
 #
-advanced_opt: false
+advanced_opt: true
 aiven_project_id: ""
 application_name: cycloidapp
 gcp_gitops_repo_id: ""
