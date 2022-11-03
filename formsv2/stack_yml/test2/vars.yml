@@ -11,6 +11,11 @@
 advanced_opt: true
 aiven_project_id: ""
 application_name: cycloidapp
+ftp_list:
+  ftp1:
+    allowed_networks:
+    - 0.0.0.0/0
+    instance_type: t3.micro
 gcp_gitops_repo_id: ""
 gcp_gke_name: ""
 raw_params:

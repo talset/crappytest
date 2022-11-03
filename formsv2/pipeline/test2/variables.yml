@@ -17,6 +17,7 @@ config_git_repository: git@github.com:talset/crappytest.git
 config_path: formsv2/stack_yml/test2
 env: test2
 environment: Dev
+mapped: NETWORK:default SUBNET:default REGION:europe-west1 IIP-RANGE:10.132.0.0/20
 organization: florian
 project: formsv2
 stack_git_branch: stacks
