@@ -1,0 +1,4 @@
+module "test2rs" {
+  source = "./module-test2rs"
+}
+
