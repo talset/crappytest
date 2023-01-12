@@ -1,0 +1,21 @@
+version: "2"
+name: test2rs
+canonical: test2rs
+author: admin
+status: private
+description: test2rs
+image: ""
+keywords:
+- test2rs
+- provider:azure
+technologies: []
+dependencies: []
+config:
+  default:
+    name: default
+    pipeline:
+      pipeline:
+        path: pipeline/default/terraform-pipeline.yaml
+      variables:
+        destination: ($ project $)/pipeline/variables-($ environment $).yml
+        path: pipeline/default/variables.sample.yaml
