@@ -1,0 +1,4 @@
+module "interface" {
+  source = "./module-interface"
+}
+
