@@ -1,6 +1,0 @@
-version: "2"
-use_cases:
-- name: default
-  sections:
-  - name: Config
-    groups: []
