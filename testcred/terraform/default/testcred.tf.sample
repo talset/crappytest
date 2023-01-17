@@ -1,0 +1,4 @@
+module "testcred" {
+  source = "./module-testcred"
+}
+
