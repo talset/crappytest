@@ -1,0 +1,21 @@
+version: "2"
+name: storageprod
+canonical: storageprod
+author: admin
+status: private
+description: storageprod
+image: ""
+keywords:
+- storageprod
+- provider:azure
+technologies: []
+dependencies: []
+config:
+  default:
+    name: default
+    pipeline:
+      pipeline:
+        path: pipeline/default/terraform-pipeline.yaml
+      variables:
+        destination: ($ project $)/pipeline/variables-($ environment $).yml
+        path: pipeline/default/variables.sample.yaml
