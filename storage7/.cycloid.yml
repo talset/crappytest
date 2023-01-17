@@ -1,0 +1,21 @@
+version: "2"
+name: storage7
+canonical: storage7
+author: admin
+status: private
+description: storage7
+image: ""
+keywords:
+- storage7
+- provider:azure
+technologies: []
+dependencies: []
+config:
+  default:
+    name: default
+    pipeline:
+      pipeline:
+        path: pipeline/default/terraform-pipeline.yaml
+      variables:
+        destination: ($ project $)/pipeline/variables-($ environment $).yml
+        path: pipeline/default/variables.sample.yaml
