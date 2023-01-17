@@ -1,0 +1,4 @@
+module "storage7" {
+  source = "./module-storage7"
+}
+
