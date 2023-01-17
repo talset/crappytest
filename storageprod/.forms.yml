@@ -1,0 +1,52 @@
+version: "2"
+use_cases:
+- name: default
+  sections:
+  - name: Config
+    groups:
+    - name: terraform
+      technologies:
+      - terraform
+      vars:
+      - widget: text_area
+        required: true
+        default: Storage
+        type: string
+        key: azurerm_storage_account__subscriptions_508f906f_b287_4882_b038_c653fe001aa0_resourcegroups_cycloid_demo_providers_microsoft_storage_storageaccounts_cycloiddemodisks_account_kind
+        name: azurerm_storage_account__subscriptions_508f906f_b287_4882_b038_c653fe001aa0_resourcegroups_cycloid_demo_providers_microsoft_storage_storageaccounts_cycloiddemodisks_account_kind
+      - widget: text_area
+        required: true
+        default: StorageV2
+        type: string
+        key: azurerm_storage_account__subscriptions_508f906f_b287_4882_b038_c653fe001aa0_resourcegroups_cycloid_demo_providers_microsoft_storage_storageaccounts_cycloiddemotfstate_account_kind
+        name: azurerm_storage_account__subscriptions_508f906f_b287_4882_b038_c653fe001aa0_resourcegroups_cycloid_demo_providers_microsoft_storage_storageaccounts_cycloiddemotfstate_account_kind
+      - widget: text_area
+        required: true
+        default: StorageV2
+        type: string
+        key: azurerm_storage_account__subscriptions_508f906f_b287_4882_b038_c653fe001aa0_resourcegroups_cycloid_lab_providers_microsoft_storage_storageaccounts_cycloidlabtfstate_account_kind
+        name: azurerm_storage_account__subscriptions_508f906f_b287_4882_b038_c653fe001aa0_resourcegroups_cycloid_lab_providers_microsoft_storage_storageaccounts_cycloidlabtfstate_account_kind
+      - widget: text_area
+        required: true
+        default: StorageV2
+        type: string
+        key: azurerm_storage_account__subscriptions_508f906f_b287_4882_b038_c653fe001aa0_resourcegroups_cycloid_terraform_providers_microsoft_storage_storageaccounts_cycloidtfstate_account_kind
+        name: azurerm_storage_account__subscriptions_508f906f_b287_4882_b038_c653fe001aa0_resourcegroups_cycloid_terraform_providers_microsoft_storage_storageaccounts_cycloidtfstate_account_kind
+      - widget: text_area
+        required: true
+        default: StorageV2
+        type: string
+        key: azurerm_storage_account__subscriptions_508f906f_b287_4882_b038_c653fe001aa0_resourcegroups_youdeploy_backend_tests_providers_microsoft_storage_storageaccounts_azurettfstatetests_account_kind
+        name: azurerm_storage_account__subscriptions_508f906f_b287_4882_b038_c653fe001aa0_resourcegroups_youdeploy_backend_tests_providers_microsoft_storage_storageaccounts_azurettfstatetests_account_kind
+      - widget: text_area
+        required: true
+        default: StorageV2
+        type: string
+        key: azurerm_storage_account__subscriptions_508f906f_b287_4882_b038_c653fe001aa0_resourcegroups_youdeploy_backend_tests_providers_microsoft_storage_storageaccounts_cycloidcostexplorer_account_kind
+        name: azurerm_storage_account__subscriptions_508f906f_b287_4882_b038_c653fe001aa0_resourcegroups_youdeploy_backend_tests_providers_microsoft_storage_storageaccounts_cycloidcostexplorer_account_kind
+      - widget: text_area
+        required: true
+        default: Storage
+        type: string
+        key: azurerm_storage_account__subscriptions_508f906f_b287_4882_b038_c653fe001aa0_resourcegroups_cycloid_demo_providers_microsoft_storage_storageaccounts_cycloiddemodiag_account_kind
+        name: azurerm_storage_account__subscriptions_508f906f_b287_4882_b038_c653fe001aa0_resourcegroups_cycloid_demo_providers_microsoft_storage_storageaccounts_cycloiddemodiag_account_kind
