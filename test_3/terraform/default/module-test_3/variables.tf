@@ -1,0 +1,532 @@
+variable "azurerm_storage_account__subscriptions_edce4685_4988_4a09_8b4a_3d5b917022cd_resourcegroups_defaultresourcegroup_weu_providers_microsoft_storage_storageaccounts_cycloidtestobs_access_tier" {
+  default = "Hot"
+}
+
+variable "azurerm_storage_account__subscriptions_edce4685_4988_4a09_8b4a_3d5b917022cd_resourcegroups_defaultresourcegroup_weu_providers_microsoft_storage_storageaccounts_cycloidtestobs_account_kind" {
+  default = "StorageV2"
+}
+
+variable "azurerm_storage_account__subscriptions_edce4685_4988_4a09_8b4a_3d5b917022cd_resourcegroups_defaultresourcegroup_weu_providers_microsoft_storage_storageaccounts_cycloidtestobs_account_replication_type" {
+  default = "RAGRS"
+}
+
+variable "azurerm_storage_account__subscriptions_edce4685_4988_4a09_8b4a_3d5b917022cd_resourcegroups_defaultresourcegroup_weu_providers_microsoft_storage_storageaccounts_cycloidtestobs_account_tier" {
+  default = "Standard"
+}
+
+variable "azurerm_storage_account__subscriptions_edce4685_4988_4a09_8b4a_3d5b917022cd_resourcegroups_defaultresourcegroup_weu_providers_microsoft_storage_storageaccounts_cycloidtestobs_allow_nested_items_to_be_public" {
+  default = true
+}
+
+variable "azurerm_storage_account__subscriptions_edce4685_4988_4a09_8b4a_3d5b917022cd_resourcegroups_defaultresourcegroup_weu_providers_microsoft_storage_storageaccounts_cycloidtestobs_blob_properties_0_container_delete_retention_policy_0_days" {
+  default = 7
+}
+
+variable "azurerm_storage_account__subscriptions_edce4685_4988_4a09_8b4a_3d5b917022cd_resourcegroups_defaultresourcegroup_weu_providers_microsoft_storage_storageaccounts_cycloidtestobs_blob_properties_0_delete_retention_policy_0_days" {
+  default = 7
+}
+
+variable "azurerm_storage_account__subscriptions_edce4685_4988_4a09_8b4a_3d5b917022cd_resourcegroups_defaultresourcegroup_weu_providers_microsoft_storage_storageaccounts_cycloidtestobs_cross_tenant_replication_enabled" {
+  default = true
+}
+
+variable "azurerm_storage_account__subscriptions_edce4685_4988_4a09_8b4a_3d5b917022cd_resourcegroups_defaultresourcegroup_weu_providers_microsoft_storage_storageaccounts_cycloidtestobs_enable_https_traffic_only" {
+  default = true
+}
+
+variable "azurerm_storage_account__subscriptions_edce4685_4988_4a09_8b4a_3d5b917022cd_resourcegroups_defaultresourcegroup_weu_providers_microsoft_storage_storageaccounts_cycloidtestobs_location" {
+  default = "francecentral"
+}
+
+variable "azurerm_storage_account__subscriptions_edce4685_4988_4a09_8b4a_3d5b917022cd_resourcegroups_defaultresourcegroup_weu_providers_microsoft_storage_storageaccounts_cycloidtestobs_min_tls_version" {
+  default = "TLS1_2"
+}
+
+variable "azurerm_storage_account__subscriptions_edce4685_4988_4a09_8b4a_3d5b917022cd_resourcegroups_defaultresourcegroup_weu_providers_microsoft_storage_storageaccounts_cycloidtestobs_name" {
+  default = "cycloidtestobs"
+}
+
+variable "azurerm_storage_account__subscriptions_edce4685_4988_4a09_8b4a_3d5b917022cd_resourcegroups_defaultresourcegroup_weu_providers_microsoft_storage_storageaccounts_cycloidtestobs_network_rules_0_bypass" {
+  default = ["AzureServices"]
+}
+
+variable "azurerm_storage_account__subscriptions_edce4685_4988_4a09_8b4a_3d5b917022cd_resourcegroups_defaultresourcegroup_weu_providers_microsoft_storage_storageaccounts_cycloidtestobs_network_rules_0_default_action" {
+  default = "Allow"
+}
+
+variable "azurerm_storage_account__subscriptions_edce4685_4988_4a09_8b4a_3d5b917022cd_resourcegroups_defaultresourcegroup_weu_providers_microsoft_storage_storageaccounts_cycloidtestobs_queue_encryption_key_type" {
+  default = "Service"
+}
+
+variable "azurerm_storage_account__subscriptions_edce4685_4988_4a09_8b4a_3d5b917022cd_resourcegroups_defaultresourcegroup_weu_providers_microsoft_storage_storageaccounts_cycloidtestobs_queue_properties_0_hour_metrics_0_enabled" {
+  default = true
+}
+
+variable "azurerm_storage_account__subscriptions_edce4685_4988_4a09_8b4a_3d5b917022cd_resourcegroups_defaultresourcegroup_weu_providers_microsoft_storage_storageaccounts_cycloidtestobs_queue_properties_0_hour_metrics_0_include_apis" {
+  default = true
+}
+
+variable "azurerm_storage_account__subscriptions_edce4685_4988_4a09_8b4a_3d5b917022cd_resourcegroups_defaultresourcegroup_weu_providers_microsoft_storage_storageaccounts_cycloidtestobs_queue_properties_0_hour_metrics_0_retention_policy_days" {
+  default = 7
+}
+
+variable "azurerm_storage_account__subscriptions_edce4685_4988_4a09_8b4a_3d5b917022cd_resourcegroups_defaultresourcegroup_weu_providers_microsoft_storage_storageaccounts_cycloidtestobs_queue_properties_0_hour_metrics_0_version" {
+  default = "1.0"
+}
+
+variable "azurerm_storage_account__subscriptions_edce4685_4988_4a09_8b4a_3d5b917022cd_resourcegroups_defaultresourcegroup_weu_providers_microsoft_storage_storageaccounts_cycloidtestobs_queue_properties_0_logging_0_delete" {
+  default = false
+}
+
+variable "azurerm_storage_account__subscriptions_edce4685_4988_4a09_8b4a_3d5b917022cd_resourcegroups_defaultresourcegroup_weu_providers_microsoft_storage_storageaccounts_cycloidtestobs_queue_properties_0_logging_0_read" {
+  default = false
+}
+
+variable "azurerm_storage_account__subscriptions_edce4685_4988_4a09_8b4a_3d5b917022cd_resourcegroups_defaultresourcegroup_weu_providers_microsoft_storage_storageaccounts_cycloidtestobs_queue_properties_0_logging_0_version" {
+  default = "1.0"
+}
+
+variable "azurerm_storage_account__subscriptions_edce4685_4988_4a09_8b4a_3d5b917022cd_resourcegroups_defaultresourcegroup_weu_providers_microsoft_storage_storageaccounts_cycloidtestobs_queue_properties_0_logging_0_write" {
+  default = false
+}
+
+variable "azurerm_storage_account__subscriptions_edce4685_4988_4a09_8b4a_3d5b917022cd_resourcegroups_defaultresourcegroup_weu_providers_microsoft_storage_storageaccounts_cycloidtestobs_queue_properties_0_minute_metrics_0_enabled" {
+  default = false
+}
+
+variable "azurerm_storage_account__subscriptions_edce4685_4988_4a09_8b4a_3d5b917022cd_resourcegroups_defaultresourcegroup_weu_providers_microsoft_storage_storageaccounts_cycloidtestobs_queue_properties_0_minute_metrics_0_version" {
+  default = "1.0"
+}
+
+variable "azurerm_storage_account__subscriptions_edce4685_4988_4a09_8b4a_3d5b917022cd_resourcegroups_defaultresourcegroup_weu_providers_microsoft_storage_storageaccounts_cycloidtestobs_resource_group_name" {
+  default = "DefaultResourceGroup-WEU"
+}
+
+variable "azurerm_storage_account__subscriptions_edce4685_4988_4a09_8b4a_3d5b917022cd_resourcegroups_defaultresourcegroup_weu_providers_microsoft_storage_storageaccounts_cycloidtestobs_share_properties_0_retention_policy_0_days" {
+  default = 7
+}
+
+variable "azurerm_storage_account__subscriptions_edce4685_4988_4a09_8b4a_3d5b917022cd_resourcegroups_defaultresourcegroup_weu_providers_microsoft_storage_storageaccounts_cycloidtestobs_shared_access_key_enabled" {
+  default = true
+}
+
+variable "azurerm_storage_account__subscriptions_edce4685_4988_4a09_8b4a_3d5b917022cd_resourcegroups_defaultresourcegroup_weu_providers_microsoft_storage_storageaccounts_cycloidtestobs_table_encryption_key_type" {
+  default = "Service"
+}
+
+variable "azurerm_storage_account__subscriptions_edce4685_4988_4a09_8b4a_3d5b917022cd_resourcegroups_defaultresourcegroup_weu_providers_microsoft_storage_storageaccounts_cycloidtestobs_tc_category" {
+  default = "storage"
+}
+
+variable "azurerm_storage_account__subscriptions_edce4685_4988_4a09_8b4a_3d5b917022cd_resourcegroups_rg_myappname1_providers_microsoft_storage_storageaccounts_stmyappname18hgij0__tc_tags_created_by" {
+  default = "Olivier"
+}
+
+variable "azurerm_storage_account__subscriptions_edce4685_4988_4a09_8b4a_3d5b917022cd_resourcegroups_rg_myappname1_providers_microsoft_storage_storageaccounts_stmyappname18hgij0__tc_tags_customer" {
+  default = "cycloid-demo"
+}
+
+variable "azurerm_storage_account__subscriptions_edce4685_4988_4a09_8b4a_3d5b917022cd_resourcegroups_rg_myappname1_providers_microsoft_storage_storageaccounts_stmyappname18hgij0__tc_tags_cycloid" {
+  default = "true"
+}
+
+variable "azurerm_storage_account__subscriptions_edce4685_4988_4a09_8b4a_3d5b917022cd_resourcegroups_rg_myappname1_providers_microsoft_storage_storageaccounts_stmyappname18hgij0__tc_tags_env" {
+  default = "mytest"
+}
+
+variable "azurerm_storage_account__subscriptions_edce4685_4988_4a09_8b4a_3d5b917022cd_resourcegroups_rg_myappname1_providers_microsoft_storage_storageaccounts_stmyappname18hgij0__tc_tags_environment" {
+  default = "test"
+}
+
+variable "azurerm_storage_account__subscriptions_edce4685_4988_4a09_8b4a_3d5b917022cd_resourcegroups_rg_myappname1_providers_microsoft_storage_storageaccounts_stmyappname18hgij0__tc_tags_project" {
+  default = "poc4ge"
+}
+
+variable "azurerm_storage_account__subscriptions_edce4685_4988_4a09_8b4a_3d5b917022cd_resourcegroups_rg_myappname1_providers_microsoft_storage_storageaccounts_stmyappname18hgij0_access_tier" {
+  default = "Cool"
+}
+
+variable "azurerm_storage_account__subscriptions_edce4685_4988_4a09_8b4a_3d5b917022cd_resourcegroups_rg_myappname1_providers_microsoft_storage_storageaccounts_stmyappname18hgij0_account_kind" {
+  default = "StorageV2"
+}
+
+variable "azurerm_storage_account__subscriptions_edce4685_4988_4a09_8b4a_3d5b917022cd_resourcegroups_rg_myappname1_providers_microsoft_storage_storageaccounts_stmyappname18hgij0_account_replication_type" {
+  default = "GRS"
+}
+
+variable "azurerm_storage_account__subscriptions_edce4685_4988_4a09_8b4a_3d5b917022cd_resourcegroups_rg_myappname1_providers_microsoft_storage_storageaccounts_stmyappname18hgij0_account_tier" {
+  default = "Standard"
+}
+
+variable "azurerm_storage_account__subscriptions_edce4685_4988_4a09_8b4a_3d5b917022cd_resourcegroups_rg_myappname1_providers_microsoft_storage_storageaccounts_stmyappname18hgij0_allow_nested_items_to_be_public" {
+  default = true
+}
+
+variable "azurerm_storage_account__subscriptions_edce4685_4988_4a09_8b4a_3d5b917022cd_resourcegroups_rg_myappname1_providers_microsoft_storage_storageaccounts_stmyappname18hgij0_enable_https_traffic_only" {
+  default = true
+}
+
+variable "azurerm_storage_account__subscriptions_edce4685_4988_4a09_8b4a_3d5b917022cd_resourcegroups_rg_myappname1_providers_microsoft_storage_storageaccounts_stmyappname18hgij0_location" {
+  default = "westeurope"
+}
+
+variable "azurerm_storage_account__subscriptions_edce4685_4988_4a09_8b4a_3d5b917022cd_resourcegroups_rg_myappname1_providers_microsoft_storage_storageaccounts_stmyappname18hgij0_min_tls_version" {
+  default = "TLS1_2"
+}
+
+variable "azurerm_storage_account__subscriptions_edce4685_4988_4a09_8b4a_3d5b917022cd_resourcegroups_rg_myappname1_providers_microsoft_storage_storageaccounts_stmyappname18hgij0_name" {
+  default = "stmyappname18hgij0"
+}
+
+variable "azurerm_storage_account__subscriptions_edce4685_4988_4a09_8b4a_3d5b917022cd_resourcegroups_rg_myappname1_providers_microsoft_storage_storageaccounts_stmyappname18hgij0_network_rules_0_bypass" {
+  default = ["AzureServices"]
+}
+
+variable "azurerm_storage_account__subscriptions_edce4685_4988_4a09_8b4a_3d5b917022cd_resourcegroups_rg_myappname1_providers_microsoft_storage_storageaccounts_stmyappname18hgij0_network_rules_0_default_action" {
+  default = "Allow"
+}
+
+variable "azurerm_storage_account__subscriptions_edce4685_4988_4a09_8b4a_3d5b917022cd_resourcegroups_rg_myappname1_providers_microsoft_storage_storageaccounts_stmyappname18hgij0_queue_encryption_key_type" {
+  default = "Service"
+}
+
+variable "azurerm_storage_account__subscriptions_edce4685_4988_4a09_8b4a_3d5b917022cd_resourcegroups_rg_myappname1_providers_microsoft_storage_storageaccounts_stmyappname18hgij0_queue_properties_0_hour_metrics_0_enabled" {
+  default = true
+}
+
+variable "azurerm_storage_account__subscriptions_edce4685_4988_4a09_8b4a_3d5b917022cd_resourcegroups_rg_myappname1_providers_microsoft_storage_storageaccounts_stmyappname18hgij0_queue_properties_0_hour_metrics_0_include_apis" {
+  default = true
+}
+
+variable "azurerm_storage_account__subscriptions_edce4685_4988_4a09_8b4a_3d5b917022cd_resourcegroups_rg_myappname1_providers_microsoft_storage_storageaccounts_stmyappname18hgij0_queue_properties_0_hour_metrics_0_retention_policy_days" {
+  default = 7
+}
+
+variable "azurerm_storage_account__subscriptions_edce4685_4988_4a09_8b4a_3d5b917022cd_resourcegroups_rg_myappname1_providers_microsoft_storage_storageaccounts_stmyappname18hgij0_queue_properties_0_hour_metrics_0_version" {
+  default = "1.0"
+}
+
+variable "azurerm_storage_account__subscriptions_edce4685_4988_4a09_8b4a_3d5b917022cd_resourcegroups_rg_myappname1_providers_microsoft_storage_storageaccounts_stmyappname18hgij0_queue_properties_0_logging_0_delete" {
+  default = false
+}
+
+variable "azurerm_storage_account__subscriptions_edce4685_4988_4a09_8b4a_3d5b917022cd_resourcegroups_rg_myappname1_providers_microsoft_storage_storageaccounts_stmyappname18hgij0_queue_properties_0_logging_0_read" {
+  default = false
+}
+
+variable "azurerm_storage_account__subscriptions_edce4685_4988_4a09_8b4a_3d5b917022cd_resourcegroups_rg_myappname1_providers_microsoft_storage_storageaccounts_stmyappname18hgij0_queue_properties_0_logging_0_version" {
+  default = "1.0"
+}
+
+variable "azurerm_storage_account__subscriptions_edce4685_4988_4a09_8b4a_3d5b917022cd_resourcegroups_rg_myappname1_providers_microsoft_storage_storageaccounts_stmyappname18hgij0_queue_properties_0_logging_0_write" {
+  default = false
+}
+
+variable "azurerm_storage_account__subscriptions_edce4685_4988_4a09_8b4a_3d5b917022cd_resourcegroups_rg_myappname1_providers_microsoft_storage_storageaccounts_stmyappname18hgij0_queue_properties_0_minute_metrics_0_enabled" {
+  default = false
+}
+
+variable "azurerm_storage_account__subscriptions_edce4685_4988_4a09_8b4a_3d5b917022cd_resourcegroups_rg_myappname1_providers_microsoft_storage_storageaccounts_stmyappname18hgij0_queue_properties_0_minute_metrics_0_version" {
+  default = "1.0"
+}
+
+variable "azurerm_storage_account__subscriptions_edce4685_4988_4a09_8b4a_3d5b917022cd_resourcegroups_rg_myappname1_providers_microsoft_storage_storageaccounts_stmyappname18hgij0_resource_group_name" {
+  default = "rg-myappname1"
+}
+
+variable "azurerm_storage_account__subscriptions_edce4685_4988_4a09_8b4a_3d5b917022cd_resourcegroups_rg_myappname1_providers_microsoft_storage_storageaccounts_stmyappname18hgij0_share_properties_0_retention_policy_0_days" {
+  default = 7
+}
+
+variable "azurerm_storage_account__subscriptions_edce4685_4988_4a09_8b4a_3d5b917022cd_resourcegroups_rg_myappname1_providers_microsoft_storage_storageaccounts_stmyappname18hgij0_shared_access_key_enabled" {
+  default = true
+}
+
+variable "azurerm_storage_account__subscriptions_edce4685_4988_4a09_8b4a_3d5b917022cd_resourcegroups_rg_myappname1_providers_microsoft_storage_storageaccounts_stmyappname18hgij0_table_encryption_key_type" {
+  default = "Service"
+}
+
+variable "azurerm_storage_account__subscriptions_edce4685_4988_4a09_8b4a_3d5b917022cd_resourcegroups_rg_myappname1_providers_microsoft_storage_storageaccounts_stmyappname18hgij0_tc_category" {
+  default = "storage"
+}
+
+variable "azurerm_storage_account_aidfq__tc_tags_created_by" {
+  default = "Olivier"
+}
+
+variable "azurerm_storage_account_aidfq__tc_tags_customer" {
+  default = "cycloid-demo"
+}
+
+variable "azurerm_storage_account_aidfq__tc_tags_cycloid" {
+  default = "true"
+}
+
+variable "azurerm_storage_account_aidfq__tc_tags_env" {
+  default = "mytest"
+}
+
+variable "azurerm_storage_account_aidfq__tc_tags_environment" {
+  default = "test"
+}
+
+variable "azurerm_storage_account_aidfq__tc_tags_project" {
+  default = "poc4ge"
+}
+
+variable "azurerm_storage_account_aidfq_access_tier" {
+  default = "Cool"
+}
+
+variable "azurerm_storage_account_aidfq_account_kind" {
+  default = "StorageV2"
+}
+
+variable "azurerm_storage_account_aidfq_account_replication_type" {
+  default = "GRS"
+}
+
+variable "azurerm_storage_account_aidfq_account_tier" {
+  default = "Standard"
+}
+
+variable "azurerm_storage_account_aidfq_allow_nested_items_to_be_public" {
+  default = true
+}
+
+variable "azurerm_storage_account_aidfq_enable_https_traffic_only" {
+  default = true
+}
+
+variable "azurerm_storage_account_aidfq_location" {
+  default = "westeurope"
+}
+
+variable "azurerm_storage_account_aidfq_min_tls_version" {
+  default = "TLS1_2"
+}
+
+variable "azurerm_storage_account_aidfq_name" {
+  default = "stmyappname18hgij0"
+}
+
+variable "azurerm_storage_account_aidfq_network_rules_0_bypass" {
+  default = ["AzureServices"]
+}
+
+variable "azurerm_storage_account_aidfq_network_rules_0_default_action" {
+  default = "Allow"
+}
+
+variable "azurerm_storage_account_aidfq_queue_encryption_key_type" {
+  default = "Service"
+}
+
+variable "azurerm_storage_account_aidfq_queue_properties_0_hour_metrics_0_enabled" {
+  default = true
+}
+
+variable "azurerm_storage_account_aidfq_queue_properties_0_hour_metrics_0_include_apis" {
+  default = true
+}
+
+variable "azurerm_storage_account_aidfq_queue_properties_0_hour_metrics_0_retention_policy_days" {
+  default = 7
+}
+
+variable "azurerm_storage_account_aidfq_queue_properties_0_hour_metrics_0_version" {
+  default = "1.0"
+}
+
+variable "azurerm_storage_account_aidfq_queue_properties_0_logging_0_delete" {
+  default = false
+}
+
+variable "azurerm_storage_account_aidfq_queue_properties_0_logging_0_read" {
+  default = false
+}
+
+variable "azurerm_storage_account_aidfq_queue_properties_0_logging_0_version" {
+  default = "1.0"
+}
+
+variable "azurerm_storage_account_aidfq_queue_properties_0_logging_0_write" {
+  default = false
+}
+
+variable "azurerm_storage_account_aidfq_queue_properties_0_minute_metrics_0_enabled" {
+  default = false
+}
+
+variable "azurerm_storage_account_aidfq_queue_properties_0_minute_metrics_0_version" {
+  default = "1.0"
+}
+
+variable "azurerm_storage_account_aidfq_resource_group_name" {
+  default = "rg-myappname1"
+}
+
+variable "azurerm_storage_account_aidfq_share_properties_0_retention_policy_0_days" {
+  default = 7
+}
+
+variable "azurerm_storage_account_aidfq_shared_access_key_enabled" {
+  default = true
+}
+
+variable "azurerm_storage_account_aidfq_table_encryption_key_type" {
+  default = "Service"
+}
+
+variable "azurerm_storage_account_aidfq_tc_category" {
+  default = "storage"
+}
+
+variable "azurerm_storage_account_rostq_access_tier" {
+  default = "Hot"
+}
+
+variable "azurerm_storage_account_rostq_account_kind" {
+  default = "StorageV2"
+}
+
+variable "azurerm_storage_account_rostq_account_replication_type" {
+  default = "RAGRS"
+}
+
+variable "azurerm_storage_account_rostq_account_tier" {
+  default = "Standard"
+}
+
+variable "azurerm_storage_account_rostq_allow_nested_items_to_be_public" {
+  default = true
+}
+
+variable "azurerm_storage_account_rostq_blob_properties_0_container_delete_retention_policy_0_days" {
+  default = 7
+}
+
+variable "azurerm_storage_account_rostq_blob_properties_0_delete_retention_policy_0_days" {
+  default = 7
+}
+
+variable "azurerm_storage_account_rostq_cross_tenant_replication_enabled" {
+  default = true
+}
+
+variable "azurerm_storage_account_rostq_enable_https_traffic_only" {
+  default = true
+}
+
+variable "azurerm_storage_account_rostq_location" {
+  default = "francecentral"
+}
+
+variable "azurerm_storage_account_rostq_min_tls_version" {
+  default = "TLS1_2"
+}
+
+variable "azurerm_storage_account_rostq_name" {
+  default = "cycloidtestobs"
+}
+
+variable "azurerm_storage_account_rostq_network_rules_0_bypass" {
+  default = ["AzureServices"]
+}
+
+variable "azurerm_storage_account_rostq_network_rules_0_default_action" {
+  default = "Allow"
+}
+
+variable "azurerm_storage_account_rostq_queue_encryption_key_type" {
+  default = "Service"
+}
+
+variable "azurerm_storage_account_rostq_queue_properties_0_hour_metrics_0_enabled" {
+  default = true
+}
+
+variable "azurerm_storage_account_rostq_queue_properties_0_hour_metrics_0_include_apis" {
+  default = true
+}
+
+variable "azurerm_storage_account_rostq_queue_properties_0_hour_metrics_0_retention_policy_days" {
+  default = 7
+}
+
+variable "azurerm_storage_account_rostq_queue_properties_0_hour_metrics_0_version" {
+  default = "1.0"
+}
+
+variable "azurerm_storage_account_rostq_queue_properties_0_logging_0_delete" {
+  default = false
+}
+
+variable "azurerm_storage_account_rostq_queue_properties_0_logging_0_read" {
+  default = false
+}
+
+variable "azurerm_storage_account_rostq_queue_properties_0_logging_0_version" {
+  default = "1.0"
+}
+
+variable "azurerm_storage_account_rostq_queue_properties_0_logging_0_write" {
+  default = false
+}
+
+variable "azurerm_storage_account_rostq_queue_properties_0_minute_metrics_0_enabled" {
+  default = false
+}
+
+variable "azurerm_storage_account_rostq_queue_properties_0_minute_metrics_0_version" {
+  default = "1.0"
+}
+
+variable "azurerm_storage_account_rostq_resource_group_name" {
+  default = "DefaultResourceGroup-WEU"
+}
+
+variable "azurerm_storage_account_rostq_share_properties_0_retention_policy_0_days" {
+  default = 7
+}
+
+variable "azurerm_storage_account_rostq_shared_access_key_enabled" {
+  default = true
+}
+
+variable "azurerm_storage_account_rostq_table_encryption_key_type" {
+  default = "Service"
+}
+
+variable "azurerm_storage_account_rostq_tc_category" {
+  default = "storage"
+}
+
+variable "azurerm_virtual_network__subscriptions_edce4685_4988_4a09_8b4a_3d5b917022cd_resourcegroups_cycloid_terraform_providers_microsoft_network_virtualnetworks_flotmp_address_space" {
+  default = ["10.0.0.0/16"]
+}
+
+variable "azurerm_virtual_network__subscriptions_edce4685_4988_4a09_8b4a_3d5b917022cd_resourcegroups_cycloid_terraform_providers_microsoft_network_virtualnetworks_flotmp_location" {
+  default = "francecentral"
+}
+
+variable "azurerm_virtual_network__subscriptions_edce4685_4988_4a09_8b4a_3d5b917022cd_resourcegroups_cycloid_terraform_providers_microsoft_network_virtualnetworks_flotmp_name" {
+  default = "flotmp"
+}
+
+variable "azurerm_virtual_network__subscriptions_edce4685_4988_4a09_8b4a_3d5b917022cd_resourcegroups_cycloid_terraform_providers_microsoft_network_virtualnetworks_flotmp_resource_group_name" {
+  default = "cycloid-terraform"
+}
+
+variable "azurerm_virtual_network__subscriptions_edce4685_4988_4a09_8b4a_3d5b917022cd_resourcegroups_cycloid_terraform_providers_microsoft_network_virtualnetworks_flotmp_subnet_0_address_prefix" {
+  default = "10.0.0.0/24"
+}
+
+variable "azurerm_virtual_network__subscriptions_edce4685_4988_4a09_8b4a_3d5b917022cd_resourcegroups_cycloid_terraform_providers_microsoft_network_virtualnetworks_flotmp_subnet_0_name" {
+  default = "default"
+}
+
+variable "azurerm_virtual_network__subscriptions_edce4685_4988_4a09_8b4a_3d5b917022cd_resourcegroups_cycloid_terraform_providers_microsoft_network_virtualnetworks_flotmp_tc_category" {
+  default = "network"
+}
+
