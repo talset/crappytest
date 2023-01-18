@@ -1,0 +1,21 @@
+version: "2"
+name: test 3
+canonical: test_3
+author: admin
+status: private
+description: test
+image: ""
+keywords:
+- test
+- provider:azure
+technologies: []
+dependencies: []
+config:
+  default:
+    name: default
+    pipeline:
+      pipeline:
+        path: pipeline/default/terraform-pipeline.yaml
+      variables:
+        destination: ($ project $)/pipeline/variables-($ environment $).yml
+        path: pipeline/default/variables.sample.yaml
