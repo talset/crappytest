@@ -6,21 +6,22 @@
 # Please note that comments in sample files will have been dropped
 # due to some limitations upon files' generation.
 #
+# Any extra variables not found in the original file have been written down below in the comment.
+#
 
 module "phraseanet" {
   source = "./module-phraseanet"
 
   app_admin_account_email                       = ""
   app_admin_account_id                          = ""
-  app_available_language                        = "fr,en,de,du"
+  app_available_language                        = "fr"
   app_cronjobs                                  = var.app_cronjobs
   app_db_host                                   = local.app_db_host
   app_db_name                                   = local.app_db_name
   app_db_port                                   = local.app_db_port
   app_db_user                                   = local.app_db_user
-  app_default_language                          = "en"
-  app_download_async                            = false
-  app_emitter_email                             = "dq@fsdf.fr"
+  app_default_language                          = "fr"
+  app_emitter_email                             = "instance+umf@alchemy.fr"
   app_es_host                                   = local.app_es_host
   app_es_port                                   = local.app_es_port
   app_exiftool_timeout                          = 120
@@ -35,10 +36,8 @@ module "phraseanet" {
   app_fpm_pm_type                               = "dynamic"
   app_fpm_startservers                          = 3
   app_gateway_allowed_ips                       = ""
-  app_gateway_csp                               = "default-src 'self' 127.0.0.1 https://apiws.carrick-skills.com:8443 https://apiws.carrick-flow.com:8443 https://fonts.gstatic.com *.tiles.mapbox.com https://api.mapbox.com https://events.mapbox.com *.axept.io *.matomo.cloud *.newrelic.com *.nr-data.net https://www.googletagmanager.com *.google-analytics.com *.phrasea.io https://apiws.carrick-flow.com:8443 https://apiws.carrick-skills.com:8443 data: ;script-src 'unsafe-inline' 'unsafe-eval' 'self' https://www.gstatic.com *.alchemyasp.com *.axept.io *.matomo.cloud *.newrelic.com https://www.googletagmanager.com https://apiws.carrick-flow.com:8443 https://apiws.carrick-skills.com:8443 ;style-src 'self' 'unsafe-inline' https://fonts.gstatic.com https://fonts.googleapis.com https://www.google.com https://www.gstatic.com https://apiws.carrick-flow.com:8443 https://apiws.carrick-skills.com:8443;img-src 'self' data: blob: *.tiles.mapbox.com https://axeptio.imgix.net *.cloudfront.net *.phrasea.io *.amazonaws.com https://apiws.carrick-flow.com:8443 https://apiws.carrick-skills.com:8443 ; object-src 'self';frame-ancestors 'self'"
+  app_gateway_csp                               = "default-src 'self' 127.0.0.1 https://apiws.carrick-skills.com:8443 https://apiws.carrick-flow.com:8443 https://fonts.gstatic.com *.tiles.mapbox.com https://api.mapbox.com https://events.mapbox.com *.axept.io *.matomo.cloud *.newrelic.com *.nr-data.net https://www.googletagmanager.com *.google-analytics.com *.phrasea.io https://apiws.carrick-flow.com:8443 https://apiws.carrick-skills.com:8443 data: ;script-src 'unsafe-inline' 'unsafe-eval' 'self' https://www.gstatic.com *.alchemyasp.com *.axept.io *.matomo.cloud *.newrelic.com https://www.googletagmanager.com https://apiws.carrick-flow.com:8443 https://apiws.carrick-skills.com:8443 ;style-src 'self' 'unsafe-inline' https://fonts.gstatic.com https://fonts.googleapis.com https://www.google.com https://www.gstatic.com https://apiws.carrick-flow.com:8443 https://apiws.carrick-skills.com:8443;img-src 'self' data: blob: *.tiles.mapbox.com https://axeptio.imgix.net *.cloudfront.net *.phrasea.io *.amazonaws.com https://apiws.carrick-flow.com:8443 https://apiws.carrick-skills.com:8443 ; object-src 'self';frame-ancestors 'self' *.umusic.fr *.parade-universalmusic.fr"
   app_gateway_denied_ips                        = ""
-  app_gateway_resources_limits_cpu              = "2000m"
-  app_gateway_resources_limits_memory           = "4Gi"
   app_gateway_users                             = ""
   app_gs_timeout                                = 120
   app_hostname                                  = ""
@@ -67,7 +66,7 @@ module "phraseanet" {
   app_hpa_records_maxreplicas                   = 2
   app_hpa_records_minreplicas                   = 1
   app_hpa_subdefcreation_cpu_averageutilization = 1000
-  app_hpa_subdefcreation_enabled                = false
+  app_hpa_subdefcreation_enabled                = true
   app_hpa_subdefcreation_maxreplicas            = 2
   app_hpa_subdefcreation_minreplicas            = 1
   app_hpa_writemetadatas_cpu_averageutilization = 2000
@@ -75,13 +74,11 @@ module "phraseanet" {
   app_hpa_writemetadatas_maxreplicas            = 1
   app_hpa_writemetadatas_minreplicas            = 1
   app_image_registry                            = "122649456891.dkr.ecr.eu-west-3.amazonaws.com"
-  app_image_tag                                 = "master"
-  app_mail_object_prefix                        = ""
-  app_maintenance                               = false
-  app_maintenance_message                       = ""
+  app_image_tag                                 = "umf-mediatheque-master-triggedByN8n"
+  app_mail_object_prefix                        = "Phraseanet-umf"
   app_max_body_size                             = 4
   app_mp4box_timeout                            = 120
-  app_newrelic_app_name                         = "alchemy-phraseanet-test"
+  app_newrelic_app_name                         = "umf-phr-mediatheque-prod"
   app_newrelic_enabled                          = false
   app_newrelic_licence_key                      = "eu01xx14da20db756217a1822bcb9b81FFFFNRAL"
   app_opcache_enabled                           = false
@@ -89,10 +86,7 @@ module "phraseanet" {
   app_phraseanet_install                        = 1
   app_phraseanet_setup                          = 1
   app_phraseanet_upgrade                        = 1
-  app_project_name                              = "My Phraseanet"
-  app_pusher_app_id                             = ""
-  app_pusher_auth_key                           = ""
-  app_pusher_secret                             = ""
+  app_project_name                              = "Phraseanet-umf"
   app_rabbitmq_host                             = local.app_rabbitmq_host
   app_rabbitmq_port                             = local.app_rabbitmq_port
   app_rabbitmq_user                             = local.app_rabbitmq_user
@@ -125,34 +119,26 @@ module "phraseanet" {
   app_swftools_timeout                          = 120
   app_trusted_proxies                           = "${data.terraform_remote_state.infrastructure.outputs.vpc_cidr_block}"
   app_unocon_timeout                            = 120
-  app_user_session_idle                         = "14400"
-  app_user_session_lifetime                     = "86400"
-  app_web_resources_limits_cpu                  = "2000m"
-  app_web_resources_limits_memory               = "4Gi"
   app_worker_assetsingest                       = 1
   app_worker_createrecord                       = 1
   app_worker_deleterecord                       = 1
-  app_worker_downloadasync                      = 1
   app_worker_editrecord                         = 1
   app_worker_exportmail                         = 1
   app_worker_exposeupload                       = 1
   app_worker_ftp                                = 0
-  app_worker_launch_cmd_enabled                 = false
-  app_worker_launch_exportemail_enabled         = false
+  app_worker_launch_exportemail_enabled         = true
   app_worker_launch_exportftp_enabled           = false
-  app_worker_launch_monoworker_enabled          = true
-  app_worker_launch_noscalable_enabled          = false
+  app_worker_launch_monoworker_enabled          = false
+  app_worker_launch_noscalable_enabled          = true
   app_worker_launch_ps_enabled                  = false
-  app_worker_launch_records_enabled             = false
-  app_worker_launch_scheduler_enabled           = false
-  app_worker_launch_subdefcreation_enabled      = false
-  app_worker_launch_writemetas_enabled          = false
+  app_worker_launch_records_enabled             = true
+  app_worker_launch_scheduler_enabled           = true
+  app_worker_launch_subdefcreation_enabled      = true
+  app_worker_launch_writemetas_enabled          = true
   app_worker_mainqueue                          = 1
   app_worker_populateindex                      = 1
   app_worker_pullassets                         = 1
   app_worker_recordsactions                     = 1
-  app_worker_resources_limits_cpu               = "2000m"
-  app_worker_resources_limits_memory            = "6Gi"
   app_worker_sharebasket                        = 1
   app_worker_subdefcreation                     = 1
   app_worker_subtitle                           = 0
@@ -170,11 +156,11 @@ module "phraseanet" {
   env                                           = var.env
   es_vol_size                                   = 1
   ext_db_extra_dbs = [
-
+    "mam"
   ]
   ext_db_svc = var.ext_db_svc
   ext_domains_http01_cert = [
-
+    "phraseanet.umusic.fr"
   ]
   ext_domains_import = [
 
@@ -184,10 +170,10 @@ module "phraseanet" {
   ext_es_svc                 = var.ext_es_svc
   ext_rabbitmq_svc           = var.ext_rabbitmq_svc
   ext_redis_svc              = var.ext_redis_svc
-  helm_release_version       = "1"
+  helm_release_version       = "0.23.0"
   organization               = var.organization
   plugins_configuration      = var.plugins_configuration
   project                    = var.project
-  prometheus_monitoring      = false
+  prometheus_monitoring      = true
 }
 

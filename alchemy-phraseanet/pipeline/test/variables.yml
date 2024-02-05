@@ -6,7 +6,9 @@
 # Please note that comments in sample files will have been dropped
 # due to some limitations upon files' generation.
 #
-advanced_opt: false
+# Any extra variables not found in the original file have been written down below in the comment.
+#
+advanced_opt: true
 app_cronjobs:
 - command: bin/console validation:remind
   id: job-1
@@ -33,13 +35,53 @@ app_cronjobs:
   name: workerjobclean
   schedule: '* 4 * * 3'
   suspend: false
-app_saml_authsources_config: |
-  # Specific authsources config. Can't be empty
-app_saml_authsources_cred: ""
-app_saml_idp_config: |+
-  # Specific idp config. Can't be empty
-
-app_saml_phraseanet_host: ""
+- command: ./docker/phraseanet/plugins/console init && bin/console workflow:run
+  id: job-5
+  installed: true
+  name: umf-workflow
+  schedule: '*/30 * * * *'
+  suspend: false
+- command: ./docker/phraseanet/plugins/console init && bin/console workflow:expiring:run
+  id: job-6
+  installed: true
+  name: umf-workflow-expiring-rights
+  schedule: '*/30 * * * *'
+  suspend: false
+- command: ./docker/phraseanet/plugins/console init && bin/console exporttogaia:run
+  id: job-7
+  installed: true
+  name: umf-export-to-gaia
+  schedule: 00 03 * * *
+  suspend: false
+- command: ./docker/phraseanet/plugins/console init && bin/console getty:fetch_logs
+    && bin/console getty:import_files
+  id: job-8
+  installed: true
+  name: umf-getty-import
+  schedule: 00 20 * * *
+  suspend: false
+app_saml_authsources_config: |2-
+          'phrasea-sp' => array(
+                  'saml:SP',
+                  'entityID' => NULL,
+                  'idp' => 'https://sts.windows.net/bbcb6b2f-8c7c-4e24-86e4-6c36fed00b78/',
+                  'NameIDFormat' => 'urn:oasis:names:tc:SAML:2.0:nameid-format:transient'
+          )
+app_saml_authsources_cred: ((customer-saml-certs))
+app_saml_idp_config: "<?php\n$metadata['https://sts.windows.net/bbcb6b2f-8c7c-4e24-86e4-6c36fed00b78/']
+  = array (\n  'entityid' => 'https://sts.windows.net/bbcb6b2f-8c7c-4e24-86e4-6c36fed00b78/',\n
+  \ 'contacts' => \n  array (\n  ),\n  'metadata-set' => 'saml20-idp-remote',\n  'SingleSignOnService'
+  => \n  array (\n    0 => \n    array (\n      'Binding' => 'urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect',\n
+  \     'Location' => 'https://login.microsoftonline.com/bbcb6b2f-8c7c-4e24-86e4-6c36fed00b78/saml2',\n
+  \   ),\n    1 => \n    array (\n      'Binding' => 'urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST',\n
+  \     'Location' => 'https://login.microsoftonline.com/bbcb6b2f-8c7c-4e24-86e4-6c36fed00b78/saml2',\n
+  \   ),\n  ),\n  'SingleLogoutService' => \n  array (\n    0 => \n    array (\n      'Binding'
+  => 'urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect',\n      'Location' => 'https://login.microsoftonline.com/bbcb6b2f-8c7c-4e24-86e4-6c36fed00b78/saml2',\n
+  \   ),\n  ),\n  'ArtifactResolutionService' => \n  array (\n  ),\n  'keys' => \n
+  \ array (\n    0 => \n    array (\n      'encryption' => false,\n      'signing'
+  => true,\n      'type' => 'X509Certificate',\n      'X509Certificate' => 'MIIC8DCCAdigAwIBAgIQX2oIxG2jzKlG4n95CLNtIjANBgkqhkiG9w0BAQsFADA0MTIwMAYDVQQDEylNaWNyb3NvZnQgQXp1cmUgRmVkZXJhdGVkIFNTTyBDZXJ0aWZpY2F0ZTAeFw0yMTA3MDcxNTEzMTZaFw0yNDA3MDcxNTEzMTVaMDQxMjAwBgNVBAMTKU1pY3Jvc29mdCBBenVyZSBGZWRlcmF0ZWQgU1NPIENlcnRpZmljYXRlMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA4yL00SRKKXRN0XcTt3I+Jb0Fx0EplIxuXSLdnXw6QusfmOnkKVuxSw1DqK4b1VUCqL0vgdsdBbj9v3a2yvzUhIBo6+vTmRXogbISqFKhfrnhgYeudXZiQBAF6vQXmmJ4oJcKOLYLGfVzrbkQbG8q4POU037FWGcFi5Tg66MJMRLF8XBMXNXDuJg7tuODrWyBjGv+f8qFnkr+X8YpM6R3K64wDFr7JV79AgkFU7mIw1F6XB/YvN+x1WfrAUs3CUWR/AXBrxaQ/BLDTBKfUl6AZOHy6/R7uweHrmcSMhKoYBi0HOZNtMYBw8J/uFUO2+xdE/CIQSDqnM7ZmqKNhihm7QIDAQABMA0GCSqGSIb3DQEBCwUAA4IBAQBGB1ixt89woG5jbCrKplj0thKXjde2j4p+rYYN5Y8hviT4cgrOXyqaBNterBB49xf+nb5EAY9qU4bnRCiJ04SS909V1oGgVFjIyprz4gnsT2y2TI/2Z92Whz3eEzpB4wtMZX71zyprid1HFrAPnBol6/dYruOCIK1VNQylMRP0q/4L2Rku2Y5NgqpwwXYTD8DLiJ0EtYIPrrYt1emKmPUBhDd4YOxMleEVOndd+oasATeCDx2R3zqYP9sc6pFP8KlOUUfn/+2A9qAPmX5svt0aI/Putv1DtQndA1wm98vV811A2oKp7ndU0BRuMjJx0OH0kZgiBMTnToZLWcGzncjL',\n
+  \   ),\n  ),\n);\n\n"
+app_saml_phraseanet_host: https://phraseanet.umusic.fr
 app_smtp_password: ""
 app_smtp_user: ""
 aws_access_key: ((cycloid-admin.access_key))
@@ -47,29 +89,199 @@ aws_secret_key: ((cycloid-admin.secret_key))
 config_git_branch: config
 config_git_private_key: ((git_alchemy-machine.ssh_key))
 config_git_repository: git@github.com:alchemy-fr/cycloid-stacks.git
-config_pipeline_path: alchemy-phraseanet/pipeline/test
-config_terraform_path: alchemy-phraseanet/terraform/test
+config_pipeline_path: umf-phr/pipeline/mediatheque-prod
+config_terraform_path: umf-phr/terraform/mediatheque-prod
 cycloid_toolkit_image: latest
 dockerhub_email: ((alchemy_dockerhub.email))
 dockerhub_password: ((alchemy_dockerhub.password))
 dockerhub_username: ((alchemy_dockerhub.username))
-env: test
+env: mediatheque-prod
 ext_db_svc: true
-ext_domains_import_cred: ""
+ext_domains_import_cred: ((customer-imported-certs))
 ext_es_svc: true
-ext_rabbitmq_svc: false
+ext_rabbitmq_svc: true
 ext_redis_svc: true
-infrastructure: ((aws_aws.access_key))
+infrastructure: ((alchemy-infra-saas.infra-saas-paris-prod))
 kubectl_version: 1.23.12
-organization: florian
-plugins_configuration: null
-project: alchemy-phraseanet
+organization: alchemy
+plugins_configuration:
+  expirating-rights-plugin: |-
+    databoxes :
+      - databox : "db_alch_universal"
+        collection : ["Promo", "Sélections"]
+        expire_field : "ExpirationDroits"
+        downloaded : ["document", "preview", "print"]
+    jobs :
+      # "Je voudrais avertir les personnes ayant téléchargé le média qu'il arrive bientôt a expiration"
+      - job : "droits-60"
+        active : true
+        databox : "db_alch_universal"
+        prior_notice : -60
+        alerts :
+          - method : "webhook"
+  export-to-gaia-plugin: |-
+    active : true
+    # databox to be exported to gaia
+    databox : "db_alch_universal"
+    # status-bit meaning "to export to gaia if sb=1"
+    status_bit : 9
+    # format of dates (sessionTime, fileTime) as received by xsl
+    date_format : "YmdHis"
+    # method of export ("local" or "sftp")
+    export_method : "sftp"
+    export_parms :
+      # parameter for "local" export_method
+      directory : "/var/www/Phraseanet/gaia"
+      # parameters for "sftp" export_method
+      host : "umfv5-cms.uniumf-pa03.msp.fr.clara.net"
+      port : 2222
+      username : "sftp-edip"
+      password : "Eq{*u6[z7E@0_d&{"
+      privateKey : ""
+      root : "/"
+      timeout : 2
+    # name of subdef to export
+    subdef : "preview"
+    # xsl to transform a phraseanet doc to a gaia doc
+    xsl : "ph_to_gaia.xslt"
+  getty-import-plugin: |-
+    getty_import:
+        getty_api:
+            base_url: 'https://api.gettyimages.com'
+            client_id: vkkytvcgjbcmyn94p6m4gc8j
+            client_secret: YqaY4THbL4gcA7MPVYXf
+            product_type: premiumaccess
+            company_downloads: 'true'
+        base_id: 31
+        files_limit: 10000
+        time_limit: 180000000000
+        field_mapping:
+            how_can_i_use_it: null
+            release_info: null
+            artist: null
+            artist_title: null
+            asset_family: null
+            caption: null
+            city: null
+            collection_code: null
+            collection_id: null
+            collection_name: null
+            color_type: null
+            copyright: null
+            country: Pays
+            credit_line: Commentaire
+            date_created: null
+            date_submited: null
+            graphical_style: null
+            keywords: null
+            license_model: null
+            object_name: null
+            orientation: null
+            people: null
+            quality_rank: null
+            state_province: null
+            title: Titre
+  phraseanet-plugin-carrick-flow: |-
+    carrick:
+        url_backend_root_path: 'https://apiws.carrick-flow.com:8443'
+        url_frontend_root_path: 'https://www.carrick-flow.com/#'
+        token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJjY3VzaWQiOjEwMDEsInN1YiI6IlBIUkFTRUFORVRfVU1GIiwiYXVkIjoid2ViIiwiY3R5cGUiOiJhcHBsaWNhdGlvbiIsImNkZWw   iOjAsImNuYW1lIjoiUGhyYXNlYW5ldCBVbml2ZXJzYWwgTXVzaWMgRnJhbmNlIiwiaWF0IjoxNTYxNDgzMTc3LCJjaWQiOjJ9.JrdCRzNFaONueL10J    77KZu-p1Mdh3GxAy8MmAAgNa_Jbtt0Xtt1FvqztVK03LHuykr4DEy_UHHh2fIC0oP-4QQ
+  phraseanet-plugin-umfmam: |-
+    umfmam:
+        url_backend_root_path: 'https://apiws.carrick-flow.com:8443/carrickflow/public/clipping'
+        webvtt_fieldname: VideoTextTrackChapters
+        parent_mediakey_fieldname: MediaSource
+        wip_statusbit: 6
+        token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJjY3VzaWQiOjEwMDEsInN1YiI6IlBIUkFTRUFORVRfVU1GIiwiYXVkIjoid2ViIiwiY3R5cGUiOiJhcHBsaWNhdGlvbiIsImNkZWwiOjAsImNuYW1lIjoiUGhyYXNlYW5ldCBVbml2ZXJzYWwgTXVzaWMgRnJhbmNlIiwiaWF0IjoxNTYxNDgzMTc3LCJjaWQiOjJ9.JrdCRzNFaONueL10J77KZu-p1Mdh3GxAy8MmAAgNa_Jbtt0Xtt1FvqztVK03LHuykr4DEy_UHHh2fIC0oP-4QQ
+  saml-authentication: |-
+    active_configuration : sample
+    configurations :
+      sample :
+        DEBUG : true
+        BIRTHGROUP : "UtilisateurInterneSSO"
+        EVERYONEGROUP : null
+        METAMODEL : "_metamodele"
+        MODELGPFX : "_M_"
+        MODELUPFX : "_U_"
+        FIELDMAP :
+          id : "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/emailaddress"
+          login : "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/emailaddress"
+          firstname : "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/givenname"
+          lastname : "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/surname"
+          email : "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/name"
+          group : "http://schemas.xmlsoap.org/claims/Group"
+      feide :
+        DEBUG : true
+        USEGROUPS : true
+        BIRTHGROUP : "firstlog"
+        EVERYONEGROUP : "everyone"
+        METAMODEL : "_metamodele"
+        MODELGPFX : "_M_"
+        MODELUPFX : "_U_"
+        FIELDMAP :
+          id : "eduPersonTargetedID"
+          login : "uid"
+          firstname : "givenName"
+          lastname : "sn"
+          email : "mail"
+          group : "http://schemas.xmlsoap.org/claims/Group"
+  workflow-plugin: "jobs :\n  # La fin de la Promo pour les médias promo, déterminée
+    par date d'archivage\n  - job : \"fin-de-promo-regular\"\n    active : true\n
+    \   databox : \"db_alch_universal\"\n    if :\n      - collection : \"Promo\"\n
+    \     - empty :\n          field : \"DateFinPromo\"\n      - date :\n          today
+    : \"after\"\n          field : \"DateArchivage\"\n          delta : 18 MONTH\n
+    \   then :\n      # Déplace en collection\n      - collection : \"Sélections\"\n\n
+    \ - job : \"fin-de-promo-exception\"\n    active : true\n    databox : \"db_alch_universal\"\n
+    \   if :\n      - collection : \"Promo\"\n      - date :\n          today : \"after\"\n
+    \         field : \"DateFinPromo\"\n    then :\n      - collection : \"Sélections\"\n\n
+    \ # Teste les anomalies de status pour les dates dans le futur\n  - job : \"anomalies-dates-expiration-status\"\n
+    \   active : true\n    databox : \"db_alch_universal\"\n    if :\n      - collection
+    : [\"Promo\", \"Sélections\"]\n      - date :\n          today : \"before\"\n
+    \         field : \"ExpirationDroits\"\n          delta : -90 DAY\n    then :\n
+    \     # Reset status no 5 & 6\n      - status : \"00xxxxx\"\n\n  # Teste si les
+    droits arrivent à expiration dans moins de 90 jours\n  - job : \"droits-90\"\n
+    \   active : true\n    databox : \"db_alch_universal\"\n    if :\n      # - collection
+    : [\"Promo\", \"Sélections\"]\n      - date :\n          today : \"after\"\n          field
+    : \"ExpirationDroits\"\n          delta : -90 DAY\n      - status : \"0xxxxxx\"\n
+    \   then :\n      # Leve le status no 5 et force le no 6 a être baissé\n      -
+    status : \"01xxxxx\"\n      #\n      # todo \"Je voudrais avertir les gestionnaires
+    du fonds\"\n      #\n      - alert :\n        - method : \"webhook\"\n          message
+    : \"expiring-90\"\n          recipient : [\"gaulier@alchemy.fr\",\"support@alchemy.fr\",\"Documentation@umusic.com\"]\n\n#
+    \ - job : \"droits-60\"\n#    active : true\n#    databox : \"db_alch_universal\"\n#
+    \   if :\n#      # - collection : [\"Promo\", \"Sélections\"]\n#      - date :\n#
+    \         today : \"after\"\n#          field : \"ExpirationDroits\"\n#          delta
+    : -60 DAY\n#    then :\n#      #\n#      # todo \"Je voudrais avertir les personnes
+    ayant téléchargé le média qu'il arrive bientôt a expiration\"\n#      # mais ici
+    je ne sais pas qui a téléchargé quoi\n#      #\n\n  # Teste si les droits sont
+    expirés\n  - job : \"droits-expires\"\n    active : true\n    databox : \"db_alch_universal\"\n
+    \   if :\n      # - collection : [\"Promo\", \"Sélections\"]\n      - date :\n
+    \         today : \"after\"\n          field : \"ExpirationDroits\"\n    then
+    :\n      # Baisse le status no 5 et lève le no 6\n      - status : \"10xxxxx\"\n
+    \     - collection : \"Sélections à réévaluer\"\n      #\n      # todo \"Je voudrais
+    avertir les gestionnaires du fonds\"\n      #\n      - alert :\n        - method
+    : \"webhook\"\n          message : \"expired\"\n          recipient : [\"gaulier@alchemy.fr\",\"support@alchemy.fr\",\"Documentation@umusic.com\"]\n
+    \ # Redresse les images Promo échouées dans la collection Sélection, déterminée
+    par DateFinPromo\n  - job : \"redresse-promo-ds-selections\"\n    active : true\n
+    \   databox : \"db_alch_universal\"\n    if :\n      - collection : \"Sélections\"\n
+    \     - date :\n          today : \"before\"\n          field : \"DateFinPromo\"\n
+    \     - text :\n          field : \"Promo\"\n          operator : \"=\"\n          value
+    : \"Promo\"\n    then :\n    # Déplace en collection\n      - collection : \"Promo\"\n#
+    Déplacer les médias des collections suppliers créés depuis plus de 4 heures vers
+    la collection Hotfolder\n  - job : \"suppliers-magic-sweep\"\n    active : true\n
+    \   databox : \"db_alch_universal\"\n    if :\n      # Concerne les medias de
+    la collection 16 & 17 \n      - collection : [\"Supplier 1\", \"Supplier 2\"]\n
+    \     - date :\n          today : \"after\"\n          field : \"DateArchivage\"\n
+    \         delta : 4 HOUR\n    then :\n      # Déplacement vers la collection #2\n
+    \     - collection : \"Hotfolder\"\n      #\n      # todo \"Je voudrais avertir
+    les gestionnaires du fonds\"\n      #\n      #- alert :\n      #  - method : \"webhook\"\n
+    \     #    message : \"new-in-hotfolder\"\n      #    recipient : [\"gaulier@alchemy.fr\",\"support@alchemy.fr\",\"Documentation@umusic.com\"]"
+project: umf-phr
 stack_git_branch: stacks
-stack_git_private_key: ""
+stack_git_private_key: ((git_alchemy-machine.ssh_key))
 stack_git_repository: git@github.com:alchemy-fr/cycloid-stacks.git
-stack_opt: false
+stack_opt: true
 stack_terraform_path: alchemy-phraseanet/terraform
-terraform_storage_bucket_name: florian-terraform-remote-state
+terraform_storage_bucket_name: alchemy-terraform-remote-state
 terraform_storage_region: eu-west-3
 terraform_version: 1.2.9
 usecase_name: managed
