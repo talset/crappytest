@@ -6,8 +6,6 @@
 # Please note that comments in sample files will have been dropped
 # due to some limitations upon files' generation.
 #
-# Any extra variables not found in the original file have been written down below in the comment.
-#
 advanced_opt: true
 app_cronjobs:
 - command: bin/console validation:remind
@@ -67,7 +65,7 @@ app_saml_authsources_config: |2-
                   'idp' => 'https://sts.windows.net/bbcb6b2f-8c7c-4e24-86e4-6c36fed00b78/',
                   'NameIDFormat' => 'urn:oasis:names:tc:SAML:2.0:nameid-format:transient'
           )
-app_saml_authsources_cred: ((customer-saml-certs))
+app_saml_authsources_cred: ""
 app_saml_idp_config: "<?php\n$metadata['https://sts.windows.net/bbcb6b2f-8c7c-4e24-86e4-6c36fed00b78/']
   = array (\n  'entityid' => 'https://sts.windows.net/bbcb6b2f-8c7c-4e24-86e4-6c36fed00b78/',\n
   \ 'contacts' => \n  array (\n  ),\n  'metadata-set' => 'saml20-idp-remote',\n  'SingleSignOnService'
@@ -84,26 +82,26 @@ app_saml_idp_config: "<?php\n$metadata['https://sts.windows.net/bbcb6b2f-8c7c-4e
 app_saml_phraseanet_host: https://phraseanet.umusic.fr
 app_smtp_password: ""
 app_smtp_user: ""
-aws_access_key: ((cycloid-admin.access_key))
-aws_secret_key: ((cycloid-admin.secret_key))
+aws_access_key: ""
+aws_secret_key: ""
 config_git_branch: config
-config_git_private_key: ((git_alchemy-machine.ssh_key))
-config_git_repository: git@github.com:alchemy-fr/cycloid-stacks.git
-config_pipeline_path: umf-phr/pipeline/mediatheque-prod
-config_terraform_path: umf-phr/terraform/mediatheque-prod
+config_git_private_key: ""
+config_git_repository: ""
+config_pipeline_path: alchemy-phraseanet/pipeline/test
+config_terraform_path: alchemy-phraseanet/terraform/test
 cycloid_toolkit_image: latest
 dockerhub_email: ((alchemy_dockerhub.email))
 dockerhub_password: ((alchemy_dockerhub.password))
 dockerhub_username: ((alchemy_dockerhub.username))
-env: mediatheque-prod
+env: test
 ext_db_svc: true
-ext_domains_import_cred: ((customer-imported-certs))
+ext_domains_import_cred: ""
 ext_es_svc: true
 ext_rabbitmq_svc: true
 ext_redis_svc: true
-infrastructure: ((alchemy-infra-saas.infra-saas-paris-prod))
+infrastructure: ((vault.secret_id))
 kubectl_version: 1.23.12
-organization: alchemy
+organization: florian
 plugins_configuration:
   expirating-rights-plugin: |-
     databoxes :
@@ -275,9 +273,9 @@ plugins_configuration:
     \     - collection : \"Hotfolder\"\n      #\n      # todo \"Je voudrais avertir
     les gestionnaires du fonds\"\n      #\n      #- alert :\n      #  - method : \"webhook\"\n
     \     #    message : \"new-in-hotfolder\"\n      #    recipient : [\"gaulier@alchemy.fr\",\"support@alchemy.fr\",\"Documentation@umusic.com\"]"
-project: umf-phr
+project: alchemy-phraseanet
 stack_git_branch: stacks
-stack_git_private_key: ((git_alchemy-machine.ssh_key))
+stack_git_private_key: ""
 stack_git_repository: git@github.com:alchemy-fr/cycloid-stacks.git
 stack_opt: true
 stack_terraform_path: alchemy-phraseanet/terraform
