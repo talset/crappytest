@@ -170,7 +170,7 @@ module "phraseanet" {
   env                                           = var.env
   es_vol_size                                   = 1
   ext_db_extra_dbs = [
-    "mam"
+
   ]
   ext_db_svc = var.ext_db_svc
   ext_domains_http01_cert = [
