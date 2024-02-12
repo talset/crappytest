@@ -9,7 +9,10 @@
 aws_cred: Filled by stackforms
 aws_default_region: Filled by stackforms
 config_git_private_key: ((ssh_config.ssh_key))
-cronjobspp: {}
+cronjobspp:
+  test:
+    cpu: 256
+    memory: 1024
 env: dev
 org: florian
 project: formmap
