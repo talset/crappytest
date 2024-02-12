@@ -11,13 +11,6 @@ module "myapp" {
   source = "./module-sample"
 
   cronjobs = {
-    quiz = {
-      cmd        = "/var/www/html/app/bin/console app:quiz:reset"
-      cpu        = 256
-      entrypoint = "/bin/php"
-      memory     = 1024
-      schedule   = "*/30 * * * ? *"
-    }
   }
   env          = var.env
   organization = var.organization
