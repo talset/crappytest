@@ -1,0 +1,26 @@
+{
+   "options":[
+      {
+         "condition":"$vnet == 'vnet1'",
+         "values":[
+            "subnet1a",
+            "subnet1b"
+         ]
+      },
+      {
+         "condition":"$vnet == 'vnet2'",
+         "values":[
+            "subnet2a",
+            "subnet2b"
+            "subnet2c"
+         ]
+      },
+      {
+         "condition":"$vnet == 'vnet3'",
+         "values":[
+            "subnet3a",
+         ]
+      }
+   ]
+}
+
