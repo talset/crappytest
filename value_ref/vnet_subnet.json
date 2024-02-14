@@ -11,14 +11,14 @@
          "condition":"$vnet == 'vnet2'",
          "values":[
             "subnet2a",
-            "subnet2b"
+            "subnet2b",
             "subnet2c"
          ]
       },
       {
          "condition":"$vnet == 'vnet3'",
          "values":[
-            "subnet3a",
+            "subnet3a"
          ]
       }
    ]
