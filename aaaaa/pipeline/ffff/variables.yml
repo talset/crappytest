@@ -7,4 +7,4 @@
 # due to some limitations upon files' generation.
 #
 aws_access_cred: ((aws_aws))
-aws_default_region: ap-south-1
+aws_default_region: us-west-2
